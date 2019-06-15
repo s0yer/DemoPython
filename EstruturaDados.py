@@ -12,6 +12,8 @@ for k, v in d.items():
 del(d['nome'])
 print(d)
 
+
+
 t = (1,1,2,3,5,8,13,21)
 print(t.index(5))
 print(t[4])
