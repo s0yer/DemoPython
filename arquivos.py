@@ -1,4 +1,4 @@
-arq = open('arq_demo.txt', mode='w') # sobrescreve
+arq = open('arq_demo.txt', mode='w') # sobrescreve / overwrite
 arq.write('salvando string...\n')
 arq.close()
 
@@ -10,7 +10,7 @@ arq = open('arq_demo.txt', mode='r')
 conteudo_arquivo=arq.read()
 arq.close()
 
-# para ler varias linhas
+# para ler varias linhas / to read multiple lines
 '''linha = arq.readline()
 while linha:
     print(linha)
