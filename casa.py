@@ -1,12 +1,17 @@
 from lar import Lar
 
 class Casa(Lar):
-    def __init__(self, area = 50):
-        super().__init__(area)
+
+    
+    quintal_tamanho = 0
+
+    def __init__(self, area = 349, eletricidade = 223, agua = 191):
+        super().__init__(area, eletricidade, agua)
      
+    def imposto(self):
+        print('o Imposto sera calculado sobre a area de {}'.format(self.area))
 
         
-  
 # Instanciação
 casa1 = Casa()
 casa2 = Casa(150)

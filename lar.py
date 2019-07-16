@@ -1,7 +1,9 @@
 class Lar:
 
-    def __init__(self, inicio_area = 200): # construtor de classe, automaticamente é executada quando chamamos a classe
+    def __init__(self, inicio_area = 0, eletricidade = 0, agua = 0): # construtor de classe, automaticamente é executada quando chamamos a classe
         self.area = inicio_area
+        self.eletricidade = eletricidade
+        self.agua = agua
         self.__alertas = [] # variavel privada / private variable '__' / so pode ser acessado dentro da classe
 
     def __repr__(self):
@@ -15,9 +17,7 @@ class Lar:
     def get_alerta(self):
         return self.__alertas
 
-    def imposto(self):
-        print('o Imposto sera calculado sobre a area de {}'.format(self.area))
-
+    
 
 
 
