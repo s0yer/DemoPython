@@ -2,11 +2,9 @@ from lar import Lar
 
 class Casa(Lar):
 
-    
-    quintal_tamanho = 0
-
     def __init__(self, area = 349, eletricidade = 223, agua = 191):
         super().__init__(area, eletricidade, agua)
+        __self.quintal_tamanho = 0
      
     def imposto(self):
         print('o Imposto sera calculado sobre a area de {}'.format(self.area))
