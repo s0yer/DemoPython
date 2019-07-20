@@ -2,6 +2,7 @@ from lar import Lar
 
 class Condominio(Lar):
 
+    #Construtor e super para acessar a classe pai
     def __init__(self, area = 349, eletricidade = 223, agua = 191):
         super().__init__(area, eletricidade, agua)
 
