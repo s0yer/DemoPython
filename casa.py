@@ -1,3 +1,5 @@
+#exemplo de herança
+
 from lar import Lar
 
 class Casa(Lar):

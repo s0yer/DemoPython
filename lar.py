@@ -1,3 +1,5 @@
+#exemplo de classe
+
 class Lar:
 
     #construtor de lar

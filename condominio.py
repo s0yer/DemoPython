@@ -1,3 +1,5 @@
+#exemplo de classe
+
 from lar import Lar
 
 class Condominio(Lar):
