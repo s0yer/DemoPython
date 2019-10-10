@@ -125,6 +125,43 @@ def plusMinus(arr):
     return ratioPos, ratioNeg, ratioZeros
 
 
+# diagonal diference with absolute result
+n = 0
+arr = [n][n]
+
+def diagonalDifference(arr):
+    primaryDiagonal = 0
+    secondaryDiagonal = 0
+
+    i = 0
+    while i < n:
+        primaryDiagonal += arr[i][i]
+        i += 1
+
+    j = 0
+    i = n - 1
+    while j < n:
+        secondaryDiagonal += arr[i][j]
+        j += 1
+        i -= 1
+
+    return abs(primaryDiagonal - secondaryDiagonal)
+
+
+#staircase -> a '#' triangle of size n
+n = 6
+def staircase(n):
+
+    ch = '#'
+
+    while n > 0:
+        if n > 1:
+            n -= 1
+            print(' '*(n-1),ch)
+            ch += '#'
+        else:
+            print(ch)
+            n -= 1
 
 print(criaListaPrimos(j))
 
