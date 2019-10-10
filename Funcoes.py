@@ -25,7 +25,6 @@ def ArgumentosDicionario(*arg, **keywordArgs):
 ArgumentosDicionario(1,1,2,3,5, nome='Jadson', idade='27')
 
 
-
 def criaListaPrimos(j):
     listaPrimos = []
     listaNaoPrimos = []
@@ -56,6 +55,50 @@ def difLista(novaListaPrimos):
 
 
     return listaDif
+
+n = 5
+ar = [n]
+
+# Simple array sum
+def simpleArraySum(ar):
+    sum = 0
+    for n in ar:
+        sum += n
+    return sum
+
+# Very big sum
+# declaration of array
+n = 10
+ar = [n]
+# function with a for that walks in the array of size 'n'
+def aVeryBigSum(ar):
+    sum = 0
+    elem = 0
+    for elem in ar:
+        sum += elem
+    return sum
+
+#Triple points comparation of 2 competitiors
+res = [0,0]
+a = [3]
+b = [3]
+
+def compareTriplets(a, b):
+    for i in range(3):
+        if a[i]>b[i]:
+            res[0] += 1
+        elif b[i]>a[i]:
+            res[1] += 1
+        else:
+            print('Nobody earn a point!')
+    return res
+
+# PlusMinus Funciton: ratios of positives, negatives and zeros.
+n = 10
+arr = [n]
+
+
+
 
 
 print(criaListaPrimos(j))
