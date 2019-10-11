@@ -186,7 +186,7 @@ def timeConversion(s):
         return s[:-2]
 
     else:
-        return str(int(s[:2])+12) + s[2:8]
+        return s(int(s[:2])+12) + s[2:8]
 
 #-------------------------------------------------------------------------------
 # Birthday Cake Candles to blow out
