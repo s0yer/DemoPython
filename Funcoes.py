@@ -163,6 +163,56 @@ def staircase(n):
             print(ch)
             n -= 1
 
-print(criaListaPrimos(j))
+# Birthday Cake Candles to blow out
+ar_count = 5
+ar = [ar_count]
 
+def birthdayCakeCandles(ar):
+    sum = 0
+    i = 0
+    while i < ar_count:
+        if i == 0:
+            max = ar[0]
+        if i > 0:
+            if ar[i] > ar[i - 1]:
+                max = ar[i]
+        i += 1
+
+    for i in ar:
+        if i == max:
+            sum += 1
+
+    print(sum)
+    return sum
+
+
+arr = [5]
+res = []
+
+#min-max sum
+def miniMaxSum(arr):
+    res.append(arr[0] + arr[1] + arr[2] + arr[3])
+    res.append(arr[0] + arr[1] + arr[2] + arr[4])
+    res.append(arr[0] + arr[1] + arr[4] + arr[3])
+    res.append(arr[0] + arr[4] + arr[2] + arr[3])
+    res.append(arr[4] + arr[1] + arr[2] + arr[3])
+
+    i = 0
+    for i in range(5):
+        if i == 0:
+            min = res[0]
+            max = res[0]
+        if i > 0:
+            if res[i] < res[i - 1]:
+                min = res[i]
+            elif res[i] > res[i - 1]:
+                max = res[i]
+
+    print(min, max)
+
+    return min, max
+
+
+
+print(criaListaPrimos(j))
 print(difLista(novaListaPrimos))
