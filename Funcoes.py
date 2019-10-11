@@ -57,9 +57,14 @@ def difLista(novaListaPrimos):
 
     return listaDif
 
+print(criaListaPrimos(j))
+print(difLista(novaListaPrimos))
+
+
+#-------------------------------------------------------------------------------
+
 n = 5
 ar = [n]
-
 # Simple array sum
 def simpleArraySum(ar):
     sum = 0
@@ -67,6 +72,8 @@ def simpleArraySum(ar):
         sum += n
     return sum
 
+
+#-------------------------------------------------------------------------------
 # Very big sum
 # declaration of array
 n = 10
@@ -79,6 +86,7 @@ def aVeryBigSum(ar):
         sum += elem
     return sum
 
+#-------------------------------------------------------------------------------
 #Triple points comparation of 2 competitiors
 res = [0,0]
 a = [3]
@@ -94,6 +102,7 @@ def compareTriplets(a, b):
             print('Nobody earn a point!')
     return res
 
+#-------------------------------------------------------------------------------
 # PlusMinus Funciton: ratios of positives, negatives and zeros.
 n = 10
 arr = [n]
@@ -124,7 +133,7 @@ def plusMinus(arr):
 
     return ratioPos, ratioNeg, ratioZeros
 
-
+#-------------------------------------------------------------------------------
 # diagonal diference with absolute result
 n = 0
 arr = [n][n]
@@ -147,7 +156,7 @@ def diagonalDifference(arr):
 
     return abs(primaryDiagonal - secondaryDiagonal)
 
-
+#-------------------------------------------------------------------------------
 #staircase -> a '#' triangle of size n
 n = 6
 def staircase(n):
@@ -163,9 +172,28 @@ def staircase(n):
             print(ch)
             n -= 1
 
+#-------------------------------------------------------------------------------
+# Time conversion
+s = ['07:05:45PM']
+def timeConversion(s):
+    if s[-2:] == 'AM' and s[:2] == '12':
+        return '00' + s[2:-2]
+
+    elif s[-2:] == 'PM' and s[:2] == '12':
+        return s[:-2]
+
+    elif s[-2:] == 'AM':
+        return s[:-2]
+
+    else:
+        return str(int(s[:2])+12) + s[2:8]
+
+#-------------------------------------------------------------------------------
 # Birthday Cake Candles to blow out
 ar_count = 5
 ar = [ar_count]
+
+
 
 def birthdayCakeCandles(ar):
     sum = 0
@@ -185,7 +213,7 @@ def birthdayCakeCandles(ar):
     print(sum)
     return sum
 
-
+#-------------------------------------------------------------------------------
 arr = [5]
 res = []
 
@@ -212,7 +240,5 @@ def miniMaxSum(arr):
 
     return min, max
 
+#-------------------------------------------------------------------------------
 
-
-print(criaListaPrimos(j))
-print(difLista(novaListaPrimos))

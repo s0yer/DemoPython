@@ -35,6 +35,20 @@ def miniMaxSum(arr):
     print(res[0], res[1], res[2], res[3], res[4])
     print(min, max)
 
-miniMaxSum(arr
+miniMaxSum(arr)
 
-timeConversion
+
+s = ['07:05:45PM']
+def timeConversion(s):
+    if s[-2:] == 'AM' and s[:2] == '12':
+        return '00' + s[2:-2]
+
+    elif s[-2:] == 'PM' and s[:2] == '12':
+        return s[:-2]
+
+    elif s[-2:] == 'AM':
+        return s[:-2]
+
+    else:
+        return str(int(s[:2])+12) + s[2:8]
+
