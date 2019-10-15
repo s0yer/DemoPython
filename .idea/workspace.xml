@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7dbdb16-2b75-4b25-b0e4-3951d249d7ef" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Funcoes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Funcoes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,8 +43,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Funcoes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="245" column="6" lean-forward="true" selection-start-line="245" selection-start-column="6" selection-end-line="245" selection-end-column="6" />
+            <state relative-caret-position="342">
+              <caret line="255" column="21" lean-forward="true" selection-start-line="255" selection-start-column="21" selection-end-line="255" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -397,8 +395,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Funcoes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="245" column="6" lean-forward="true" selection-start-line="245" selection-start-column="6" selection-end-line="245" selection-end-column="6" />
+        <state relative-caret-position="342">
+          <caret line="255" column="21" lean-forward="true" selection-start-line="255" selection-start-column="21" selection-end-line="255" selection-end-column="21" />
         </state>
       </provider>
     </entry>

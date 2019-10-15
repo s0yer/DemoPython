@@ -256,4 +256,12 @@ def getMoneySpent(keyboards, drives, b):
         if c[i] <= b:
             d.append(c[i])
         elif c[i] > b:
-            print("Cannot complete the purchase")
+            print("-1")
+
+    for i in d:
+        if d[i] == 0:
+            max = d[0]
+        elif d[i] > d[i - 1]:
+            max = d[i]
+
+    print(max)
