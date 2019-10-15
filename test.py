@@ -37,6 +37,7 @@ def miniMaxSum(arr):
 
 miniMaxSum(arr)
 
+#-------------------------------------------------------------------------------
 
 s = ['07:05:45PM']
 def timeConversion(s):
@@ -51,4 +52,18 @@ def timeConversion(s):
 
     else:
         return str(int(s[:2])+12) + s[2:8]
+
+#-------------------------------------------------------------------------------
+
+a=2
+b=3
+
+def reversed_args(a,b):
+    g = pow(a,b)
+    k = cmp(a,b)
+    if f == g:
+        return pow(b,a)
+    if f == k:
+        return cmp(b,a)
+
 

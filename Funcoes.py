@@ -214,10 +214,10 @@ def birthdayCakeCandles(ar):
     return sum
 
 #-------------------------------------------------------------------------------
+#min-max sum
+
 arr = [5]
 res = []
-
-#min-max sum
 def miniMaxSum(arr):
     res.append(arr[0] + arr[1] + arr[2] + arr[3])
     res.append(arr[0] + arr[1] + arr[2] + arr[4])
@@ -242,3 +242,18 @@ def miniMaxSum(arr):
 
 #-------------------------------------------------------------------------------
 
+# Spend all money
+c = []
+d = []
+def getMoneySpent(keyboards, drives, b):
+
+    for i in n:
+        for i in m:
+            subtotal = n[i] + m[i]
+            c.append(subtotal)
+
+    for i in c:
+        if c[i] <= b:
+            d.append(c[i])
+        elif c[i] > b:
+            print("Cannot complete the purchase")
