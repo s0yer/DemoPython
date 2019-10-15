@@ -56,23 +56,27 @@ def timeConversion(s):
 
 a=2
 b=3
+f=8
 
 def reversed_args(a,b):
     g = pow(a,b)
-    k = cmp(a,b)
+    k = a-b
     if f == g:
         return pow(b,a)
-    if f == k:
-        return cmp(b,a)
+    elif f == k:
+        return b-a
 
-reversed_args(a,b)
+print(reversed_args(a,b))
 #-------------------------------------------------------------------------------
 
 # Spend all money
+
 size = 3
 c = []
 d = []
 
+keyboards = [10,2,3]
+drives = [3,1]
 
 def getMoneySpent(keyboards, drives, b):
     i = 0
@@ -80,15 +84,15 @@ def getMoneySpent(keyboards, drives, b):
     k = 0
     while i < size:
         while j < size:
-            c[k] = n[i] + m[i]
-
+            val = keyboards[i] + drives[i]
+            c.append(val)
             j += 1
             k += 1
         i += 1
         k += 1
 
     i = 0
-    while i < k:
+    while i < len(c):
         if c[i] <= b:
             d.append(c[i])
         elif c[i] > b:
@@ -96,13 +100,12 @@ def getMoneySpent(keyboards, drives, b):
         i += 1
 
     i = 0
+    maxi = 0
     while i < size:
         if d[i] == 0:
-            max = d[0]
+            maxi = d[0]
         elif d[i] > d[i - 1]:
-            max = d[i]
+            maxi = d[i]
         i += 1
 
-    print(max)
-
-
+    print(maxi)
