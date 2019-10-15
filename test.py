@@ -29,8 +29,7 @@ def miniMaxSum(arr):
                 print(min, max, + ": still the same")
 
         i += 1
-    min = min(list(for el in res))
-    print(min, max)
+    #min = min(list(for el in res))
 
     print(res[0], res[1], res[2], res[3], res[4])
     print(min, max)
@@ -65,5 +64,45 @@ def reversed_args(a,b):
         return pow(b,a)
     if f == k:
         return cmp(b,a)
+
+reversed_args(a,b)
+#-------------------------------------------------------------------------------
+
+# Spend all money
+size = 3
+c = []
+d = []
+
+
+def getMoneySpent(keyboards, drives, b):
+    i = 0
+    j = 0
+    k = 0
+    while i < size:
+        while j < size:
+            c[k] = n[i] + m[i]
+
+            j += 1
+            k += 1
+        i += 1
+        k += 1
+
+    i = 0
+    while i < k:
+        if c[i] <= b:
+            d.append(c[i])
+        elif c[i] > b:
+            print("-1")
+        i += 1
+
+    i = 0
+    while i < size:
+        if d[i] == 0:
+            max = d[0]
+        elif d[i] > d[i - 1]:
+            max = d[i]
+        i += 1
+
+    print(max)
 
 

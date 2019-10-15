@@ -243,25 +243,38 @@ def miniMaxSum(arr):
 #-------------------------------------------------------------------------------
 
 # Spend all money
+size = 3
 c = []
 d = []
+
+
 def getMoneySpent(keyboards, drives, b):
+    i = 0
+    j = 0
+    k = 0
+    while i < size:
+        while j < size:
+            c[k] = n[i] + m[i]
 
-    for i in n:
-        for i in m:
-            subtotal = n[i] + m[i]
-            c.append(subtotal)
+            j += 1
+            k += 1
+        i += 1
+        k += 1
 
-    for i in c:
+    i = 0
+    while i < k:
         if c[i] <= b:
             d.append(c[i])
         elif c[i] > b:
             print("-1")
+        i += 1
 
-    for i in d:
+    i = 0
+    while i < size:
         if d[i] == 0:
             max = d[0]
         elif d[i] > d[i - 1]:
             max = d[i]
+        i += 1
 
     print(max)
