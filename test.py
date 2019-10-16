@@ -3,7 +3,12 @@
 
 # Spend all money
 
-
+size = 3
+c = []
+d = []
+b = 12
+keyboards = [10,2,3]
+drives = [3,1]
 
 def getMoneySpent(keyboards, drives, b):
     i = 0
@@ -41,29 +46,3 @@ getMoneySpent(keyboards, drives, b)
 
 #--------------------------------------------------------------------------------------
 
-finalGrade = []
-
-def gradingStudents(grades):
-
-    if 1 <= grades_count <= 60:
-
-        i = 0
-        while i < grades_count:
-
-            if grades[i] < 38:
-                finalGrade.append(grades[i])
-            elif grades[i] >= 38:
-                rest = grades[i] % 5
-                if rest < 3:
-                    fixNum = grades[i] + (5 - rest)
-                    finalGrade.append(fixNum)
-                elif rest >= 3:
-                    finalGrade.append(grades[i])
-            i += 1
-    else:
-        print('Digite um valor valido')
-
-    for val in finalGrade:
-        print(val)
-
-    return finalGrade
