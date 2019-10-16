@@ -191,13 +191,17 @@ def timeConversion(s):
 #-------------------------------------------------------------------------------
 # Birthday Cake Candles to blow out
 ar_count = 5
-ar = [ar_count]
+ar = [1,2,3,4,5]
 
 
 
 def birthdayCakeCandles(ar):
-    sum = 0
-    i = 0
+
+
+    maxi = max(ar)
+    soma = 0
+
+    ''' dont work
     while i < ar_count:
         if i == 0:
             max = ar[0]
@@ -205,28 +209,37 @@ def birthdayCakeCandles(ar):
             if ar[i] > ar[i - 1]:
                 max = ar[i]
         i += 1
+        '''
 
-    for i in ar:
-        if i == max:
-            sum += 1
+    for el in ar:
+        if el == maxi:
+            soma += 1
 
-    print(sum)
-    return sum
+    print(soma)
+    return soma
 
 #-------------------------------------------------------------------------------
 #min-max sum
 
-arr = [5]
-res = []
-def miniMaxSum(arr):
-    res.append(arr[0] + arr[1] + arr[2] + arr[3])
-    res.append(arr[0] + arr[1] + arr[2] + arr[4])
-    res.append(arr[0] + arr[1] + arr[4] + arr[3])
-    res.append(arr[0] + arr[4] + arr[2] + arr[3])
-    res.append(arr[4] + arr[1] + arr[2] + arr[3])
+n = 5
+arr = [n]
+res = [0, 0, 0, 0, 0]
 
+arr = [7, 69, 2, 221, 8974]
+
+
+# min-max sum
+def miniMaxSum(arr):
+    res[0] = arr[0] + arr[1] + arr[2] + arr[3]
+    res[1] = arr[0] + arr[1] + arr[2] + arr[4]
+    res[2] = arr[0] + arr[1] + arr[4] + arr[3]
+    res[3] = arr[0] + arr[4] + arr[2] + arr[3]
+    res[4] = arr[4] + arr[1] + arr[2] + arr[3]
+
+    '''
+    dont work
     i = 0
-    for i in range(5):
+    while i < n:
         if i == 0:
             min = res[0]
             max = res[0]
@@ -235,18 +248,50 @@ def miniMaxSum(arr):
                 min = res[i]
             elif res[i] > res[i - 1]:
                 max = res[i]
+            else:
+                print(min, max, + ": still the same")
 
-    print(min, max)
+        i += 1
+    '''
+    mini = min(res)
+    maxi = max(res)
+    print(res[0], res[1], res[2], res[3], res[4])
+    print(mini, maxi)
 
-    return min, max
 
+miniMaxSum(arr)
 #-------------------------------------------------------------------------------
+
+
+a=2
+b=3
+f=8
+
+def reversed_args(a,b):
+    g = pow(a,b)
+    k = a-b
+    if f == g:
+        return pow(b,a)
+    elif f == k:
+        return b-a
+
+print(reversed_args(a,b))
+
+
 
 # Spend all money
 size = 3
 c = []
 d = []
 
+#-------------------------------------------------------------------------------
+
+size = 3
+c = []
+d = []
+b = 12
+keyboards = [10,2,3]
+drives = [3,1]
 
 def getMoneySpent(keyboards, drives, b):
     i = 0
