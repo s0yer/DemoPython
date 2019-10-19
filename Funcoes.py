@@ -76,8 +76,9 @@ def simpleArraySum(ar):
 #-------------------------------------------------------------------------------
 # Very big sum
 # declaration of array
-n = 10
-ar = [n]
+
+#verificar entrada de dados, anteriormente setada em 10
+ar = []
 # function with a for that walks in the array of size 'n'
 def aVeryBigSum(ar):
     sum = 0
@@ -99,7 +100,7 @@ def compareTriplets(a, b):
         elif b[i]>a[i]:
             res[1] += 1
         else:
-            print('Nobody earn a point!')
+            print('Nobody earns a point!')
     return res
 
 #-------------------------------------------------------------------------------
@@ -135,6 +136,9 @@ def plusMinus(arr):
 
 #-------------------------------------------------------------------------------
 # diagonal diference with absolute result
+
+# Não existe array em Python, logo tentar fazer duas listas distintas uma da outra
+# no lugar de arr n n , tentar alocar em duas matrizes
 n = 0
 arr = [n][n]
 
@@ -262,7 +266,7 @@ def miniMaxSum(arr):
 miniMaxSum(arr)
 #-------------------------------------------------------------------------------
 
-
+# tentar procurar uma nova função para voltar funções?
 a=2
 b=3
 f=8
@@ -321,6 +325,35 @@ print(gradingStudents(grades))
 
 #-------------------------------------------------------------------------------
 
+# Leap year
+def is_leap(year):
+    leap = False
+    if 1900 <= year <= pow(10, 5):
+        if year % 4 == 0:
+            if year % 100 == 0:
+                if year % 400 == 0:
+                    leap = True
+                else:
+                    leap = False
+            else:
+                leap = True
+        else:
+            leap = False
+
+    else:
+        print('y out of range')
+    # Write your logic here
+
+    return leap
+
+
+year = 2000
+print(is_leap(year))
+
+#-------------------------------------------------------------------------------
+
+# tem que verificar como os dados são introduzidos primeiramente
+# verificar se é um unico vetor introduzido, ou parametros distintos
 size = 3
 c = []
 d = []
@@ -358,3 +391,19 @@ def getMoneySpent(keyboards, drives, b):
         i += 1
 
     print(max)
+
+#------------------------------------------------------------------------------------
+#tax and tips in a meal
+meal_cost = 12
+tip_percent = 8
+tax_percent = 20
+def solve(meal_cost, tip_percent, tax_percent):
+
+    tip = meal_cost * tip_percent/100
+    tax = meal_cost * tax_percent/100
+    total_cost = meal_cost + tip + tax
+
+    print(int(round(total_cost)))
+    return int(round(total_cost))
+
+#------------------------------------------------------------------------------------
