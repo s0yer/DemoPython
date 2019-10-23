@@ -394,9 +394,11 @@ def getMoneySpent(keyboards, drives, b):
 
 #------------------------------------------------------------------------------------
 #tax and tips in a meal
+
 meal_cost = 12
 tip_percent = 8
 tax_percent = 20
+
 def solve(meal_cost, tip_percent, tax_percent):
 
     tip = meal_cost * tip_percent/100
@@ -413,8 +415,8 @@ arr = map(int, input().split())
 '''
 # Runner up score
 
-n = 5
-arr = [3,1,6,6,5]
+n = 8
+arr = [3,1,6,6,5,7,7,7]
 def runnerUp(n,arr):
     if 2 <= n <= 10:
         arr_sorted = sorted(arr)
