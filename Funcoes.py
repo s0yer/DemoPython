@@ -78,6 +78,7 @@ def simpleArraySum(ar):
 # declaration of array
 
 #verificar entrada de dados, anteriormente setada em 10
+
 ar = []
 # function with a for that walks in the array of size 'n'
 def aVeryBigSum(ar):
@@ -139,8 +140,10 @@ def plusMinus(arr):
 
 # Não existe array em Python, logo tentar fazer duas listas distintas uma da outra
 # no lugar de arr n n , tentar alocar em duas matrizes
+
 n = 0
-arr = [n][n]
+arrl = [n]
+arrc = [n]
 
 def diagonalDifference(arr):
     primaryDiagonal = 0
@@ -205,16 +208,6 @@ def birthdayCakeCandles(ar):
     maxi = max(ar)
     soma = 0
 
-    ''' dont work
-    while i < ar_count:
-        if i == 0:
-            max = ar[0]
-        if i > 0:
-            if ar[i] > ar[i - 1]:
-                max = ar[i]
-        i += 1
-        '''
-
     for el in ar:
         if el == maxi:
             soma += 1
@@ -240,23 +233,6 @@ def miniMaxSum(arr):
     res[3] = arr[0] + arr[4] + arr[2] + arr[3]
     res[4] = arr[4] + arr[1] + arr[2] + arr[3]
 
-    '''
-    dont work
-    i = 0
-    while i < n:
-        if i == 0:
-            min = res[0]
-            max = res[0]
-        if i > 0:
-            if res[i] < res[i - 1]:
-                min = res[i]
-            elif res[i] > res[i - 1]:
-                max = res[i]
-            else:
-                print(min, max, + ": still the same")
-
-        i += 1
-    '''
     mini = min(res)
     maxi = max(res)
     print(res[0], res[1], res[2], res[3], res[4])
@@ -409,10 +385,7 @@ def solve(meal_cost, tip_percent, tax_percent):
     return int(round(total_cost))
 
 #------------------------------------------------------------------------------------
-'''
-n = int(input())
-arr = map(int, input().split())
-'''
+
 # Runner up score
 
 n = 8
