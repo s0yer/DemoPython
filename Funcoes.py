@@ -315,7 +315,6 @@ def is_leap(year):
                 leap = True
         else:
             leap = False
-
     else:
         print('y out of range')
     # Write your logic here
