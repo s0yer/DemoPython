@@ -60,7 +60,16 @@ def difLista(novaListaPrimos):
 print(criaListaPrimos(j))
 print(difLista(novaListaPrimos))
 
+#-------------------------------------------------------------------------------
 
+# print function
+
+n = int(input())
+
+    i = 1
+    while i <= n:
+        print(i, end='')
+        i += 1
 #-------------------------------------------------------------------------------
 
 n = 5
@@ -173,11 +182,13 @@ def staircase(n):
     while n > 0:
         if n > 1:
             n -= 1
+
             print(' '*(n-1),ch)
             ch += '#'
         else:
             print(ch)
             n -= 1
+    
 
 #-------------------------------------------------------------------------------
 # Time conversion

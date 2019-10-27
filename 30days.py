@@ -66,6 +66,9 @@ if 1 <= n <= 1000:
     else:
         print("n needs to be between [1,1000]")
 
+    for el in arrb:
+        print(el, end=' ')
+
     t = tuple(str(arrb))
     p = " ".join(t)
     print(p)
