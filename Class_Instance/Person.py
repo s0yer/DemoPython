@@ -1,11 +1,12 @@
 class Person:
+
     def __init__(self,initialAge):
         if 1 <= t <= 4:
             if initialAge < 0:
-                age = 0
-                print(" Age is not valid...")
+                self.age = 0
+                print("Age is not valid, setting age to 0.")
             else:
-                age = initialAge
+                self.age = initialAge
         else:
             print(" t value: [1,4]")
 
@@ -17,7 +18,18 @@ class Person:
                 print("You are teenager")
             else:
                 print("You are old.")
+        return age
 
     def yearPasses(self):
         age = age + 1
         return age
+
+t = int(input())
+for i in range(0, t):
+    age = int(input())
+    p = Person(age)
+    p.amIOld()
+    for j in range(0, 3):
+        p.yearPasses()
+    p.amIOld()
+    print("")
