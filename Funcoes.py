@@ -254,6 +254,7 @@ miniMaxSum(arr)
 #-------------------------------------------------------------------------------
 
 # tentar procurar uma nova função para voltar funções?
+
 a=2
 b=3
 f=8

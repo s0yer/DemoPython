@@ -1,6 +1,6 @@
 #exemplo de classe
 
-from lar import Lar
+from Class_Inheritance.lar import Lar
 
 class Condominio(Lar):
 

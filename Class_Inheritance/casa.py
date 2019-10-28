@@ -1,6 +1,6 @@
 #exemplo de herança
 
-from lar import Lar
+from Class_Inheritance.lar import Lar
 
 class Casa(Lar):
 
