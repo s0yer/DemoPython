@@ -9,18 +9,30 @@ class Person:
                 self.age = initialAge
         else:
             print(" t value: [1,4]")
+        return None
 
     def amIOld(self):
-        if -5 <= age <= 30:
-            if age < 13:
+        if -5 <= self.age <= 30:
+            if self.age < 13:
                 print("You are young.")
-            elif 13 <= age < 18:
-                print("You are teenager")
+            elif 13 <= self.age < 18:
+                print("You are a teenager.")
             else:
                 print("You are old.")
-        return age
+            return self.age
+        else:
+            return None
+
 
     def yearPasses(self):
-        age = age + 1
-        return age
+        self.age = self.age + 1
+        return self.age
 
+t = 4
+for i in range(0, t):
+    age = 10
+    p = Person(age)
+    p.amIOld()
+    for j in range(0, 3):
+        p.yearPasses()
+    p.amIOld()
