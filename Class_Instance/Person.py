@@ -27,7 +27,7 @@ class Person:
         if self.age < 30:
             self.age = self.age + 1
             return self.age
-        else: 
+        else:
             return None
 
 t = 4

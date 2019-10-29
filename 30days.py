@@ -84,3 +84,13 @@ n = 2
 print([i,j] for i in range(x+1) for j in range (y+1) if((i+j) != n))
 
 #----------------------------------------------------------------------
+
+# even and odd string print
+
+    if 1 <= t <= 10:
+        if 2 <= i <= 10000:
+
+        else:
+            print("i needs to be [1,10]")
+    else:
+        print("t needs to be [1,10]")
