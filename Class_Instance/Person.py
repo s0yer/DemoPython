@@ -17,16 +17,18 @@ class Person:
                 print("You are young.")
             elif 13 <= self.age < 18:
                 print("You are a teenager.")
-            else:
+            elif 18 <= self.age <= 30:
                 print("You are old.")
             return self.age
         else:
             return None
 
-
     def yearPasses(self):
-        self.age = self.age + 1
-        return self.age
+        if self.age < 30:
+            self.age = self.age + 1
+            return self.age
+        else: 
+            return None
 
 t = 4
 for i in range(0, t):
