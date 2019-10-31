@@ -99,9 +99,14 @@ print([i,j] for i in range(x+1) for j in range (y+1) if((i+j) != n))
 
 # Dictionary and maps
 
+
 if 1 <= n <= 100000:
     if 1 <= query <= 100000:
-        if key == query:
+        for i in range(n)
+            query = entrance.rsplit(", ")
+            myDict = dict(query)
+
+        if key in myDict:
             print(key)
         else:
             print("Not Found")
