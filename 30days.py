@@ -94,3 +94,20 @@ print([i,j] for i in range(x+1) for j in range (y+1) if((i+j) != n))
             print("i needs to be [1,10]")
     else:
         print("t needs to be [1,10]")
+
+#----------------------------------------------------------------------
+
+# Dictionary and maps
+
+if 1 <= n <= 100000:
+    if 1 <= query <= 100000:
+        if key == query:
+            print(key)
+        else:
+            print("Not Found")
+    else:
+        print(" query needs to be [1,100000]")
+else:
+    print("n needs to be [1,100000]")
+
+#----------------------------------------------------------------------
