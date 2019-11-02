@@ -99,11 +99,14 @@ print([i,j] for i in range(x+1) for j in range (y+1) if((i+j) != n))
 
 # Dictionary and maps
 
+n = 3
+ent = (kandra, 123456789)
+query = "kandra"
 
 if 1 <= n <= 100000:
     if 1 <= query <= 100000:
         for i in range(n)
-            query = entrance.rsplit(", ")
+            ent = entrance.rsplit(", ")
             myDict = dict(query)
 
         if key in myDict:
