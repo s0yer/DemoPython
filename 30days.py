@@ -137,7 +137,7 @@ else:
 n = 4
 def factorial(n):
     if 2 <= n <= 12:
-
+        factorial(n) = factorial(n) * factorial(n-1)
     else:
         print("n needs to be between [2,12]")
 
