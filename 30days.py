@@ -99,8 +99,21 @@ print([i,j] for i in range(x+1) for j in range (y+1) if((i+j) != n))
 
 # Dictionary and maps
 
+'''Analise:
+
+ar_count = int(input())
+
+    ar = list(map(int, input().rstrip().split()))
+
+    result = function(ar)
+
+    fptr.write(str(result) + '\n')
+
+    fptr.close()
+    '''
 n = 3
 ent = (kandra, 123456789)
+#ent = str(input()).split()
 query = "kandra"
 
 if 1 <= n <= 100000:
@@ -117,5 +130,17 @@ if 1 <= n <= 100000:
         print(" query needs to be [1,100000]")
 else:
     print("n needs to be [1,100000]")
+
+#----------------------------------------------------------------------
+# Recursion
+
+n = 4
+def factorial(n):
+    if 2 <= n <= 12:
+
+    else:
+        print("n needs to be between [2,12]")
+
+
 
 #----------------------------------------------------------------------
