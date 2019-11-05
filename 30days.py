@@ -87,13 +87,29 @@ print([i,j] for i in range(x+1) for j in range (y+1) if((i+j) != n))
 
 # even and odd string print
 
-    if 1 <= t <= 10:
-        if 2 <= i <= 10000:
+t = int(input())
+even = []
+odd = []
 
-        else:
-            print("i needs to be [1,10]")
-    else:
-        print("t needs to be [1,10]")
+if 1 <= t <= 10:
+    while t > 0:
+        s = str(input()).split()
+        i = 0
+        while i < len(s):
+            if i % 2 == 0:
+                even.append(s[i])
+            else:
+                odd.append(s[i])
+        i += 1
+    t -= 1
+
+    for el in even:
+        print(el, end='')
+    for el in odd:
+        print(el, end='')
+
+else:
+    print("t needs to be [1,10]")
 
 #----------------------------------------------------------------------
 
