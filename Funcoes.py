@@ -380,8 +380,8 @@ def getMoneySpent(keyboards, drives, b):
     print(max)
 
 #------------------------------------------------------------------------------------
-#tax and tips in a meal
 
+#tax and tips in a meal
 meal_cost = 12
 tip_percent = 8
 tax_percent = 20
@@ -401,6 +401,7 @@ def solve(meal_cost, tip_percent, tax_percent):
 
 n = 8
 arr = [3,1,6,6,5,7,7,7]
+
 def runnerUp(n,arr):
     if 2 <= n <= 10:
         arr_sorted = sorted(arr)
@@ -420,5 +421,18 @@ def runnerUp(n,arr):
         print('imput a value between [2,10]')
 
 runnerUp(n,arr)
+
+#------------------------------------------------------------------------------------
+
+# break a list in blocks
+
+def merge_the_tools(string, k):
+    s = string
+    n = len(string)
+    block = n / k
+
+if __name__ == '__main__':
+    string, k = input(), int(input())
+    merge_the_tools(string, k)
 
 #------------------------------------------------------------------------------------
