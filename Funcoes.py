@@ -430,9 +430,18 @@ def merge_the_tools(string, k):
     s = string
     n = len(string)
     block = n / k
+    if 1 <= k <= n and n % k:
+
+    else:
+        print(" Constraints -> k:[1,n] AND <n needs be a multiple of k> ")
+
 
 if __name__ == '__main__':
     string, k = input(), int(input())
-    merge_the_tools(string, k)
+
+    if 1 <= n <=10000:
+        merge_the_tools(string, k)
+    else:
+        print("imput a valid n -> [1,10000]")
 
 #------------------------------------------------------------------------------------
