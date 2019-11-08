@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7dbdb16-2b75-4b25-b0e4-3951d249d7ef" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Funcoes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Funcoes.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,8 +16,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/30days.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="152" column="39" lean-forward="true" selection-start-line="152" selection-start-column="12" selection-end-line="152" selection-end-column="39" />
+            <state relative-caret-position="2584">
+              <caret line="152" column="39" selection-start-line="152" selection-start-column="12" selection-end-line="152" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -43,8 +44,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Funcoes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="433" column="26" lean-forward="true" selection-start-line="433" selection-start-column="26" selection-end-line="433" selection-end-column="26" />
+            <state relative-caret-position="342">
+              <caret line="442" column="45" lean-forward="true" selection-start-line="433" selection-start-column="4" selection-end-line="442" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -95,8 +96,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="47" />
+    <option name="x" value="1432" />
+    <option name="y" value="-8" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
@@ -279,10 +280,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <frame x="1432" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23695345" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -353,6 +354,13 @@
     </option>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/30days.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2584">
+          <caret line="152" column="39" selection-start-line="152" selection-start-column="12" selection-end-line="152" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Class_Instance/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -364,6 +372,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Class_Inheritance/casa.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Class_Inheritance/condominio.py">
@@ -380,20 +391,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/30days.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="152" column="39" lean-forward="true" selection-start-line="152" selection-start-column="12" selection-end-line="152" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Class_Inheritance/casa.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Funcoes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="433" column="26" lean-forward="true" selection-start-line="433" selection-start-column="26" selection-end-line="433" selection-end-column="26" />
+        <state relative-caret-position="342">
+          <caret line="442" column="45" lean-forward="true" selection-start-line="433" selection-start-column="4" selection-end-line="442" selection-end-column="45" />
         </state>
       </provider>
     </entry>

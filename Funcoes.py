@@ -425,24 +425,24 @@ runnerUp(n,arr)
 #------------------------------------------------------------------------------------
 
 # break a list in blocks
+string = "AABCCAADD"
+k = 3
 
 def merge_the_tools(string, k):
-    s = string
+
     n = len(string)
-    block = n / k
-    if 1 <= k <= n and n % k:
-        x = s.rsplit(", ")
-        print(x)
-    else:
-        print(" Constraints -> k:[1,n] AND <n needs be a multiple of k> ")
-
-
-if __name__ == '__main__':
-    string, k = input(), int(input())
-
-    if 1 <= n <=10000:
-        merge_the_tools(string, k)
+    if 1 <= n <= 10000:
+        block = n / k
+        if 1 <= k <= n and n % k == 0:
+            x = string.split(" ")
+            print(x)
+        else:
+            print(" Constraints -> k:[1,n] AND <n needs be a multiple of k> ")
     else:
         print("imput a valid n -> [1,10000]")
+
+
+
+merge_the_tools(string, k)
 
 #------------------------------------------------------------------------------------
