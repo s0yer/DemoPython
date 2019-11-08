@@ -431,7 +431,8 @@ def merge_the_tools(string, k):
     n = len(string)
     block = n / k
     if 1 <= k <= n and n % k:
-
+        x = s.rsplit(", ")
+        print(x)
     else:
         print(" Constraints -> k:[1,n] AND <n needs be a multiple of k> ")
 
