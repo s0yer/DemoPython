@@ -16,7 +16,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/30days.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2584">
+            <state relative-caret-position="-66">
               <caret line="152" column="39" selection-start-line="152" selection-start-column="12" selection-end-line="152" selection-end-column="39" />
             </state>
           </provider>
@@ -44,8 +44,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Funcoes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="442" column="45" lean-forward="true" selection-start-line="433" selection-start-column="4" selection-end-line="442" selection-end-column="45" />
+            <state relative-caret-position="291">
+              <caret line="451" column="20" lean-forward="true" selection-start-line="451" selection-start-column="20" selection-end-line="451" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -107,6 +107,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -118,7 +119,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -354,13 +354,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/30days.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2584">
-          <caret line="152" column="39" selection-start-line="152" selection-start-column="12" selection-end-line="152" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Class_Instance/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -372,9 +365,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Class_Inheritance/casa.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Class_Inheritance/condominio.py">
@@ -391,10 +381,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Class_Inheritance/casa.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/30days.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-66">
+          <caret line="152" column="39" selection-start-line="152" selection-start-column="12" selection-end-line="152" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Funcoes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="442" column="45" lean-forward="true" selection-start-line="433" selection-start-column="4" selection-end-line="442" selection-end-column="45" />
+        <state relative-caret-position="291">
+          <caret line="451" column="20" lean-forward="true" selection-start-line="451" selection-start-column="20" selection-end-line="451" selection-end-column="20" />
         </state>
       </provider>
     </entry>
