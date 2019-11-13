@@ -1,12 +1,12 @@
 
 
-#tupla
+#tuple
 def ArgumentosInfinitos(*args):
     print(args)
     for elemento in args:
         print(elemento)
 
-#tupla
+#tuple
 ArgumentosInfinitos(1,2,3,4)
 ArgumentosInfinitos(*[3,3,3,3])
 
@@ -16,7 +16,7 @@ a = [3,6,9]
 dynamic decompression
 print('elementos : {} {} {}'.format(*a))
 
-# tupla/dicionarios
+# tuple/dictionary
 def ArgumentosDicionario(*arg, **keywordArgs):
     print(keywordArgs)
     for k, argument in keywordArgs.items():
@@ -458,6 +458,19 @@ txt = str(tupleN_hash) + "=!" +  str(integer_list_hash)
 
 print(txt)
 
+
+#------------------------------------------------------------------------------------
+
+# Split and Join
+line = "To become the best you need to improve"
+
+def split_and_join(line):
+    s = line.split(" ")
+    s = "-".join(s)
+    return s
+
+result = split_and_join(line)
+print(result)
 
 #------------------------------------------------------------------------------------
 
