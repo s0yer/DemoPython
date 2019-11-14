@@ -181,3 +181,10 @@ else:
 
 
 #----------------------------------------------------------------------
+
+# Finding the percentage + dictionary
+
+n = 3
+student_marks = {}
+
+average =  student_marks[name]/ n
