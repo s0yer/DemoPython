@@ -433,9 +433,11 @@ def merge_the_tools(string, k):
     n = len(string)
     if 1 <= n <= 10000:
         block = n / k
+
         if 1 <= k <= n and n % k == 0:
             x = string.split(" ")
             print(x)
+
         else:
             print(" Constraints -> k:[1,n] AND <n needs be a multiple of k> ")
     else:
@@ -480,9 +482,42 @@ n = 3
 student_marks = {}
 
 while i < n:
-    
+
     i+=1
 
 average =  student_marks[name]/ n
 
 #------------------------------------------------------------------------------------
+# Lists
+
+command = "Enter"
+list = []
+
+# number of operations
+n = 12
+i = 0
+
+while i<n:
+
+    if command == 'insert':
+
+    elif command == 'print':
+        print(list)
+
+    elif command == 'remove':
+
+    elif command == 'append':
+
+    elif command == 'sort':
+
+    elif command == 'pop':
+
+    elif command == 'reverse':
+
+    else:
+        print('input a valid Command.')
+
+    i += 1
+#------------------------------------------------------------------------------------
+
+
