@@ -16,7 +16,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/30days.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
+            <state relative-caret-position="3128">
               <caret line="184" selection-start-line="184" selection-end-line="184" />
             </state>
           </provider>
@@ -44,8 +44,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Funcoes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="507" column="21" lean-forward="true" selection-start-line="507" selection-start-column="21" selection-end-line="507" selection-end-column="21" />
+            <state relative-caret-position="206">
+              <caret line="484" column="12" lean-forward="true" selection-start-line="484" selection-start-column="12" selection-end-line="484" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -360,7 +360,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/30days.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
+        <state relative-caret-position="3128">
           <caret line="184" selection-start-line="184" selection-end-line="184" />
         </state>
       </provider>
@@ -401,8 +401,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Funcoes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
-          <caret line="507" column="21" lean-forward="true" selection-start-line="507" selection-start-column="21" selection-end-line="507" selection-end-column="21" />
+        <state relative-caret-position="206">
+          <caret line="484" column="12" lean-forward="true" selection-start-line="484" selection-start-column="12" selection-end-line="484" selection-end-column="12" />
         </state>
       </provider>
     </entry>
