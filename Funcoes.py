@@ -468,9 +468,15 @@ line = "To become the best you need to improve"
 
 def split_and_join(line):
     s = line.split(" ")
-    s = "-".join(s)
+    v = "-".join(s)
+
+    v = line.split("-")
+    k = "*".join(v)
     return s
 
+    print(v)
+    print(k)
+    
 result = split_and_join(line)
 print(result)
 
@@ -483,6 +489,7 @@ n = 3
 student_marks = {}
 
 while i < n:
+    
     s = input()
     split_and_join(s)
     i+=1
