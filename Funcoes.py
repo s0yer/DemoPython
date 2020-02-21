@@ -148,7 +148,8 @@ def plusMinus(arr):
 # diagonal diference with absolute result
 
 # Não existe array em Python, logo tentar fazer duas listas distintas uma da outra
-# no lugar de arr n n , tentar alocar em duas matrizes
+# no lugar de
+# arr n n , tentar alocar em duas matrizes
 
 n = 0
 arrl = [n]
@@ -472,11 +473,12 @@ def split_and_join(line):
 
     v = line.split("-")
     k = "*".join(v)
-    return s
 
     print(v)
     print(k)
-    
+
+    return v
+
 result = split_and_join(line)
 print(result)
 
