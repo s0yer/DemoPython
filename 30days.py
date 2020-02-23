@@ -55,6 +55,7 @@ n = 4
 arr = [4,5,2,1]
 arrb = []
 
+
 if 1 <= n <= 1000:
         if 1 <= max(arr) <= 10000:
             i = n - 1
@@ -168,11 +169,13 @@ else:
 n = 4
 
 def factorial(n):
+    # stop condition
     if n == 0 or n == 1:
         return 1
     else:
         return n * factorial(n-1)
 
+# constrain
 if 2 <= n <= 12:
        factorial(n)
 else:
