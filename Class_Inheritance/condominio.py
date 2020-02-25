@@ -1,10 +1,11 @@
 #exemplo de classe
 
+#
 from Class_Inheritance.lar import Lar
 
 class Condominio(Lar):
 
-    #Construtor e super para acessar a classe pai
+    #Construtor e super para acessar a classe pai / Constructor and super to access the parent class
     def __init__(self, area = 349, eletricidade = 223, agua = 191):
         super().__init__(area, eletricidade, agua)
 
