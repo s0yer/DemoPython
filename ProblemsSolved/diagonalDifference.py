@@ -1,4 +1,10 @@
 # version python 3.x
+# diagonal diference with absolute result
+
+# Não existe array em Python, logo sao feitas listas dentro de outras listas
+# no lugar de
+# arr n n , tentar alocar em duas matrizes
+
 n = 3
 arr1 = [9,9,1]
 arr2 = [1,4,2]
