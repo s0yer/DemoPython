@@ -146,199 +146,21 @@ def plusMinus(arr):
 
 #-------------------------------------------------------------------------------
 #-------------------------------------------------------------------------------
-
-
+#-------------------------------------------------------------------------------
+#-------------------------------------------------------------------------------
+#-------------------------------------------------------------------------------
+#-------------------------------------------------------------------------------
 #-------------------------------------------------------------------------------
 
 
 #-------------------------------------------------------------------------------
-# Birthday Cake Candles to blow out
-ar_count = 5
-ar = [1,2,3,4,5]
-
-
-
-def birthdayCakeCandles(ar):
-
-
-    maxi = max(ar)
-    soma = 0
-
-    for el in ar:
-        if el == maxi:
-            soma += 1
-
-    print(soma)
-    return soma
-
-#-------------------------------------------------------------------------------
-#min-max sum
-
-n = 5
-arr = [n]
-res = [0, 0, 0, 0, 0]
-
-arr = [7, 69, 2, 221, 8974]
-
-
-# min-max sum
-def miniMaxSum(arr):
-    res[0] = arr[0] + arr[1] + arr[2] + arr[3]
-    res[1] = arr[0] + arr[1] + arr[2] + arr[4]
-    res[2] = arr[0] + arr[1] + arr[4] + arr[3]
-    res[3] = arr[0] + arr[4] + arr[2] + arr[3]
-    res[4] = arr[4] + arr[1] + arr[2] + arr[3]
-
-    mini = min(res)
-    maxi = max(res)
-    print(res[0], res[1], res[2], res[3], res[4])
-    print(mini, maxi)
-
-
-miniMaxSum(arr)
-#-------------------------------------------------------------------------------
-
-# tentar procurar uma nova função para voltar funções?
-
-a=2
-b=3
-f=8
-
-def reversed_args(a,b):
-    g = pow(a,b)
-    k = a-b
-    if f == g:
-        return pow(b,a)
-    elif f == k:
-        return b-a
-
-print(reversed_args(a,b))
 
 #-------------------------------------------------------------------------------
 
-# Spend all money
-size = 3
-c = []
-d = []
-
-
-finalGrade = []
-grades = [99,40,38,7,37,60]
-grades_count = 6
-
-def gradingStudents(grades):
-
-    if 1 <= grades_count <= 60:
-
-        i = 0
-        while i < grades_count:
-            if grades[i] < 38:
-                finalGrade.append(grades[i])
-            elif grades[i] >= 38:
-                rest = grades[i] % 5
-                proxMult = (grades[i]-rest) + 5
-                dif = proxMult - grades[i]
-                if dif < 3:
-                    finalGrade.append(proxMult)
-                elif dif >= 3:
-                    finalGrade.append(grades[i])
-            i += 1
-    else:
-        print('Digite um valor valido')
-
-
-    for val in finalGrade:
-
-        print(val)
-    print(grades)
-    return finalGrade
-
-
-print(gradingStudents(grades))
-
-#-------------------------------------------------------------------------------
-
-# Leap year
-def is_leap(year):
-    leap = False
-    if 1900 <= year <= pow(10, 5):
-        if year % 4 == 0:
-            if year % 100 == 0:
-                if year % 400 == 0:
-                    leap = True
-                else:
-                    leap = False
-            else:
-                leap = True
-        else:
-            leap = False
-    else:
-        print('y out of range')
-    # Write your logic here
-
-    return leap
-
-
-year = 2000
-print(is_leap(year))
-
-#-------------------------------------------------------------------------------
-
-# tem que verificar como os dados são introduzidos primeiramente
-# verificar se é um unico vetor introduzido, ou parametros distintos
-size = 3
-c = []
-d = []
-b = 12
-keyboards = [10,2,3]
-drives = [3,1]
-
-def getMoneySpent(keyboards, drives, b):
-    i = 0
-    j = 0
-    k = 0
-    while i < size:
-        while j < size:
-            c[k] = n[i] + m[i]
-
-            j += 1
-            k += 1
-        i += 1
-        k += 1
-
-    i = 0
-    while i < k:
-        if c[i] <= b:
-            d.append(c[i])
-        elif c[i] > b:
-            print("-1")
-        i += 1
-
-    i = 0
-    while i < size:
-        if d[i] == 0:
-            max = d[0]
-        elif d[i] > d[i - 1]:
-            max = d[i]
-        i += 1
-
-    print(max)
 
 #------------------------------------------------------------------------------------
 
-#tax and tips in a meal
-meal_cost = 12
-tip_percent = 8
-tax_percent = 20
 
-def solve(meal_cost, tip_percent, tax_percent):
-
-    tip = meal_cost * tip_percent/100
-    tax = meal_cost * tax_percent/100
-    total_cost = meal_cost + tip + tax
-
-    print(int(round(total_cost)))
-    return int(round(total_cost))
 
 #------------------------------------------------------------------------------------
 
