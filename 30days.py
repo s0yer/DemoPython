@@ -6,62 +6,15 @@
 
 #----------------------------------------------------------------------
 
-# n multiples
 
-n = 5
-
-if 2 <= n <= 20:
-    i = 1
-
-    while i <= 10:
-        k = str(i * n)
-        print(str(n) + " x " + str(i) + " = " + k)
-        i += 1
-else:
-    print('imput a value between [2,20]')
 
 #----------------------------------------------------------------------
 
-# Reverse Print
-n = 4
 
-arr = [4,5,2,1]
-arrb = []
-
-
-if 1 <= n <= 1000:
-        if 1 <= max(arr) <= 10000:
-            i = n - 1
-            while i >= 0:
-                arrb.append(arr[i])
-                i -= 1
-        else:
-            print(" The maximum value of element in arr is 10000 and the mininum 1.")
-    else:
-        print("n needs to be between [1,1000]")
-
-    for el in arrb:
-        print(el, end=' ')
-
-    t = tuple(str(arrb))
-    p = " ".join(t)
-    print(p)
 
 #----------------------------------------------------------------------
 
-# list comprehensions
-# basic sintax : [expr for item in lista if cond]
 
-x = 2
-y = 2
-z = 2
-n = 2
-
-ar = [[i,j] for i in range(x+1) for j in range (y+1) if((i+j) != n)]
-print(ar)
-
-ar3 = [[i,j,k] for i in range(x+1) for j in range (y+1) for k in range(z+1) if((i+j+k) != n)]
-print(ar3)
 
 #----------------------------------------------------------------------
 
