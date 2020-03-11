@@ -1,39 +1,46 @@
+
 # Spend all money
+
 size = 3
 c = []
 d = []
+b = 12
+keyboards = [10,2,3]
+drives = [3,1]
 
+def getMoneySpent(keyboards, drives, b):
+    i = 0
+    j = 0
+    k = 0
+    while i < size:
+        while j < size:
+            val = keyboards[i] + drives[i]
+            c.append(val)
+            j += 1
+            k += 1
+        i += 1
+        k += 1
 
-finalGrade = []
-grades = [99,40,38,7,37,60]
-grades_count = 6
+    i = 0
+    while i < len(c):
+        if c[i] <= b:
+            d.append(c[i])
+        elif c[i] > b:
+            print("-1")
+        i += 1
 
-def gradingStudents(grades):
+    i = 0
+    maxi = 0
+    while i < len(d):
+        if d[i] == 0:
+            maxi = d[0]
+        elif d[i] > d[i - 1]:
+            maxi = d[i]
+        i += 1
 
-    if 1 <= grades_count <= 60:
+    print(maxi)
 
-        i = 0
-        while i < grades_count:
-            if grades[i] < 38:
-                finalGrade.append(grades[i])
-            elif grades[i] >= 38:
-                rest = grades[i] % 5
-                proxMult = (grades[i]-rest) + 5
-                dif = proxMult - grades[i]
-                if dif < 3:
-                    finalGrade.append(proxMult)
-                elif dif >= 3:
-                    finalGrade.append(grades[i])
-            i += 1
-    else:
-        print('Digite um valor valido')
+getMoneySpent(keyboards, drives, b)
 
+#--------------------------------------------------------------------------------------
 
-    for val in finalGrade:
-
-        print(val)
-    print(grades)
-    return finalGrade
-
-
-print(gradingStudents(grades))
