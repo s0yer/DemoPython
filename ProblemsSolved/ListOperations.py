@@ -1,5 +1,7 @@
-# Lists
 
+"""
+
+# Lists
 command = "Enter"
 list = []
 
@@ -28,3 +30,21 @@ while i<n:
         print('input a valid Command.')
 
     i += 1
+
+"""
+
+n = input()
+l = []
+
+for _ in range(n):
+    s = raw_input().split()
+    command = s[0]
+    args = s[1:]
+    if command != "print":
+        command += "("+ ",".join(args) +")"
+        eval("l."+command)
+    else:
+        print l
+
+
+

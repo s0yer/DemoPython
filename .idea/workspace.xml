@@ -172,8 +172,8 @@
       <item itemvalue="Python.Person" />
       <item itemvalue="Python.casa" />
       <item itemvalue="Python.diagonalDifference" />
-      <item itemvalue="Python.stairCase" />
       <item itemvalue="Python.maxMinSum" />
+      <item itemvalue="Python.stairCase" />
     </list>
     <recent_temporary>
       <list>
@@ -242,11 +242,11 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="496" y="27" key="#diagonalDifference/0.0.1536.824@0.0.1536.824" timestamp="1583389733620" />
-    <state x="521" y="136" key="FileChooserDialogImpl" timestamp="1583394352188">
+    <state x="521" y="136" key="FileChooserDialogImpl" timestamp="1584501834977">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="463" y="120" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1577375082051" />
-    <state x="521" y="136" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1583394352188" />
+    <state x="521" y="136" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1584501834977" />
     <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1583471901813">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -268,10 +268,10 @@
     </state>
     <state x="184" y="7" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1582428301359" />
     <state x="207" y="8" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1583394374951" />
-    <state x="432" y="214" key="com.intellij.ide.util.TipDialog" timestamp="1583864574779">
+    <state x="432" y="214" key="com.intellij.ide.util.TipDialog" timestamp="1584538576652">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="384" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1582516570079" />
-    <state x="432" y="214" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1583864574779" />
+    <state x="432" y="214" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1584538576652" />
   </component>
 </project>
