@@ -1,4 +1,4 @@
-# Runner up score
+"""
 
 n = 8
 arr = [3,1,6,6,5,7,7,7]
@@ -22,3 +22,19 @@ def runnerUp(n,arr):
         print('imput a value between [2,10]')
 
 runnerUp(n,arr)
+
+------------------------------------
+
+"""
+
+# Runner up score
+
+n = int(input())
+arr = map(int, input().split())
+
+lista = list(arr)[:n]
+x = max(lista)
+while max(lista) == x:
+    lista.remove(max(lista))
+
+print(max(lista))
