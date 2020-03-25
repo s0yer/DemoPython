@@ -46,6 +46,14 @@ for _ in range(0, int(raw_input())):
         print L
     else:
         eval("L.{0}()".format(command))
+-----------------------------------------------
+ #Usage eval()
+
+eval(expression, globals, locals)
+
+expression	A String, that will be evaluated as Python code
+globals	Optional. A dictionary containing global parameters
+locals	Optional. A dictionary containing local parameters
 
 """
 
@@ -60,7 +68,7 @@ for _ in range(n):
         command += "("+ ",".join(args) +")"
         eval("l."+command)
     else:
-        print l
+        print("ERRO...")
 
 
 
