@@ -6,7 +6,10 @@ import random
 import re
 import sys
 
-if __name__ == '__main__':
+
+def binaryConversion():
+
+    print("input: n -> [1,1000000] ")
     n = int(input().strip())
 
     if 1 <= n <= 1000000:
@@ -17,4 +20,4 @@ if __name__ == '__main__':
 
 
     else:
-        print('n -> [1,1000000]')
+        print("n -> [1,1000000]")
