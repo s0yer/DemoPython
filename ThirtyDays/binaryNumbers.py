@@ -1,4 +1,4 @@
-#!/bin/python3
+# python 3.7
 
 import math
 import os
