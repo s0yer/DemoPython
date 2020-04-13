@@ -1,5 +1,8 @@
+
+
 #odd and even
 N = 77
+
 def oddEven(N):
     if 0 <= N <= 100:
         if N % 2 == 0:

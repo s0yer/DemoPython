@@ -1,4 +1,5 @@
 
+
 t = int(input())
 for el in range(t):
     s = input()
