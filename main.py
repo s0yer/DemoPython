@@ -1,10 +1,13 @@
 #!/usr/bin/python
+'''
 
 from ThirtyDays import dataTypeConversion
 from ThirtyDays import binaryNumbers
 from ThirtyDays import dictionaryMaps
-#from ThirtyDays import evenOddStringPrint
-#import packageManagement
+from ThirtyDays import evenOddStringPrint
+
+'''
+from modules import *
 
 def endCmd():
     print("End of command Processing :)")
