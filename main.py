@@ -3,6 +3,7 @@
 from ThirtyDays import dataTypeConversion
 from ThirtyDays import binaryNumbers
 from ThirtyDays import dictionaryMaps
+from ThirtyDays import evenOddStringPrint
 
 dictionaryMaps.dictMaps()
 
@@ -37,11 +38,11 @@ while waiting_input:
         print("-----------------------------------------------------------------")
     elif choice == '3':
         print("-----------------------------------------------------------------")
-        dataTypeConversion.dtConversion()
+        dictionaryMaps.dictMaps()
         print("-----------------------------------------------------------------")
     elif choice == '4':
         print("-----------------------------------------------------------------")
-        dataTypeConversion.dtConversion()
+        evenOddStringPrint.evenOddString()
         print("-----------------------------------------------------------------")
     elif choice == '5':
         print("-----------------------------------------------------------------")

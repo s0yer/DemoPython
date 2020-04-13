@@ -4,6 +4,7 @@
 
     n = 5
 
+def multiples():
     if 2 <= n <= 20:
         i = 1
 
