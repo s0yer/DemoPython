@@ -1,13 +1,17 @@
 #!/usr/bin/python
-'''
+
 
 from ThirtyDays import dataTypeConversion
 from ThirtyDays import binaryNumbers
 from ThirtyDays import dictionaryMaps
 from ThirtyDays import evenOddStringPrint
+from ThirtyDays import listComprehensions
+from ThirtyDays import multiples
+from ThirtyDays import oddEven
+from ThirtyDays import recursion
+from ThirtyDays import reversePrint
 
-'''
-from modules import *
+
 
 def endCmd():
     print("End of command Processing :)")
@@ -19,6 +23,7 @@ def get_user_choice():
 waiting_input = True
 
 while waiting_input:
+    print("-----------------------------------------------------------------")
     print('Choose the option: ')
     print('1: Data type conversion')
     print('2: Binary Conversion')
@@ -30,36 +35,28 @@ while waiting_input:
     print('8: Reverse Print')
 
     print('s: Sair. ')
+    print("-----------------------------------------------------------------")
 
     choice = get_user_choice()
-
     if choice == '1':
-        print("-----------------------------------------------------------------")
         dataTypeConversion.dtConversion()
-        print("-----------------------------------------------------------------")
     elif choice == '2':
-        print("-----------------------------------------------------------------")
         binaryNumbers.binaryConversion()
-        print("-----------------------------------------------------------------")
     elif choice == '3':
-        print("-----------------------------------------------------------------")
-
-
         dictionaryMaps.dictMaps()
-
-        print("-----------------------------------------------------------------")
     elif choice == '4':
-        print("-----------------------------------------------------------------")
-        DemoPython.Thirtydays.dataTypeConversion.dtConversion()
-        print("-----------------------------------------------------------------")
+        evenOddStringPrint.evenOddString()
     elif choice == '5':
-        print("-----------------------------------------------------------------")
-        dataTypeConversion.dtConversion()
-        print("-----------------------------------------------------------------")
+        listComprehensions.listComp()
     elif choice == '6':
-        print("-----------------------------------------------------------------")
-        dataTypeConversion.dtConversion()
-        print("-----------------------------------------------------------------")
+        multiples.multiples()
+    elif choice == '7':
+        oddEven.oddEven()
+    elif choice == '8':
+        recursion.factorial()
+    elif choice == '9':
+        reversePrint.reverseP()
+
     elif choice == 's':
         waiting_input = False
 

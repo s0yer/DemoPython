@@ -2,7 +2,7 @@
 
 
 
-    n = 5
+n = 5
 
 def multiples():
     if 2 <= n <= 20:

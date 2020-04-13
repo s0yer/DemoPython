@@ -16,5 +16,3 @@ def oddEven(N):
             print('Weird')
     else:
         print('imput a valid number!')
-
-oddEven(N)
