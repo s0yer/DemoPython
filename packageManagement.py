@@ -1,7 +1,5 @@
 DemoPython/
 
-    __init__.py
-
     ThirtyDays/
         binaryNumbers.py
         dataTypeConversion.py
@@ -14,4 +12,3 @@ DemoPython/
         reversePrint.py
         review30d.py
 
-        

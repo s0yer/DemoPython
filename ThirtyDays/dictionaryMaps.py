@@ -9,7 +9,7 @@
 
     '''
 n = 3
-ent = (kandra, 123456789)
+ent = ('kandra', 123456789)
 #ent = str(input()).split()
 query = "kandra"
 

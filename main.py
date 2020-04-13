@@ -3,12 +3,14 @@
 from ThirtyDays import dataTypeConversion
 from ThirtyDays import binaryNumbers
 from ThirtyDays import dictionaryMaps
-from ThirtyDays import evenOddStringPrint
+#from ThirtyDays import evenOddStringPrint
+#import packageManagement
 
-dictionaryMaps.dictMaps()
+def endCmd():
+    print("End of command Processing :)")
 
 def get_user_choice():
-    choice = input('Sua escolha: ')
+    choice = input('Your Choice: ')
     return choice
 
 waiting_input = True
@@ -38,11 +40,14 @@ while waiting_input:
         print("-----------------------------------------------------------------")
     elif choice == '3':
         print("-----------------------------------------------------------------")
+
+
         dictionaryMaps.dictMaps()
+
         print("-----------------------------------------------------------------")
     elif choice == '4':
         print("-----------------------------------------------------------------")
-        evenOddStringPrint.evenOddString()
+        DemoPython.Thirtydays.dataTypeConversion.dtConversion()
         print("-----------------------------------------------------------------")
     elif choice == '5':
         print("-----------------------------------------------------------------")
@@ -58,7 +63,7 @@ while waiting_input:
     else:
         print("Invalid input, get a value from the options! ")
 
-    if not Funcoes.verifica_chave():
+    if not endCmd():
         print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
 
 else:
