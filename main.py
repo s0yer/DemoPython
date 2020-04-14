@@ -20,9 +20,26 @@ def get_user_choice():
     choice = input('Your Choice: ')
     return choice
 
-waiting_input = True
+def screenConceptsFundamentals():
 
-while waiting_input:
+    print("-----------------------------------------------------------------")
+    print('Choose the option: ')
+    print('101: Arquivos')
+    print('102: Command List')
+    print('103: Dictionaries Maps')
+    print('104: Dynamic Descompression')
+    print('105: List Dictionary')
+    print('106: Function Print')
+    print('107: String Validators')
+    print('108: Swap Case')
+    print('110: Tuple Dictionary')
+    print('111: Tuples')
+
+    print('s: Sair. ')
+    print("-----------------------------------------------------------------")
+
+def tDays():
+
     print("-----------------------------------------------------------------")
     print('Choose the option: ')
     print('1: Data type conversion')
@@ -37,7 +54,23 @@ while waiting_input:
     print('s: Sair. ')
     print("-----------------------------------------------------------------")
 
+waiting_input = True
+
+while waiting_input:
+    print("-----------------------------------------------------------------")
+    print('Choose the option: ')
+    print('a: Concepts Fundamentals ')
+    print('b: Problems Solved lvl padawan :)')
+    print('c: Problems Solved lvl Jedi :3')
+
+    print('s: Sair. ')
+    print("-----------------------------------------------------------------")
+
     choice = get_user_choice()
+
+
+
+
     if choice == '1':
         dataTypeConversion.dtConversion()
     elif choice == '2':

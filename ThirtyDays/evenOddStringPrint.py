@@ -9,14 +9,16 @@ if __name__ == '__main__':
 
 '''
 
-t = int(input())
-even = []
-odd = []
+
 def evenOddString():
+    t = 1
+    even = []
+    odd = []
+    word = "wisdom"
 
     if 1 <= t <= 10:
         while t > 0:
-            s = str(input()).split()
+            s = str(word).split()
             i = 0
             while i < len(s):
                 if i % 2 == 0:
