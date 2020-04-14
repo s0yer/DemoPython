@@ -1,15 +1,15 @@
 #!/usr/bin/python
 
 
-from ThirtyDays import dataTypeConversion
-from ThirtyDays import binaryNumbers
-from ThirtyDays import dictionaryMaps
-from ThirtyDays import evenOddStringPrint
-from ThirtyDays import listComprehensions
-from ThirtyDays import multiples
-from ThirtyDays import oddEven
-from ThirtyDays import recursion
-from ThirtyDays import reversePrint
+from PadawanDays import dataTypeConversion
+from PadawanDays import binaryNumbers
+from PadawanDays import dictionaryMaps
+from PadawanDays import evenOddStringPrint
+from PadawanDays import listComprehensions
+from PadawanDays import multiples
+from PadawanDays import oddEven
+from PadawanDays import recursion
+from PadawanDays import reversePrint
 
 
 
@@ -20,7 +20,8 @@ def get_user_choice():
     choice = input('Your Choice: ')
     return choice
 
-def screenConceptsFundamentals():
+
+def screenJedi():
 
     print("-----------------------------------------------------------------")
     print('Choose the option: ')
@@ -38,7 +39,10 @@ def screenConceptsFundamentals():
     print('s: Sair. ')
     print("-----------------------------------------------------------------")
 
-def screenTdays():
+    screenState = '2'
+
+
+def screenPadawan():
 
     print("-----------------------------------------------------------------")
     print('Choose the option: ')
@@ -54,29 +58,50 @@ def screenTdays():
     print('s: Sair. ')
     print("-----------------------------------------------------------------")
 
-waiting_input = True
+    screenState = '1'
 
-while waiting_input:
+def mainScreen():
+
     print("-----------------------------------------------------------------")
     print('Choose the option: ')
     print('a: Concepts Fundamentals ')
     print('b: Problems Solved lvl padawan :)')
     print('c: Problems Solved lvl Jedi :3')
-
     print('s: Sair. ')
     print("-----------------------------------------------------------------")
+
+    screenState = '0'
+
+
+screenState = '0'
+waiting_input = True
+while waiting_input:
+
+    if screenState == '0':
+        mainScreen()
+    elif screenState == '1':
+        screenPadawan()
+    elif screenState == '2':
+        screenJedi()
+    else:
+        print("screen Error!")
 
     choice = get_user_choice()
 
     if choice == 'a':
-        screenConceptsFundamentals()
+        screenPadawan()
+        choice = get_user_choice()
     elif choice == 'b':
-        screenTdays()
+        screenJedi()
+        choice = get_user_choice()
     elif choice == 'c':
-        dictionaryMaps.dictMaps()
+        print('On Going ... :)')
+        mainScreen()
+        choice = get_user_choice()
+    else:
+        print('Screen Error!')
 
-
-    elif choice == '1':
+    if choice == '1':
         dataTypeConversion.dtConversion()
     elif choice == '2':
         binaryNumbers.binaryConversion()
