@@ -1,9 +1,9 @@
 # break a list in blocks
 
-string = "AABCCAADD"
-k = 3
+def merge_the_tools():
 
-def merge_the_tools(string, k):
+    string = "AABCCAADDDOMJLNSINTVS"
+    k = 3
 
     n = len(string)
     if 1 <= n <= 10000:
@@ -20,4 +20,4 @@ def merge_the_tools(string, k):
 
 
 
-merge_the_tools(string, k)
+merge_the_tools()

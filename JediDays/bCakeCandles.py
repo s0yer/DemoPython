@@ -1,8 +1,9 @@
 # Birthday Cake Candles to blow out
-ar_count = 5
-ar = [1,2,3,4,5]
 
-def birthdayCakeCandles(ar):
+
+def birthdayCakeCandles():
+    #ar_count = 8
+    ar = [1, 1, 2, 3, 5, 8, 13, 21]
 
     maxi = max(ar)
     soma = 0

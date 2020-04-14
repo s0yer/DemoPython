@@ -11,6 +11,10 @@ from PadawanDays import oddEven
 from PadawanDays import recursion
 from PadawanDays import reversePrint
 
+from JediDays import alphabetRangoli
+from JediDays import appleOrangeDistanceTrees
+from JediDays import bCakeCandles
+from JediDays import breakListBlocks
 
 
 def endCmd():
@@ -67,7 +71,7 @@ def mainScreen():
     print('a: Concepts Fundamentals ')
     print('b: Problems Solved lvl padawan :)')
     print('c: Problems Solved lvl Jedi :3')
-    print('s: Sair. ')
+    print('x: Exit. ')
     print("-----------------------------------------------------------------")
 
     screenState = '0'
@@ -75,8 +79,10 @@ def mainScreen():
 
 screenState = '0'
 waiting_input = True
+
 while waiting_input:
 
+#   State of the Screen -----------------------------------------------------
     if screenState == '0':
         mainScreen()
     elif screenState == '1':
@@ -86,7 +92,10 @@ while waiting_input:
     else:
         print("screen Error!")
 
+#   Get user choice by keyboard ---------------------------------
     choice = get_user_choice()
+
+#   Call of the screen and change of screen states -------------------
 
     if choice == 'a':
         screenPadawan()
@@ -100,6 +109,8 @@ while waiting_input:
         choice = get_user_choice()
     else:
         print('Screen Error!')
+
+#   Call of functions of the package PadawaDays ---------------------------
 
     if choice == '1':
         dataTypeConversion.dtConversion()
@@ -120,8 +131,20 @@ while waiting_input:
     elif choice == '9':
         reversePrint.reverseP()
 
-    elif choice == 's':
+#   Call of functions of the package JediDays ---------------------------
+    elif choice == '101':
+        alphabetRangoli.print_rangoli()
+    elif choice == '102':
+        appleOrangeDistanceTrees.countApplesAndOranges()
+    elif choice == '103':
+        bCakeCandles.birthdayCakeCandles()
+    elif choice == '104':
+        breakListBlocks.merge_the_tools()
+
+#   Call function to exit --------------------------------------------------
+    elif choice == 'x':
         waiting_input = False
+#   Last Tratament ---------------------------------------------------------------
 
     else:
         print("Invalid input, get a value from the options! ")
