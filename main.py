@@ -38,7 +38,7 @@ def screenConceptsFundamentals():
     print('s: Sair. ')
     print("-----------------------------------------------------------------")
 
-def tDays():
+def screenTdays():
 
     print("-----------------------------------------------------------------")
     print('Choose the option: ')
@@ -68,10 +68,15 @@ while waiting_input:
 
     choice = get_user_choice()
 
+    if choice == 'a':
+        screenConceptsFundamentals()
+    elif choice == 'b':
+        screenTdays()
+    elif choice == 'c':
+        dictionaryMaps.dictMaps()
 
 
-
-    if choice == '1':
+    elif choice == '1':
         dataTypeConversion.dtConversion()
     elif choice == '2':
         binaryNumbers.binaryConversion()
