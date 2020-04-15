@@ -24,7 +24,7 @@ def get_user_choice():
     return choice
 
 def screenJedi():
-    print("-----------------------------------------------------------------")
+    print("---------------------------------------------------------------------------------")
     print('Choose the option: ')
     print('201: Alphabet Rangnoli ')
     print('202: Distance Apple-Orange Trees')
@@ -38,7 +38,7 @@ def screenJedi():
     print('211: Get Money Spent')
 
     print('s: Sair. ')
-    print("-----------------------------------------------------------------")
+    print("---------------------------------------------------------------------------------")
 
 def screenConcepFund():
 
@@ -58,14 +58,13 @@ def screenConcepFund():
     print('111: Tuples')
 
     print('s: Sair. ')
-    print("-----------------------------------------------------------------")
-
+    print("---------------------------------------------------------------------------------")
     screenState = '2'
 
 
 def screenPadawan():
 
-    print("-----------------------------------------------------------------")
+    print("---------------------------------------------------------------------------------")
     print('Choose the option: ')
     print('1: Data type conversion')
     print('2: Binary Conversion')
@@ -77,20 +76,24 @@ def screenPadawan():
     print('8: Reverse Print')
 
     print('s: Sair. ')
-    print("-----------------------------------------------------------------")
-
+    print("---------------------------------------------------------------------------------")
     screenState = '1'
+
+def doorWelcome():
+    alphabetRangoli.print_rangoli()
 
 def mainScreen():
 
-    print("-----------------------------------------------------------------")
+    doorWelcome()
+    print("---------------------------------------------------------------------------------")
+    print("                            WELCOME")
+    print("---------------------------------------------------------------------------------")
     print('Choose the option: ')
     print('a: Concepts Fundamentals ')
     print('b: Problems Solved lvl padawan :)')
     print('c: Problems Solved lvl Jedi :3')
     print('x: Exit. ')
-    print("-----------------------------------------------------------------")
-
+    print("---------------------------------------------------------------------------------")
     screenState = '0'
 
 
@@ -115,14 +118,14 @@ while waiting_input:
 #   Call of the screen and change of screen states -------------------
 
     if choice == 'a':
-        screenPadawan()
+        screenConcepFund()
         choice = get_user_choice()
     elif choice == 'b':
-        screenJedi()
+        screenPadawan()
         choice = get_user_choice()
     elif choice == 'c':
+        screenJedi()
         print('On Going ... :)')
-        mainScreen()
         choice = get_user_choice()
     else:
         print('Screen Error!')
@@ -170,5 +173,6 @@ while waiting_input:
         print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
 
 else:
+    alphabetRangoli.print_rangoli()
     print('Deixando usuário')
 

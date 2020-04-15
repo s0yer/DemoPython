@@ -18,6 +18,3 @@ def merge_the_tools():
     else:
         print("imput a valid n -> [1,10000]")
 
-
-
-merge_the_tools()

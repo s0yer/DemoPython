@@ -1,8 +1,8 @@
 
 import string
 
-def print_rangoli(n):
-    n = 39
+def print_rangoli():
+    n = 21
     a = string.ascii_lowercase
 
     l = []
@@ -13,4 +13,3 @@ def print_rangoli(n):
     print('\n'.join(l[:0:-1]+l))
 
 
-print_rangoli()

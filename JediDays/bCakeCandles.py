@@ -2,7 +2,7 @@
 
 
 def birthdayCakeCandles():
-    #ar_count = 8
+
     ar = [1, 1, 2, 3, 5, 8, 13, 21]
 
     maxi = max(ar)
@@ -15,4 +15,3 @@ def birthdayCakeCandles():
     print(soma)
     return soma
 
-print(birthdayCakeCandles(ar))
