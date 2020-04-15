@@ -1,6 +1,5 @@
 #!/usr/bin/python
 
-
 from PadawanDays import dataTypeConversion
 from PadawanDays import binaryNumbers
 from PadawanDays import dictionaryMaps
@@ -24,8 +23,26 @@ def get_user_choice():
     choice = input('Your Choice: ')
     return choice
 
-
 def screenJedi():
+    print("-----------------------------------------------------------------")
+    print('Choose the option: ')
+    print('201: Alphabet Rangnoli ')
+    print('202: Distance Apple-Orange Trees')
+    print('203: Birthday Cake Candles')
+    print('204: Break List Blocks')
+    print('205: Diagonal Difference')
+    print('206: Door Math pattern')
+    print('207: Find Angle Triangle')
+    print('208: Find Percentage Dictionary')
+    print('210: Find Score')
+    print('211: Get Money Spent')
+
+    print('s: Sair. ')
+    print("-----------------------------------------------------------------")
+
+def screenConcepFund():
+
+
 
     print("-----------------------------------------------------------------")
     print('Choose the option: ')
