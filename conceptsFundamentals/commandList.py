@@ -1,8 +1,10 @@
+# on going
+
+def cmdList():
 
 
-N = int(input())
-
-cmdList = []
+    N = int(input())
+    cmdList = []
 
 	for el in range(N):
 		s = input().split()

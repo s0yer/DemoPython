@@ -1,5 +1,18 @@
 #!/usr/bin/python
 
+from conceptsFundamentals import arquivos
+from conceptsFundamentals import commandList
+from conceptsFundamentals import dictionariesMaps
+from conceptsFundamentals import dynamicDescompression
+from conceptsFundamentals import ListDictionary
+from conceptsFundamentals import nestedLists
+from conceptsFundamentals import printFunction
+from conceptsFundamentals import stringValidators
+from conceptsFundamentals import swapCase
+from conceptsFundamentals import tupleDictionary
+from conceptsFundamentals import tuples
+
+
 from PadawanDays import dataTypeConversion
 from PadawanDays import binaryNumbers
 from PadawanDays import dictionaryMaps
@@ -86,7 +99,7 @@ def mainScreen():
 
     doorWelcome()
     print("---------------------------------------------------------------------------------")
-    print("                            WELCOME")
+    print("                                     WELCOME")
     print("---------------------------------------------------------------------------------")
     print('Choose the option: ')
     print('a: Concepts Fundamentals ')

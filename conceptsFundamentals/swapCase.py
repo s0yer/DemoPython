@@ -7,4 +7,4 @@ def swap_case(s):
             ns+=(elem.lower())
         else:
             ns+=(elem.upper())
-    return ns
+    return print(ns)

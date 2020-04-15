@@ -29,7 +29,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pythonMongoV02" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -42,7 +42,28 @@
       <recent name="C:\Users\jdsen\OneDrive\GitHub\DemoPython\Scripts" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.arquivos">
+    <configuration name="arquivos" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DemoPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/conceptsFundamentals" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/conceptsFundamentals/arquivos.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="binaryNumbers (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DemoPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -56,27 +77,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ThirtyDays/binaryNumbers.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="binaryNumbers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DemoPython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/30days" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/30days/binaryNumbers.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -149,19 +149,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.binaryNumbers" />
       <item itemvalue="Python.main" />
       <item itemvalue="Python.dataTypeConversion" />
       <item itemvalue="Python.main (1)" />
       <item itemvalue="Python.binaryNumbers (1)" />
+      <item itemvalue="Python.arquivos" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.arquivos" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.binaryNumbers (1)" />
         <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.dataTypeConversion" />
-        <item itemvalue="Python.binaryNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -234,48 +234,52 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="521" y="136" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1586960383646" />
-    <state width="1515" height="250" key="GridCell.Tab.0.bottom" timestamp="1586963727935">
+    <state width="1515" height="250" key="GridCell.Tab.0.bottom" timestamp="1586982920766">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="250" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586963727935" />
-    <state width="1515" height="250" key="GridCell.Tab.0.center" timestamp="1586963727935">
+    <state width="1515" height="250" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586982920766" />
+    <state width="1515" height="250" key="GridCell.Tab.0.center" timestamp="1586982920766">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="250" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586963727935" />
-    <state width="1515" height="250" key="GridCell.Tab.0.left" timestamp="1586963727935">
+    <state width="1515" height="250" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1586982920766" />
+    <state width="1515" height="250" key="GridCell.Tab.0.left" timestamp="1586982920766">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="250" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586963727935" />
-    <state width="1515" height="250" key="GridCell.Tab.0.right" timestamp="1586963727935">
+    <state width="1515" height="250" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1586982920766" />
+    <state width="1515" height="250" key="GridCell.Tab.0.right" timestamp="1586982920766">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="250" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586963727935" />
-    <state width="1515" height="261" key="GridCell.Tab.1.bottom" timestamp="1586963715145">
+    <state width="1515" height="250" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1586982920766" />
+    <state width="1515" height="261" key="GridCell.Tab.1.bottom" timestamp="1586964795536">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586963715145" />
-    <state width="1515" height="261" key="GridCell.Tab.1.center" timestamp="1586963715145">
+    <state width="1515" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1586964795536" />
+    <state width="1515" height="261" key="GridCell.Tab.1.center" timestamp="1586964795536">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1586963715145" />
-    <state width="1515" height="261" key="GridCell.Tab.1.left" timestamp="1586963715145">
+    <state width="1515" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1586964795536" />
+    <state width="1515" height="261" key="GridCell.Tab.1.left" timestamp="1586964795536">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1586963715145" />
-    <state width="1515" height="261" key="GridCell.Tab.1.right" timestamp="1586963715145">
+    <state width="1515" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1586964795536" />
+    <state width="1515" height="261" key="GridCell.Tab.1.right" timestamp="1586964795536">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1586963715145" />
+    <state width="1515" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1586964795536" />
     <state x="207" y="8" key="SettingsEditor" timestamp="1586651360267">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="184" y="7" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1582428301359" />
     <state x="207" y="8" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1586651360267" />
-    <state x="432" y="214" key="com.intellij.ide.util.TipDialog" timestamp="1586957003068">
+    <state x="432" y="214" key="com.intellij.ide.util.TipDialog" timestamp="1586972025573">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="384" y="189" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1582516570079" />
-    <state x="432" y="214" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1586957003068" />
+    <state x="432" y="214" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1586972025573" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1586982973023">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1586982973023" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
