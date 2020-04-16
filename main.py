@@ -53,44 +53,48 @@ def screenJedi():
     print('s: Sair. ')
     print("---------------------------------------------------------------------------------")
 
-def screenConcepFund():
-
-
-
-    print("-----------------------------------------------------------------")
-    print('Choose the option: ')
-    print('101: Arquivos')
-    print('102: Command List')
-    print('103: Dictionaries Maps')
-    print('104: Dynamic Descompression')
-    print('105: List Dictionary')
-    print('106: Function Print')
-    print('107: String Validators')
-    print('108: Swap Case')
-    print('110: Tuple Dictionary')
-    print('111: Tuples')
-
-    print('s: Sair. ')
-    print("---------------------------------------------------------------------------------")
-    screenState = '2'
 
 
 def screenPadawan():
 
     print("---------------------------------------------------------------------------------")
     print('Choose the option: ')
-    print('1: Data type conversion')
-    print('2: Binary Conversion')
-    print('3: Dictionary Maps')
-    print('4: Even Odd String Print')
-    print('5: List Comprehensions')
-    print('6: Multiples')
-    print('7: Odd Even')
-    print('8: Reverse Print')
+    print('101: Data type conversion')
+    print('102: Binary Conversion')
+    print('103: Dictionary Maps')
+    print('104: Even Odd String Print')
+    print('105: List Comprehensions')
+    print('106: Multiples')
+    print('107: Odd Even')
+    print('107: Recursion')
+    print('109: Reverse Print')
 
     print('s: Sair. ')
     print("---------------------------------------------------------------------------------")
     screenState = '1'
+
+
+def screenConcepFund():
+
+
+
+    print("-----------------------------------------------------------------")
+    print('Choose the option: ')
+    print('1: Arquivos')
+    print('2: Command List')
+    print('3: Dictionaries Maps')
+    print('4: Dynamic Descompression')
+    print('5: List Dictionary')
+    print('6: Function Print')
+    print('7: String Validators')
+    print('8: Swap Case')
+    print('10: Tuple Dictionary')
+    print('11: Tuples')
+
+    print('s: Sair. ')
+    print("---------------------------------------------------------------------------------")
+    screenState = '2'
+
 
 def doorWelcome():
     alphabetRangoli.print_rangoli()
@@ -143,35 +147,60 @@ while waiting_input:
     else:
         print('Screen Error!')
 
-#   Call of functions of the package PadawaDays ---------------------------
+#   Call of functions of the package conceptsFundamentals ---------------------------
 
     if choice == '1':
-        dataTypeConversion.dtConversion()
+        arquivos.writeArchive()
     elif choice == '2':
-        binaryNumbers.binaryConversion()
+        commandList.cmdList()
     elif choice == '3':
-        dictionaryMaps.dictMaps()
+        dictionariesMaps.dictMaps()
     elif choice == '4':
-        evenOddStringPrint.evenOddString()
+        dynamicDescompression.dynamicDesc()
     elif choice == '5':
-        listComprehensions.listComp()
+        ListDictionary.listDictionary()
     elif choice == '6':
-        multiples.multiples()
+        nestedLists.nestedL()
     elif choice == '7':
-        oddEven.oddEven()
+        printFunction.printFunc()
     elif choice == '8':
-        recursion.factorial()
+        stringValidators.stringValid()
     elif choice == '9':
+        swapCase.swap_case()
+    elif choice == '10':
+        tupleDictionary.callArgDic()
+    elif choice == '11':
+        tuples.callArgInf()
+
+#   Call of functions of the package PadawaDays ---------------------------
+
+    if choice == '101':
+        dataTypeConversion.dtConversion()
+    elif choice == '102':
+        binaryNumbers.binaryConversion()
+    elif choice == '103':
+        dictionaryMaps.dictMaps()
+    elif choice == '104':
+        evenOddStringPrint.evenOddString()
+    elif choice == '105':
+        listComprehensions.listComp()
+    elif choice == '106':
+        multiples.multiples()
+    elif choice == '107':
+        oddEven.oddEven()
+    elif choice == '108':
+        recursion.factorial()
+    elif choice == '109':
         reversePrint.reverseP()
 
 #   Call of functions of the package JediDays ---------------------------
-    elif choice == '101':
+    elif choice == '201':
         alphabetRangoli.print_rangoli()
-    elif choice == '102':
+    elif choice == '202':
         appleOrangeDistanceTrees.countApplesAndOranges()
-    elif choice == '103':
+    elif choice == '203':
         bCakeCandles.birthdayCakeCandles()
-    elif choice == '104':
+    elif choice == '204':
         breakListBlocks.merge_the_tools()
 
 #   Call function to exit --------------------------------------------------
