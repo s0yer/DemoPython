@@ -1,10 +1,14 @@
 
 
-finalGrade = []
-grades = [99,40,38,7,37,60]
-grades_count = 6
 
-def gradingStudents(grades):
+def initGrading()
+    finalGrade = []
+    grades = [99, 40, 38, 7, 37, 60]
+    grades_count = 6
+
+    gradingStudents(grades,finalGrade,grades_count)
+
+def gradingStudents(grades,finalGrade,grades_count):
 
     if 1 <= grades_count <= 60:
 

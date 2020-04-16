@@ -1,13 +1,22 @@
 # tem que verificar como os dados são introduzidos primeiramente
 # verificar se é um unico vetor introduzido, ou parametros distintos
-size = 3
-c = []
-d = []
-b = 12
-keyboards = [10,2,3]
-drives = [3,1]
+
+
+def getCashSpent():
+    size = 3
+    c = []
+    d = []
+    b = 12
+    keyboards = [10,2,3]
+    drives = [3,1]
+
+    getMoneySpent(keyboards,drives,b)
 
 def getMoneySpent(keyboards, drives, b):
+
+
+
+    #---------------
     i = 0
     j = 0
     k = 0

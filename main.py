@@ -12,7 +12,6 @@ from conceptsFundamentals import swapCase
 from conceptsFundamentals import tupleDictionary
 from conceptsFundamentals import tuples
 
-
 from PadawanDays import dataTypeConversion
 from PadawanDays import binaryNumbers
 from PadawanDays import dictionaryMaps
@@ -27,7 +26,13 @@ from JediDays import alphabetRangoli
 from JediDays import appleOrangeDistanceTrees
 from JediDays import bCakeCandles
 from JediDays import breakListBlocks
-
+from JediDays import diagonalDifference
+from JediDays import doorMat
+from JediDays import FindAngleTriangle
+from JediDays import FindPercentageDictionary
+from JediDays import findScore
+from JediDays import getMoneySpent
+from JediDays import gradeAnalysis
 
 def endCmd():
     print("End of command Processing :)")
@@ -174,7 +179,7 @@ while waiting_input:
 
 #   Call of functions of the package PadawaDays ---------------------------
 
-    if choice == '101':
+    elif choice == '101':
         dataTypeConversion.dtConversion()
     elif choice == '102':
         binaryNumbers.binaryConversion()
@@ -202,6 +207,21 @@ while waiting_input:
         bCakeCandles.birthdayCakeCandles()
     elif choice == '204':
         breakListBlocks.merge_the_tools()
+    elif choice == '205':
+        diagonalDifference.diagonalDifference()
+    elif choice == '206':
+        doorMat.drawDoor()
+    elif choice == '207':
+        FindAngleTriangle.angleTriangle()
+    elif choice == '208':
+        FindPercentageDictionary.percentageDict()
+    elif choice == '209':
+        findScore.fScore()
+    elif choice == '210':
+        getMoneySpent.getCashSpent()
+    elif choice == '211':
+        gradeAnalysis.initGrading()
+
 
 #   Call function to exit --------------------------------------------------
     elif choice == 'x':
