@@ -21,6 +21,7 @@ from PadawanDays import multiples
 from PadawanDays import oddEven
 from PadawanDays import recursion
 from PadawanDays import reversePrint
+from PadawanDays import powMod
 
 from JediDays import alphabetRangoli
 from JediDays import appleOrangeDistanceTrees
@@ -73,6 +74,7 @@ def screenPadawan():
     print('107: Odd Even')
     print('107: Recursion')
     print('109: Reverse Print')
+    print('110: pow Function')
 
     print('s: Sair. ')
     print("---------------------------------------------------------------------------------")
@@ -197,6 +199,8 @@ while waiting_input:
         recursion.factorial()
     elif choice == '109':
         reversePrint.reverseP()
+    elif choice == '110':
+        powMod.powFunc()
 
 #   Call of functions of the package JediDays ---------------------------
     elif choice == '201':

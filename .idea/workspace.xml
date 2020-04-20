@@ -149,11 +149,11 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.main" />
+      <item itemvalue="Python.arquivos" />
+      <item itemvalue="Python.binaryNumbers (1)" />
       <item itemvalue="Python.dataTypeConversion" />
       <item itemvalue="Python.main (1)" />
-      <item itemvalue="Python.binaryNumbers (1)" />
-      <item itemvalue="Python.arquivos" />
+      <item itemvalue="Python.main" />
     </list>
     <recent_temporary>
       <list>
