@@ -14,3 +14,5 @@ def dtConversion():
     print(type(flutuante))
     print(corda)
     print(type(corda))
+
+    return pow(i,2)
