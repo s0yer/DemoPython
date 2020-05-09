@@ -1,0 +1,5 @@
+Version 1.0.0
+
+- Main screen in console
+- 3 lvls of algorithms
+
