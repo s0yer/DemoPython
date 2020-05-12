@@ -9,6 +9,11 @@ class Car:
         self.top_speed_init = start_speed
         self.observations = []
 
+    # return de output / return -> need to be a string
+    def __repr__(self):
+        print('Special Methods!!!')
+        return 'Speed: {}, Observations:{}'.format(self.top_speed_init,len(self.observations))
+
     def drive(self):
         print('I am driving in the speed {}'.format(self.top_speed))
 
@@ -39,7 +44,6 @@ def unwanted_behavior():
     return 0
 
 
-
    # you dont change class atributes of the other instances
 def desired_behavior():
     # creation of the concrete object
@@ -62,6 +66,22 @@ def desired_behavior():
 
     return 1
 
+def special_methods():
+
+    car_green = Car()
+
+    #Address object in memory
+    print(car_green)
+    #Object as a dictionary
+    print(car_green.__dict__)
+
+    print(car_green)
+
+    print('-------------------------------------------------------------')
+
+    return 2
+
 
 desired_behavior()
 unwanted_behavior()
+special_methods()
