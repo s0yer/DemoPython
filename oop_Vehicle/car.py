@@ -1,7 +1,7 @@
-# blueprint of the  class
+# blueprint class
 class Car:
-    #class atribute
-    #top_speed = 100
+    #class atribute (dont use atributes here, bad behavior)
+    top_speed = 100
     warnings = []
 
     #special metod, define atributes, converges to desired behavior
@@ -10,10 +10,14 @@ class Car:
         self.observations = []
 
     def drive(self):
-       # print('I am driving in the speed {}'.format(self.top_speed))
+        print('I am driving in the speed {}'.format(self.top_speed))
+
+    def drive_init(self):
         print('I am driving in the speed {}'.format(self.top_speed_init))
-'''
+
 def unwanted_behavior():
+    print('Unwanted Behavior:')
+
     # creation of the concrete object
     car_purple = Car()
     car_purple.drive()
@@ -33,24 +37,25 @@ def unwanted_behavior():
     print('-------------------------------------------------------------')
 
     return 0
-'''
+
 
 
    # you dont change class atributes of the other instances
 def desired_behavior():
     # creation of the concrete object
-    car_yellow = Car()
-    car_yellow.drive()
+    print('Desired Behavior:')
 
-   # Car.top_speed_init = 89
+    car_yellow = Car()
+    car_yellow.drive_init()
+
     car_yellow.observations.append('observation of change')
 
     car_red = Car(89)
-    car_red.drive()
+    car_red.drive_init()
     print(car_red.observations)
 
     car_blaze = Car(144)
-    car_blaze.drive()
+    car_blaze.drive_init()
     print(car_blaze.observations)
 
     print('-------------------------------------------------------------')
@@ -59,4 +64,4 @@ def desired_behavior():
 
 
 desired_behavior()
-#unwanted_behavior()
+unwanted_behavior()
