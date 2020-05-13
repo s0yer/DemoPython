@@ -1,4 +1,5 @@
 # blueprint class
+# encapsulation -> private and public
 class Car:
     #class atribute (dont use atributes here, bad behavior)
     top_speed = 100
@@ -6,17 +7,30 @@ class Car:
 
     #special metod, define atributes, converges to desired behavior
     def __init__(self, start_speed = 55):
+        #public atributes
         self.top_speed_init = start_speed
         self.observations = []
+        #private atribute
+        self.__secret_observations = []
 
     # return de output / return -> need to be a string
     def __repr__(self):
         print('Special Methods!!!')
         return 'Speed: {}, Observations:{}'.format(self.top_speed_init,len(self.observations))
 
+    # private method to add obs in the list -> __secret_observations
+    def add_secret_observation(self, observation_text):
+        if len(observation_text) > 0:
+            self.__secret_observations.append(observation_text)
+
+    # to access the value in secret_observations<private>
+    def get_observations(self):
+        return self.__secret_observations
+    #function access directly the class
     def drive(self):
         print('I am driving in the speed {}'.format(self.top_speed))
 
+    #function that change the atribute instantiated
     def drive_init(self):
         print('I am driving in the speed {}'.format(self.top_speed_init))
 
@@ -75,13 +89,20 @@ def special_methods():
     #Object as a dictionary
     print(car_green.__dict__)
 
-    print(car_green)
-
     print('-------------------------------------------------------------')
 
     return 2
 
+def private_method():
+
+    car_black = Car()
+    car_black.add_secret_observation('The way to do it is to be.')
+    print(car_black.get_observations())
+    print('-------------------------------------------------------------')
+
+    return 3
 
 desired_behavior()
 unwanted_behavior()
 special_methods()
+private_method()
