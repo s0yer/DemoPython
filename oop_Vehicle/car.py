@@ -12,6 +12,7 @@ class Car:
         self.observations = []
         #private atribute
         self.__secret_observations = []
+        self.trunk_size = 5
 
     # return de output / return -> need to be a string
     def __repr__(self):
@@ -33,6 +34,9 @@ class Car:
     #function that change the atribute instantiated
     def drive_init(self):
         print('I am driving in the speed {}'.format(self.top_speed_init))
+
+    def get_trunk_size(self):
+        print('The size of the trunk of this vehicle is {}'.format(self.trunk_size))
 
 def unwanted_behavior():
     print('Unwanted Behavior:')
@@ -102,7 +106,17 @@ def private_method():
 
     return 3
 
+def public_method():
+
+    car_orange = Car()
+    car_orange.trunk_size = 8
+    car_orange.get_trunk_size()
+    print('-------------------------------------------------------------')
+
+    return 4
+
 desired_behavior()
 unwanted_behavior()
 special_methods()
 private_method()
+public_method()
