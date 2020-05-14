@@ -5,18 +5,17 @@ class Vehicle:
     warnings = []
 
     # special metod, define atributes, converges to desired behavior
-    def __init__(self, start_speed=55):
+    def __init__(self, start_speed=34):
         # public atributes
         self.top_speed_init = start_speed
         self.observations = []
         # private atribute
         self.__secret_observations = []
-        self.trunk_size = 5
 
     # return de output / return -> need to be a string
     def __repr__(self):
         print('Special Methods!!!')
-        return 'Speed: {}, Observations:{}'.format(self.top_speed_init, len(self.observations))
+        return 'Speed: {}, Observations:{}, Secret Observations: {}'.format(self.top_speed_init, len(self.observations),len(self.__secret_observations))
 
     # private method to add obs in the list -> __secret_observations
     def add_secret_observation(self, observation_text):

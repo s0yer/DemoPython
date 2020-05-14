@@ -4,7 +4,12 @@ from vehicle import Vehicle
 # encapsulation -> private and public
 class Car(Vehicle):
 
+    # special metod, define atributes, converges to desired behavior
+    def __init__(self, start_speed=55):
+        super().__init__(start_speed)
+        self.trunk_size = 5
 
+    # method class car
     def get_trunk_size(self):
         print('The size of the trunk of this vehicle is {}'.format(self.trunk_size))
 
