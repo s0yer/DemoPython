@@ -1,7 +1,9 @@
 #!/usr/bin/python
+import oop_Vehicle
+import oop_Properties
 
 from conceptsFundamentals import arquivos
-from conceptsFundamentals import commandList
+# from conceptsFundamentals import commandList
 from conceptsFundamentals import dictionariesMaps
 from conceptsFundamentals import dynamicDescompression
 from conceptsFundamentals import ListDictionary
@@ -32,8 +34,8 @@ from JediDays import doorMat
 from JediDays import FindAngleTriangle
 from JediDays import FindPercentageDictionary
 from JediDays import findScore
-from JediDays import getMoneySpent
-from JediDays import gradeAnalysis
+# from JediDays import getMoneySpent
+# from JediDays import gradeAnalysis
 
 def endCmd():
     print("End of command Processing :)")
@@ -75,6 +77,7 @@ def screenPadawan():
     print('107: Recursion')
     print('109: Reverse Print')
     print('110: pow Function')
+    print('111: Classes')
 
     print('s: Sair. ')
     print("---------------------------------------------------------------------------------")
@@ -201,6 +204,9 @@ while waiting_input:
         reversePrint.reverseP()
     elif choice == '110':
         powMod.powFunc()
+    elif choice == '111':
+        casa.exe_casa()
+        condominio.exe_condominio()
 
 #   Call of functions of the package JediDays ---------------------------
     elif choice == '201':

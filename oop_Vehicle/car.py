@@ -90,8 +90,9 @@ def public_method():
 
     return 4
 
-desired_behavior()
-unwanted_behavior()
-special_methods()
-private_method()
-public_method()
+def exe_car():
+    desired_behavior()
+    unwanted_behavior()
+    special_methods()
+    private_method()
+    public_method()

@@ -13,10 +13,11 @@ class Condominio(Lar):
         mensalidade_total = self.eletricidade + self.agua + self.area * 1.09
         return mensalidade_total
 
-cond1 = Condominio()
-cond2 = Condominio(100,200,300)
+def exe_condominio():
+    cond1 = Condominio()
+    cond2 = Condominio(100,200,300)
 
-print(cond1.mensalidade())
-print(cond1.get_alerta)
-print(cond2.mensalidade())
-print(cond2.get_alerta)
+    print(cond1.mensalidade())
+    print(cond1.get_alerta)
+    print(cond2.mensalidade())
+    print(cond2.get_alerta)

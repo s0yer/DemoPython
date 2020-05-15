@@ -3,7 +3,7 @@
 def cmdList():
 
 
-    N = int(input())
+    N = 5
     cmdList = []
 
 	for el in range(N):

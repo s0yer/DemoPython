@@ -13,15 +13,16 @@ class Casa(Lar):
     def imposto(self):
         print('o IPTU sera calculado sobre a area de {}'.format(self.area))
 
-        
-# Instanciação
-casa1 = Casa()
-casa2 = Casa(150)
 
-print(casa1.get_alerta)
-casa1.imposto()
-print(casa1.__dict__)
+def exe_casa():
+    # Instanciação
+    casa1 = Casa()
+    casa2 = Casa(150)
 
-print(casa2.get_alerta)
-casa2.imposto()
-print(casa2)
+    print(casa1.get_alerta)
+    casa1.imposto()
+    print(casa1.__dict__)
+
+    print(casa2.get_alerta)
+    casa2.imposto()
+    print(casa2)
