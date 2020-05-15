@@ -1,14 +1,14 @@
 #exemplo de classe
 
-#
 from oop_Properties.lar import Lar
 
 class Condominio(Lar):
 
     #Construtor e super para acessar a classe pai / Constructor and super to access the parent class
     def __init__(self, area = 349, eletricidade = 223, agua = 191):
+        #acessa dados da classe filha
         super().__init__(area, eletricidade, agua)
-
+    #metodo exclusivo de condominio
     def mensalidade(self):
         mensalidade_total = self.eletricidade + self.agua + self.area * 1.09
         return mensalidade_total

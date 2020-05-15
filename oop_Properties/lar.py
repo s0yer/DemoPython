@@ -1,4 +1,4 @@
-#exemplo de classe
+#exemplo de classe / projeto de classe / blueprint class
 
 class Lar:
 
@@ -17,7 +17,8 @@ class Lar:
     def add_alerta(self, alerta_texto):
         if len(alerta_texto) > 0:
             self.__alertas.append(alerta_texto)
-
+            
+    #acessa atributo privado
     def get_alerta(self):
         return self.__alertas
 
