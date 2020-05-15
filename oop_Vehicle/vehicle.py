@@ -1,4 +1,5 @@
-class Vehicle:
+
+class Vehicle():
 
     # class atribute (dont use atributes here, bad behavior)
     top_speed = 100

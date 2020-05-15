@@ -1,4 +1,4 @@
-from vehicle import Vehicle
+from oop_Vehicle.vehicle import Vehicle
 
 # blueprint class
 # encapsulation -> private and public

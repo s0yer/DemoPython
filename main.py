@@ -1,6 +1,10 @@
 #!/usr/bin/python
-import oop_Vehicle
-import oop_Properties
+
+from oop_Properties import casa
+from oop_Properties import condominio
+
+from oop_Vehicle import bus
+from oop_Vehicle import car
 
 from conceptsFundamentals import arquivos
 # from conceptsFundamentals import commandList
@@ -205,8 +209,14 @@ while waiting_input:
     elif choice == '110':
         powMod.powFunc()
     elif choice == '111':
+        print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
         casa.exe_casa()
         condominio.exe_condominio()
+        print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
+        bus.exe_bus()
+        car.exe_car()
+        print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
+
 
 #   Call of functions of the package JediDays ---------------------------
     elif choice == '201':
