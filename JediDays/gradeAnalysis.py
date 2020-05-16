@@ -1,14 +1,16 @@
 
 
-
-def initGrading()
+def initGrading():
+    global finalGrade 
+    global grades
+    global grades_count
     finalGrade = []
     grades = [99, 40, 38, 7, 37, 60]
     grades_count = 6
 
-    gradingStudents(grades,finalGrade,grades_count)
 
-def gradingStudents(grades,finalGrade,grades_count):
+
+def gradingStudents():
 
     if 1 <= grades_count <= 60:
 
@@ -29,11 +31,12 @@ def gradingStudents(grades,finalGrade,grades_count):
         print('Digite um valor valido')
 
 
-    for val in finalGrade:
+        for val in finalGrade:
 
-        print(val)
-    print(grades)
+            print(val)
+        print(grades)
+
     return finalGrade
 
-
-print(gradingStudents(grades))
+initGrading()
+print(gradingStudents())

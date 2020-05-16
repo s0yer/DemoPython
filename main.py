@@ -39,7 +39,7 @@ from JediDays import FindAngleTriangle
 from JediDays import FindPercentageDictionary
 from JediDays import findScore
 # from JediDays import getMoneySpent
-# from JediDays import gradeAnalysis
+from JediDays import gradeAnalysis
 
 def endCmd():
     print("End of command Processing :)")
@@ -61,7 +61,7 @@ def screenJedi():
     print('208: Find Percentage Dictionary')
     print('210: Find Score')
     print('211: Get Money Spent')
-
+    print('212: Grade Analisis')
     print('s: Sair. ')
     print("---------------------------------------------------------------------------------")
 
@@ -239,8 +239,9 @@ while waiting_input:
         findScore.fScore()
     elif choice == '210':
         getMoneySpent.getCashSpent()
-    elif choice == '211':
+    elif choice == '212':
         gradeAnalysis.initGrading()
+        gradeAnalysis.gradingStudents()
 
 
 #   Call function to exit --------------------------------------------------
