@@ -1,6 +1,6 @@
 # Recursion
 
-n = 4
+
 
 def factorial(n):
     # stop condition
@@ -9,8 +9,13 @@ def factorial(n):
     else:
         return n * factorial(n-1)
 
-# constrain
-if 2 <= n <= 12:
-       factorial(n)
-else:
+def exe_factorial():
+
+    # constrain
+    el = 4
+    if 2 <= el <= 12:
+        print(factorial(el))
+    else:
         print("n needs to be between [2,12]")
+
+exe_factorial()
