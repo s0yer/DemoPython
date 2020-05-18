@@ -7,7 +7,6 @@ from oop_Vehicle import bus
 from oop_Vehicle import car
 
 from conceptsFundamentals import arquivos
-# from conceptsFundamentals import commandList
 from conceptsFundamentals import dictionariesMaps
 from conceptsFundamentals import dynamicDescompression
 from conceptsFundamentals import ListDictionary
@@ -38,7 +37,6 @@ from JediDays import doorMat
 from JediDays import FindAngleTriangle
 from JediDays import FindPercentageDictionary
 from JediDays import findScore
-# from JediDays import getMoneySpent
 from JediDays import gradeAnalysis
 
 def endCmd():
@@ -78,7 +76,7 @@ def screenPadawan():
     print('105: List Comprehensions')
     print('106: Multiples')
     print('107: Odd Even')
-    print('107: Recursion')
+    print('108: Recursion')
     print('109: Reverse Print')
     print('110: pow Function')
     print('111: Classes')
@@ -95,7 +93,6 @@ def screenConcepFund():
     print("-----------------------------------------------------------------")
     print('Choose the option: ')
     print('1: Arquivos')
-    print('2: Command List')
     print('3: Dictionaries Maps')
     print('4: Dynamic Descompression')
     print('5: List Dictionary')
@@ -166,7 +163,7 @@ while waiting_input:
     if choice == '1':
         arquivos.writeArchive()
     elif choice == '2':
-        commandList.cmdList()
+        print("Before failing for a reason that praises an idiot.")
     elif choice == '3':
         dictionariesMaps.dictMaps()
     elif choice == '4':
