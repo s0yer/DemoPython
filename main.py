@@ -111,7 +111,7 @@ def doorWelcome():
     alphabetRangoli.print_rangoli()
 
 def mainScreen():
-
+class
     print("---------------------------------------------------------------------------------")
     print('Choose the option: ')
     print('a: Concepts Fundamentals ')
