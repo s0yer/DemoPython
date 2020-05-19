@@ -112,9 +112,6 @@ def doorWelcome():
 
 def mainScreen():
 
-    doorWelcome()
-    print("---------------------------------------------------------------------------------")
-    print("                                     WELCOME")
     print("---------------------------------------------------------------------------------")
     print('Choose the option: ')
     print('a: Concepts Fundamentals ')
@@ -127,6 +124,10 @@ def mainScreen():
 
 screenState = '0'
 waiting_input = True
+doorWelcome()
+print("---------------------------------------------------------------------------------")
+print("                                     WELCOME")
+print("---------------------------------------------------------------------------------")
 
 while waiting_input:
 
@@ -254,5 +255,8 @@ while waiting_input:
 
 else:
     alphabetRangoli.print_rangoli()
+    print("---------------------------------------------------------------------------------")
+    print("                                     BYE ;)")
+    print("---------------------------------------------------------------------------------")
     print('Deixando usuário')
 

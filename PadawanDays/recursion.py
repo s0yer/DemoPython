@@ -1,7 +1,4 @@
 # Recursion
-
-
-
 def factorial(n):
     # stop condition
     if n == 0 or n == 1:
