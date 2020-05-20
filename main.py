@@ -39,6 +39,8 @@ from JediDays import FindPercentageDictionary
 from JediDays import findScore
 from JediDays import gradeAnalysis
 
+import screen
+
 def endCmd():
     print("End of command Processing :)")
 
@@ -46,94 +48,20 @@ def get_user_choice():
     choice = input('Your Choice: ')
     return choice
 
-def screenJedi():
-    print("---------------------------------------------------------------------------------")
-    print('Choose the option: ')
-    print('201: Alphabet Rangnoli ')
-    print('202: Distance Apple-Orange Trees')
-    print('203: Birthday Cake Candles')
-    print('204: Break List Blocks')
-    print('205: Diagonal Difference')
-    print('206: Door Math pattern')
-    print('207: Find Angle Triangle')
-    print('208: Find Percentage Dictionary')
-    print('210: Find Score')
-    print('211: Get Money Spent')
-    print('212: Grade Analisis')
-    print('s: Sair. ')
-    print("---------------------------------------------------------------------------------")
-
-
-
-def screenPadawan():
-
-    print("---------------------------------------------------------------------------------")
-    print('Choose the option: ')
-    print('101: Data type conversion')
-    print('102: Binary Conversion')
-    print('103: Dictionary Maps')
-    print('104: Even Odd String Print')
-    print('105: List Comprehensions')
-    print('106: Multiples')
-    print('107: Odd Even')
-    print('108: Recursion')
-    print('109: Reverse Print')
-    print('110: pow Function')
-    print('111: Classes')
-
-    print('s: Sair. ')
-    print("---------------------------------------------------------------------------------")
-    screenState = '1'
-
-
-def screenConcepFund():
-
-
-
-    print("-----------------------------------------------------------------")
-    print('Choose the option: ')
-    print('1: Arquivos')
-    print('3: Dictionaries Maps')
-    print('4: Dynamic Descompression')
-    print('5: List Dictionary')
-    print('6: Function Print')
-    print('7: String Validators')
-    print('8: Swap Case')
-    print('10: Tuple Dictionary')
-    print('11: Tuples')
-
-    print('s: Sair. ')
-    print("---------------------------------------------------------------------------------")
-    screenState = '2'
-
 
 def doorWelcome():
     alphabetRangoli.print_rangoli()
 
-def mainScreen():
-class
-    print("---------------------------------------------------------------------------------")
-    print('Choose the option: ')
-    print('a: Concepts Fundamentals ')
-    print('b: Problems Solved lvl padawan :)')
-    print('c: Problems Solved lvl Jedi :3')
-    print('x: Exit. ')
-    print("---------------------------------------------------------------------------------")
-    screenState = '0'
-
-
 screenState = '0'
 waiting_input = True
 doorWelcome()
-print("---------------------------------------------------------------------------------")
-print("                                     WELCOME")
-print("---------------------------------------------------------------------------------")
+
 
 while waiting_input:
 
 #   State of the Screen -----------------------------------------------------
     if screenState == '0':
-        mainScreen()
+        screen.mainScreen()
     elif screenState == '1':
         screenPadawan()
     elif screenState == '2':
@@ -147,13 +75,13 @@ while waiting_input:
 #   Call of the screen and change of screen states -------------------
 
     if choice == 'a':
-        screenConcepFund()
+        screen.screenConcepFund()
         choice = get_user_choice()
     elif choice == 'b':
-        screenPadawan()
+        screen.screenPadawan()
         choice = get_user_choice()
     elif choice == 'c':
-        screenJedi()
+        screen.screenJedi()
         print('On Going ... :)')
         choice = get_user_choice()
     else:
@@ -255,8 +183,5 @@ while waiting_input:
 
 else:
     alphabetRangoli.print_rangoli()
-    print("---------------------------------------------------------------------------------")
-    print("                                     BYE ;)")
-    print("---------------------------------------------------------------------------------")
-    print('Deixando usuário')
+
 
