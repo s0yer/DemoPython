@@ -1,7 +1,5 @@
 # Finding the percentage + dictionary
 
-
-
 def percentageDict():
 
     n = 3
@@ -13,3 +11,5 @@ def percentageDict():
         i += 1
 
     average = student_marks[name] / n
+
+    print(average)
