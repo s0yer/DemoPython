@@ -17,6 +17,7 @@ from conceptsFundamentals import swapCase
 from conceptsFundamentals import tupleDictionary
 from conceptsFundamentals import tuples
 
+
 from PadawanDays import dataTypeConversion
 from PadawanDays import binaryNumbers
 from PadawanDays import dictionaryMaps
@@ -47,7 +48,6 @@ def endCmd():
 def get_user_choice():
     choice = input('Your Choice: ')
     return choice
-
 
 def doorWelcome():
     alphabetRangoli.print_rangoli()

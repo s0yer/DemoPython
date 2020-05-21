@@ -35,4 +35,3 @@ def dictMaps():
     else:
         print("consulted 5 times, end...")
 
-print(dictMaps())
