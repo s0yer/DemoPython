@@ -135,13 +135,14 @@ while waiting_input:
     elif choice == '110':
         powMod.powFunc()
     elif choice == '111':
-        print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
+        screen.fence1()
         casa.exe_casa()
         condominio.exe_condominio()
-        print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
+
+        screen.fence1()
         bus.exe_bus()
         car.exe_car()
-        print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
+        screen.fence1()
 
 
 #   Call of functions of the package JediDays ---------------------------
@@ -170,7 +171,7 @@ while waiting_input:
         gradeAnalysis.gradingStudents()
 
 
-#   Call function to exit --------------------------------------------------
+#   Call function to exit --------------------------------------------------------
     elif choice == 'x':
         waiting_input = False
 #   Last Tratament ---------------------------------------------------------------
@@ -179,7 +180,7 @@ while waiting_input:
         print("Invalid input, get a value from the options! ")
 
     if not endCmd():
-        print("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++")
+        screen.fence1()
 
 else:
     alphabetRangoli.print_rangoli()
