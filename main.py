@@ -17,7 +17,6 @@ from conceptsFundamentals import swapCase
 from conceptsFundamentals import tupleDictionary
 from conceptsFundamentals import tuples
 
-
 from PadawanDays import dataTypeConversion
 from PadawanDays import binaryNumbers
 from PadawanDays import dictionaryMaps
@@ -54,15 +53,26 @@ def doorWelcome():
     alphabetRangoli.print_rangoli()
 
 def exe_function(data):
-    arq = open('log.txt', mode='a')
-    arq.write('-----------------------------------------------------------------------------\n')
-    # sao paulo UTC-3
-    fuso = timezone(timedelta(hours=-3))
-    data_hours_SP  = datetime.now().astimezone(fuso)
-    # %X = H/M/S   %H:%M = H/M
-    arq.write(data_hours_SP.strftime('%d/%m/%Y %X') + '\n')
-    arq.write(str(data) + '\n')
-    arq.close()
+
+    try:
+        arq = open('log.txt', mode='a')
+        arq.write('-----------------------------------------------------------------------------\n')
+        # sao paulo UTC-3
+        fuso = timezone(timedelta(hours=-3))
+        data_hours_SP  = datetime.now().astimezone(fuso)
+        # %X = H/M/S   %H:%M = H/M
+        arq.write(data_hours_SP.strftime('%d/%m/%Y %X') + '\n')
+        arq.write(str(data) + '\n')
+        arq.close()
+
+    except IOError:
+        print('File not found')
+    except ValueError:
+        print('Value error')
+    except:
+        print('unknown error')
+    finally:
+        print('Cleanup')
 
 screenState = '0'
 waiting_input = True
@@ -71,7 +81,7 @@ doorWelcome()
 
 while waiting_input:
 
-#   State of the Screen -----------------------------------------------------
+#   State of the Screen ------------------------------------------------------
     if screenState == '0':
         screen.mainScreen()
     elif screenState == '1':
@@ -81,10 +91,10 @@ while waiting_input:
     else:
         print("screen Error!")
 
-#   Get user choice by keyboard ---------------------------------
+#   Get user choice by keyboard ----------------------------------------------
     choice = get_user_choice()
 
-#   Call of the screen and change of screen states -------------------
+#   Call of the screen and change of screen states ---------------------------
 
     if choice == 'a':
         screen.screenConcepFund()
@@ -99,7 +109,7 @@ while waiting_input:
     else:
         print('Screen Error!')
 
-#   Call of functions of the package conceptsFundamentals ---------------------------
+#   Call of functions of the package conceptsFundamentals ---------------------
 
     if choice == '1':
         arquivos.writeArchive()
