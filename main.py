@@ -41,6 +41,7 @@ from JediDays import findScore
 from JediDays import gradeAnalysis
 
 import screen
+from datetime import datetime, timezone, timedelta
 
 def endCmd():
     print("End of command Processing :)")
@@ -55,7 +56,11 @@ def doorWelcome():
 def exe_function(data):
     arq = open('log.txt', mode='a')
     arq.write('-----------------------------------------------------------------------------\n')
-    arq.write('adicionando conteudo ...\n')
+    # sao paulo UTC-3
+    fuso = timezone(timedelta(hours=-3))
+    data_hours_SP  = datetime.now().astimezone(fuso)
+    # %X = H/M/S   %H:%M = H/M
+    arq.write(data_hours_SP.strftime('%d/%m/%Y %X') + '\n')
     arq.write(str(data) + '\n')
     arq.close()
 
