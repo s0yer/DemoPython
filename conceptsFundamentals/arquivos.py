@@ -2,14 +2,17 @@
 
 def writeArchive():
 
+    #overwrite data
     arq = open('arq_demo.txt', mode='w') # sobrescreve / overwrite
     arq.write('salvando string...\n')
     arq.close()
 
+    # open and add data / append
     arq = open('arq_demo.txt', mode='a')
     arq.write('adicionando conteudo ...\n')
     arq.close()
 
+    # open and read
     arq = open('arq_demo.txt', mode='r')
     conteudo_arquivo=arq.read()
     arq.close()

@@ -52,6 +52,13 @@ def get_user_choice():
 def doorWelcome():
     alphabetRangoli.print_rangoli()
 
+def exe_function(data):
+    arq = open('log.txt', mode='a')
+    arq.write('-----------------------------------------------------------------------------\n')
+    arq.write('adicionando conteudo ...\n')
+    arq.write(str(data) + '\n')
+    arq.close()
+
 screenState = '0'
 waiting_input = True
 doorWelcome()
@@ -96,7 +103,7 @@ while waiting_input:
     elif choice == '3':
         dictionariesMaps.dictMaps()
     elif choice == '4':
-        dynamicDescompression.dynamicDesc()
+        exe_function(dynamicDescompression.dynamicDesc())
     elif choice == '5':
         ListDictionary.listDictionary()
     elif choice == '6':
