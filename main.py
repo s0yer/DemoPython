@@ -116,7 +116,7 @@ while waiting_input:
     elif choice == '2':
         print("Before failing for a reason that praises an idiot.")
     elif choice == '3':
-        dictionariesMaps.dictMaps()
+        exe_function(dictionariesMaps.dictMaps())
     elif choice == '4':
         exe_function(dynamicDescompression.dynamicDesc())
     elif choice == '5':

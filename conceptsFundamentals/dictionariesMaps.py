@@ -25,6 +25,7 @@ def dictMaps():
             queryName = consult.strip()
             if queryName in dictPhones:
                 print('{}={}'.format(queryName, dictPhones[queryName]))
+                x = '{}={}'.format(queryName, dictPhones[queryName])
             else:
                 print('Not found')
 
@@ -35,3 +36,5 @@ def dictMaps():
     else:
         print("consulted 5 times, end...")
 
+
+    return x
