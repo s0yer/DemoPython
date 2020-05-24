@@ -5,7 +5,6 @@ def dynamicDesc():
 
     #descompactação dinâmica / dynamic decompression
     # dynamic decompression
-
-    b = 'elementos : {} {} {}'.format(*a)
+    b = ['dynamicDesc() ', 'elementos : {} {} {}'.format(*a)]
     print(b)
     return b
