@@ -120,7 +120,7 @@ while waiting_input:
     elif choice == '4':
         exe_function(dynamicDescompression.dynamicDesc())
     elif choice == '5':
-        ListDictionary.listDictionary()
+        exe_function(ListDictionary.listDictionary())
     elif choice == '6':
         nestedLists.nestedL()
     elif choice == '7':
