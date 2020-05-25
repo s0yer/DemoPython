@@ -34,7 +34,7 @@ def listDictionary():
     s ={'Jadson', 'Keira', 'Katy'}
     print(s)
     print('-------------------------------------------------------------------------------')
-    list_answer = [lista, d, t.index(3), veficicaIndice(), s]
+    list_answer = ['listDictionary()',lista, d, t.index(3), veficicaIndice(), s]
     print(list_answer)
     print('-------------------------------------------------------------------------------')
 

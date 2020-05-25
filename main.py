@@ -124,7 +124,7 @@ while waiting_input:
     elif choice == '5':
         exe_function(ListDictionary.listDictionary())
     elif choice == '6':
-        nestedLists.nestedL()
+        exe_function(nestedLists.nestedL())
     elif choice == '7':
         printFunction.printFunc()
     elif choice == '8':
