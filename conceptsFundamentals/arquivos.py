@@ -17,22 +17,30 @@ def writeArchive():
     conteudo_arquivo=arq.read()
     arq.close()
 
+    a = 'string'
+
     try:
         # uso de with
-        with open('arq_demo.txt', mode='w') as arq:
-
-            arq.write('Testa se esta fechando !')
+        arq = open('arq_demo.txt', mode='a')
+        a = 'Testa se esta escrevendo! / try write test'
+        arq.write(a + '\n')
         #entrada_usuario = input('Digite algo: ')
-
+        arq.close()
     except IOError:
-        print('arquivo nao encontrado')
+        a = 'arquivo nao encontrado'
+        print(a)
     except ValueError:
-        print('Erro de valor')
+        a = 'Erro de valor'
+        print(a)
     except:
-        print('Erro desconhecido / coringa')
+        a = 'Erro desconhecido / coringa'
+        print(a)
     finally:
-        print('Cleanup')
+        b = 'Cleanup'
+        print(b)
 
     print('Fim.')
 
-    return ('wrinting function txt ..')
+    list_answer = ['writeArchive()', a, b]
+
+    return list_answer

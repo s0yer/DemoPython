@@ -112,7 +112,7 @@ while waiting_input:
 #   Call of functions of the package conceptsFundamentals ---------------------
 
     if choice == '1':
-        arquivos.writeArchive()
+        exe_function(arquivos.writeArchive())
     elif choice == '2':
         print("Before failing for a reason that praises an idiot.")
     elif choice == '3':
