@@ -36,5 +36,5 @@ def dictMaps():
     else:
         print("consulted 5 times, end...")
 
-
-    return x
+    list_answer = ['dictMaps()', x]
+    return list_answer

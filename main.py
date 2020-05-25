@@ -114,7 +114,9 @@ while waiting_input:
     if choice == '1':
         exe_function(arquivos.writeArchive())
     elif choice == '2':
-        print("Before failing for a reason that praises an idiot.")
+        phrase = ["Before failing for a reason that praises an idiot."]
+        exe_function(phrase)
+        print(phrase)
     elif choice == '3':
         exe_function(dictionariesMaps.dictMaps())
     elif choice == '4':

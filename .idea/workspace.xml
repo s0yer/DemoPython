@@ -37,15 +37,15 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\jdsen\OneDrive\GitHub\DemoPython\conceptsFundamentals" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\jdsen\OneDrive\GitHub\DemoPython" />
       <recent name="C:\Users\jdsen\OneDrive\GitHub\DemoPython\30days" />
       <recent name="C:\Users\jdsen\OneDrive\GitHub\DemoPython\conceptsFundamentals" />
       <recent name="C:\Users\jdsen\OneDrive\GitHub\DemoPython\ProblemsSolved" />
       <recent name="C:\Users\jdsen\OneDrive\GitHub\DemoPython\Scripts" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jdsen\OneDrive\GitHub\DemoPython\conceptsFundamentals" />
     </key>
   </component>
   <component name="RunManager" selected="Python.main">
