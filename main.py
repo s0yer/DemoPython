@@ -126,11 +126,11 @@ while waiting_input:
     elif choice == '6':
         exe_function(nestedLists.nestedL())
     elif choice == '7':
-        printFunction.printFunc()
+        exe_function(printFunction.printFunc())
     elif choice == '8':
-        stringValidators.stringValid()
+        exe_function(stringValidators.stringValid())
     elif choice == '9':
-        swapCase.swap_case()
+        exe_function(swapCase.swap_case())
     elif choice == '10':
         tupleDictionary.callArgDic()
     elif choice == '11':
