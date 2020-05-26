@@ -47,8 +47,9 @@ def screenConcepFund():
     print('4: Dynamic Descompression')
     print('5: List Dictionary')
     print('6: Nested List')
-    print('7: String Validators')
-    print('8: Swap Case')
+    print('7: Print Function')
+    print('8: String Validators')
+    print('9: Swap Case')
     print('10: Tuple Dictionary')
     print('11: Tuples')
 
