@@ -33,7 +33,13 @@ a single boolean.
 """
 def stringValid():
 
-    s = input()
+    s = 'Future'
+    string_list = ['stringValid()', s]
 
+    # evaluates the parameters -> str.isalnum, str.isalpha, str.isdigit, str.islower, str.isupper
     for method in [str.isalnum, str.isalpha, str.isdigit, str.islower, str.isupper]:
         print(any(method(c) for c in s))
+        k = any(method(c) for c in s)
+        string_list.append(k)
+
+    return string_list
