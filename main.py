@@ -132,16 +132,16 @@ while waiting_input:
     elif choice == '9':
         exe_function(swapCase.swap_case())
     elif choice == '10':
-        tupleDictionary.callArgDic()
+        exe_function(tupleDictionary.callArgDic())
     elif choice == '11':
-        tuples.callArgInf()
+        exe_function(tuples.callArgInf())
 
 #   Call of functions of the package PadawaDays ---------------------------
 
     elif choice == '101':
         dataTypeConversion.dtConversion()
     elif choice == '102':
-        binaryNumbers.binaryConversion()
+        exe_function(binaryNumbers.binaryConversion())
     elif choice == '103':
         dictionaryMaps.dictMaps()
     elif choice == '104':
