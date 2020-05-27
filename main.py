@@ -139,7 +139,7 @@ while waiting_input:
 #   Call of functions of the package PadawaDays ---------------------------
 
     elif choice == '101':
-        dataTypeConversion.dtConversion()
+        exe_function(dataTypeConversion.dtConversion())
     elif choice == '102':
         exe_function(binaryNumbers.binaryConversion())
     elif choice == '103':

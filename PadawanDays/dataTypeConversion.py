@@ -1,12 +1,13 @@
 # python 3.7
 
 def dtConversion():
-
+    dtConv_list = ['dtConversion()']
     i = 21.13853211
 
     inteiro = int(i)
     flutuante = float(i)
     corda = str(i)
+    dtConv_list.append([[inteiro,flutuante,corda],[type(inteiro), type(flutuante), type(corda)],[pow(i, 2)]])
 
     print(inteiro)
     print(type(inteiro))
@@ -15,4 +16,6 @@ def dtConversion():
     print(corda)
     print(type(corda))
 
-    return pow(i,2)
+
+
+    return dtConv_list
