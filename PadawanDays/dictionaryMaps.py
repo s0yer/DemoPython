@@ -8,20 +8,28 @@
     fptr.close()
 
     '''
-n = 3
-ent = ('kandra', 123456789)
-#ent = str(input()).split()
-query = "kandra"
+
 
 def dictMaps():
+    list_dictMaps = ['dictMaps']
+    n = 3
+    entrance = 'Triss 123456789'
+    # ent = str(input()).split()
+    query = "Triss"
+    q = 1
+
     if 1 <= n <= 100000:
-        if 1 <= query <= 100000:
+        if 1 <= q <= 100000:
             for i in range(n):
-                ent = entrance.rsplit(", ")
+                entrance = entrance.rsplit(", ")
                 myDict = dict(query)
 
             if key in myDict:
                 print(key)
+
+                list_dictMaps.append([key, myDict])
+                return list_dictMaps
+
             else:
                 print("Not Found")
         else:

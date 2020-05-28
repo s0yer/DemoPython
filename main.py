@@ -27,6 +27,7 @@ from PadawanDays import oddEven
 from PadawanDays import recursion
 from PadawanDays import reversePrint
 from PadawanDays import powMod
+from PadawanDays import capitalizeString
 
 from JediDays import alphabetRangoli
 from JediDays import appleOrangeDistanceTrees
@@ -143,7 +144,7 @@ while waiting_input:
     elif choice == '102':
         exe_function(binaryNumbers.binaryConversion())
     elif choice == '103':
-        dictionaryMaps.dictMaps()
+        exe_function(dictionaryMaps.dictMaps())
     elif choice == '104':
         evenOddStringPrint.evenOddString()
     elif choice == '105':
@@ -167,7 +168,8 @@ while waiting_input:
         bus.exe_bus()
         car.exe_car()
         screen.fence1()
-
+    elif choice == '112':
+        exe_function(capitalizeString.captalize_solve())
 
 #   Call of functions of the package JediDays ---------------------------
     elif choice == '201':
