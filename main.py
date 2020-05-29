@@ -146,7 +146,7 @@ while waiting_input:
     elif choice == '103':
         exe_function(dictionaryMaps.dictMaps())
     elif choice == '104':
-        evenOddStringPrint.evenOddString()
+        exe_function(evenOddStringPrint.evenOddString())
     elif choice == '105':
         listComprehensions.listComp()
     elif choice == '106':

@@ -1,37 +1,42 @@
 # even and odd string print
-'''
-if __name__ == '__main__':
-    x = int(input())
-    y = int(input())
-    z = int(input())
-    n = int(input())
-
-
-'''
-
 
 def evenOddString():
+    list_evenOdd = ['evenOddString()']
     t = 1
     even = []
     odd = []
-    word = "wisdom"
+    word = "wisdomisclear"
 
     if 1 <= t <= 10:
         while t > 0:
-            s = str(word).split()
-            i = 0
-            while i < len(s):
-                if i % 2 == 0:
-                    even.append(s[i])
+
+            i =0
+            # size_s = len(word)
+            # while i < size_s:
+            #     if i % 2 == 0:
+            #         even.append(word[i])
+            #     else:
+            #         odd.append(word[i])
+            #     i += 1
+            for el in word:
+                if (i % 2) == 0:
+                     even.append(el)
                 else:
-                    odd.append(s[i])
-            i += 1
-        t -= 1
+                     odd.append(el)
+                i+=1
+            t -= 1
 
         for el in even:
-            print(el, end='')
+            print(el, end='\n')
+        print('-----------------------------')
         for el in odd:
-            print(el, end='')
+            print(el, end='\n')
+        print('-----------------------------')
 
+        list_evenOdd.append(even)
+        list_evenOdd.append(odd)
     else:
         print("t needs to be [1,10]")
+        list_evenOdd.append("t needs to be [1,10]")
+
+    return list_evenOdd
