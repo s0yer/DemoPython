@@ -91,7 +91,8 @@ while waiting_input:
     elif screenState == '2':
         screenJedi()
     else:
-        print("screen Error!")
+        # restart screen for now
+        screenState = '0'
 
 #   Get user choice by keyboard ----------------------------------------------
     choice = get_user_choice()
@@ -109,7 +110,7 @@ while waiting_input:
         print('On Going ... :)')
         choice = get_user_choice()
     else:
-        print('Screen Error!')
+        print('Your choice need to be -> [a,b,c,x]')
 
 #   Call of functions of the package conceptsFundamentals ---------------------
 
