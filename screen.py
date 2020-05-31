@@ -33,6 +33,8 @@ def screenPadawan():
     print('109: Reverse Print')
     print('110: pow Function')
     print('111: Classes')
+    print('112: Capitalize String')
+    print('113: Generate PDF')
     print('s: Sair. ')
     print("---------------------------------------------------------------------------------")
     # screenState = '1'

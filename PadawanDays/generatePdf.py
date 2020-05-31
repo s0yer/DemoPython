@@ -2,11 +2,12 @@
 from reportlab.pdfgen import canvas
 from PadawanDays import dataTypeConversion
 
-def genPDF(lista):
+def genPDF():
 
-
+    list = {'Monday': '1', 'Tuesday': '1', 'Wednesday': '2', 'Thursday': '3', 'Friday': '5', 'Saturday': '8', 'Sunday': '13', 'Holiday': '21'}
+    list_log = ['genPDF']
     try:
-        fileName = input("Type the file name: ")
+        fileName = input("Type the file name for your pdf archive: ")
         pdf = canvas.Canvas('{}.pdf'.format(fileName))
 
         x = 610
@@ -26,10 +27,13 @@ def genPDF(lista):
         pdf.save()
         print('{}.pdf created !!!'.format(fileName))
 
+        list_log.append(list)
+        return list_log
+
     except:
+        string_error = "Error to generate PDF"
+        print(string_error)
+        return  string_error
 
-        print("Error to generate PDF")
 
-list = {'Monday': '1', 'Tuesday': '1', 'Wednesday': '2', 'Thursday':'3','Friday':'5', 'Saturday':'8', 'Sunday':'13', 'Holiday' : '21'}
 
-genPDF(list)

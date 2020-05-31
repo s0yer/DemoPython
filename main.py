@@ -28,6 +28,7 @@ from PadawanDays import recursion
 from PadawanDays import reversePrint
 from PadawanDays import powMod
 from PadawanDays import capitalizeString
+from PadawanDays import generatePdf
 
 from JediDays import alphabetRangoli
 from JediDays import appleOrangeDistanceTrees
@@ -170,6 +171,8 @@ while waiting_input:
         screen.fence1()
     elif choice == '112':
         exe_function(capitalizeString.captalize_solve())
+    elif choice == '113':
+        exe_function(generatePdf.genPDF())
 
 #   Call of functions of the package JediDays ---------------------------
     elif choice == '201':
