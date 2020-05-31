@@ -149,7 +149,7 @@ while waiting_input:
     elif choice == '104':
         exe_function(evenOddStringPrint.evenOddString())
     elif choice == '105':
-        listComprehensions.listComp()
+        exe_function(listComprehensions.listComp())
     elif choice == '106':
         multiples.multiples()
     elif choice == '107':
