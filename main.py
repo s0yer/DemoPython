@@ -152,7 +152,7 @@ while waiting_input:
     elif choice == '105':
         exe_function(listComprehensions.listComp())
     elif choice == '106':
-        multiples.multiples()
+        exe_function(multiples.multiples())
     elif choice == '107':
         oddEven.oddEven()
     elif choice == '108':
