@@ -158,7 +158,7 @@ while waiting_input:
     elif choice == '108':
         exe_function(recursion.exe_factorial())
     elif choice == '109':
-        reversePrint.reverseP()
+        exe_function(reversePrint.reverseP())
     elif choice == '110':
         powMod.powFunc()
     elif choice == '111':
