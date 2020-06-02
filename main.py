@@ -154,7 +154,7 @@ while waiting_input:
     elif choice == '106':
         exe_function(multiples.multiples())
     elif choice == '107':
-        oddEven.oddEven()
+        exe_function(oddEven.oddEven())
     elif choice == '108':
         recursion.exe_factorial()
     elif choice == '109':
