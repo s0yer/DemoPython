@@ -6,13 +6,21 @@ def factorial(n):
     else:
         return n * factorial(n-1)
 
+
+
 def exe_factorial():
 
-    # constrain
-    el = 4
-    if 2 <= el <= 12:
-        print(factorial(el))
-    else:
-        print("n needs to be between [2,12]")
+    # lists
+    list_elements = [-3,2,4,10,12,21]
+    list_factorial = ['factorial()', list_elements]
 
-exe_factorial()
+    for el in list_elements:
+        if 2 <= el <= 12:
+            ans = factorial(el)
+            print(ans)
+        else:
+            ans = "element needs to be between [2,12]"
+            print(ans)
+        list_factorial.append(str(ans))
+
+    return list_factorial

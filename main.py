@@ -156,7 +156,7 @@ while waiting_input:
     elif choice == '107':
         exe_function(oddEven.oddEven())
     elif choice == '108':
-        recursion.exe_factorial()
+        exe_function(recursion.exe_factorial())
     elif choice == '109':
         reversePrint.reverseP()
     elif choice == '110':
