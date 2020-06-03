@@ -35,6 +35,7 @@ def screenPadawan():
     print('111: Classes')
     print('112: Capitalize String')
     print('113: Generate PDF')
+    print('114: List Positions')
     print('s: Sair. ')
     print("---------------------------------------------------------------------------------")
     # screenState = '1'

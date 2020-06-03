@@ -29,6 +29,7 @@ from PadawanDays import reversePrint
 from PadawanDays import powMod
 from PadawanDays import capitalizeString
 from PadawanDays import generatePdf
+from PadawanDays import listPositions
 
 from JediDays import alphabetRangoli
 from JediDays import appleOrangeDistanceTrees
@@ -174,6 +175,8 @@ while waiting_input:
         exe_function(capitalizeString.captalize_solve())
     elif choice == '113':
         exe_function(generatePdf.genPDF())
+    elif choice == '114':
+        exe_function(listPositions.listP())
 
 #   Call of functions of the package JediDays ---------------------------
     elif choice == '201':
