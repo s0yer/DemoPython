@@ -14,16 +14,21 @@ print("{0}\n{1}".format(pow(inp[0], inp[1]), pow(*inp)))
 
 def powFunc():
 
-	a,b,m = [int(input()) for el in '285']
-	
+	# a,b,m = [int(input()) for el in '285']
+	a,b,m = 2,8,5
+	list_log = ['powFunc()', [a,b,m]]
+
 	if 0 <= a <= 10:
-	    if a <= b <= 10:
-	        if 2 <= m <= 1000:
-	            print(pow(a,b))
-	            print(pow(a,b,m))
-	        else:
-	            print('m -> [2,1000]')
-	    else:
-	        print('b -> [0,10]')
+		if a <= b <= 10:
+			if 2 <= m <= 1000:
+				print(pow(a,b))
+				print(pow(a,b,m))
+				list_log.append([pow(a,b),pow(a,b,m)])
+			else:
+				print('m -> [2,1000]')
+		else:
+			print('b -> [0,10]')
 	else:
-	    print('a -> [0,10]')
+		print('a -> [0,10]')
+
+	return list_log
