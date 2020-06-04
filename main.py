@@ -161,7 +161,7 @@ while waiting_input:
     elif choice == '109':
         exe_function(reversePrint.reverseP())
     elif choice == '110':
-        powMod.powFunc()
+        exe_function(powMod.powFunc())
     elif choice == '111':
         screen.fence1()
         casa.exe_casa()
@@ -180,7 +180,7 @@ while waiting_input:
 
 #   Call of functions of the package JediDays ---------------------------
     elif choice == '201':
-        alphabetRangoli.print_rangoli()
+        exe_function(alphabetRangoli.print_rangoli())
     elif choice == '202':
         appleOrangeDistanceTrees.countApplesAndOranges()
     elif choice == '203':
