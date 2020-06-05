@@ -3,15 +3,18 @@
 
 # Não existe array em Python, logo sao feitas listas dentro de outras listas
 # no lugar de
-# arr n n , tentar alocar em duas matrizes
+# arr n n (list 3x3), tentar alocar em duas matrizes
 
-n = 3
-arr1 = [9,9,1]
-arr2 = [1,4,2]
-arr3 = [7,4,4]
-arr = [arr1,arr2,arr3]
 
-def diagonalDifference(arr):
+
+def diagonalDifference():
+    n = 3
+    arr1 = [9, 9, 1]
+    arr2 = [1, 4, 2]
+    arr3 = [7, 4, 4]
+    arr = [arr1, arr2, arr3]
+
+    list_log = ['diagonalDifference()', arr]
     primaryDiagonal = 0
     secondaryDiagonal = 0
 
@@ -27,6 +30,10 @@ def diagonalDifference(arr):
         j += 1
         i -= 1
 
-    return abs(primaryDiagonal - secondaryDiagonal)
+    ans = abs(primaryDiagonal - secondaryDiagonal)
+    print(str(arr))
+    print('Diagonal Difference = ' + str(ans))
+    list_log.append(ans)
 
-print(diagonalDifference(arr))
+    return list_log
+

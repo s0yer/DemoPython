@@ -188,7 +188,7 @@ while waiting_input:
     elif choice == '204':
         breakListBlocks.merge_the_tools()
     elif choice == '205':
-        diagonalDifference.diagonalDifference()
+        exe_function(diagonalDifference.diagonalDifference())
     elif choice == '206':
         doorMat.drawDoor()
     elif choice == '207':
