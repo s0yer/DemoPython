@@ -184,7 +184,7 @@ while waiting_input:
     elif choice == '202':
         appleOrangeDistanceTrees.countApplesAndOranges()
     elif choice == '203':
-        bCakeCandles.birthdayCakeCandles()
+        exe_function(bCakeCandles.birthdayCakeCandles())
     elif choice == '204':
         breakListBlocks.merge_the_tools()
     elif choice == '205':
