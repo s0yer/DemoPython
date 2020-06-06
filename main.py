@@ -190,7 +190,7 @@ while waiting_input:
     elif choice == '205':
         exe_function(diagonalDifference.diagonalDifference())
     elif choice == '206':
-        doorMat.drawDoor()
+        exe_function(doorMat.drawDoor())
     elif choice == '207':
         FindAngleTriangle.angleTriangle()
     elif choice == '208':
