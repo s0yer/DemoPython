@@ -192,7 +192,7 @@ while waiting_input:
     elif choice == '206':
         exe_function(doorMat.drawDoor())
     elif choice == '207':
-        FindAngleTriangle.angleTriangle()
+        exe_function(FindAngleTriangle.angleTriangle())
     elif choice == '208':
         FindPercentageDictionary.percentageDict()
     elif choice == '209':
