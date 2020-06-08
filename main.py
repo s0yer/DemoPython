@@ -196,8 +196,9 @@ while waiting_input:
     elif choice == '208':
         FindPercentageDictionary.percentageDict()
     elif choice == '209':
-        findScore.fScore()
+        exe_function(findScore.fScore())
     elif choice == '210':
+
         getMoneySpent.getCashSpent()
     elif choice == '212':
         gradeAnalysis.initGrading()
