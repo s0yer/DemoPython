@@ -194,7 +194,7 @@ while waiting_input:
     elif choice == '207':
         exe_function(FindAngleTriangle.angleTriangle())
     elif choice == '208':
-        FindPercentageDictionary.percentageDict()
+        exe_function(FindPercentageDictionary.percentageDict())
     elif choice == '209':
         exe_function(findScore.fScore())
     elif choice == '210':
