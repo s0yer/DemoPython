@@ -38,7 +38,6 @@ from JediDays import breakListBlocks
 from JediDays import diagonalDifference
 from JediDays import doorMat
 from JediDays import FindAngleTriangle
-from JediDays import FindPercentageDictionary
 from JediDays import findScore
 from JediDays import gradeAnalysis
 
@@ -194,7 +193,9 @@ while waiting_input:
     elif choice == '207':
         exe_function(FindAngleTriangle.angleTriangle())
     elif choice == '208':
-        exe_function(FindPercentageDictionary.percentageDict())
+        phrase = ["Often, it is not only wrong to do it, but also to stop doing something."]
+        exe_function(phrase)
+        print(phrase)
     elif choice == '209':
         exe_function(findScore.fScore())
     elif choice == '210':
