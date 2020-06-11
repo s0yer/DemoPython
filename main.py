@@ -185,7 +185,7 @@ while waiting_input:
     elif choice == '203':
         exe_function(bCakeCandles.birthdayCakeCandles())
     elif choice == '204':
-        breakListBlocks.merge_the_tools()
+        exe_function(breakListBlocks.merge_the_tools())
     elif choice == '205':
         exe_function(diagonalDifference.diagonalDifference())
     elif choice == '206':

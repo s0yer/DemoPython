@@ -2,19 +2,31 @@
 
 def merge_the_tools():
 
-    string = "AABCCAADDDOMJLNSINTVS"
-    k = 3
+    list_log = ['merge_the_tools()']
+    string_input = "AAB,CCA,ADD,DOM,JLN,SIN,TVS"
+    list_log.append(string_input)
 
-    n = len(string)
+    block = 3
+    list_log.append(block)
+
+    n = len(string_input)
+    list_log.append(n)
+
     if 1 <= n <= 10000:
-        block = n / k
+        amount_block = n / block
+        list_log.append(amount_block)
 
-        if 1 <= k <= n and n % k == 0:
-            x = string.split(" ")
-            print(x)
+        if 1 <= block <= n and n % block == 0:
+            ans = string_input.split(",", int(amount_block))
+            print(ans)
 
         else:
-            print(" Constraints -> k:[1,n] AND <n needs be a multiple of k> ")
+            ans = " Constraints -> block:[1,n] AND { n needs be a multiple of block } "
+            print(ans)
     else:
-        print("imput a valid n -> [1,10000]")
+        ans = "input a valid string, size -> [1,10000]"
+        print(ans)
 
+    list_log.append(ans)
+
+    return list_log
