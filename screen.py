@@ -68,6 +68,7 @@ def mainScreen():
     print('a: Concepts Fundamentals ')
     print('b: Problems Solved lvl padawan :)')
     print('c: Problems Solved lvl Jedi :3')
+    print('l: Show Log :x')
     print('x: Exit. ')
     print("---------------------------------------------------------------------------------")
     # screenState = '0'

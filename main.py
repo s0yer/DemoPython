@@ -76,6 +76,9 @@ def exe_function(data):
     finally:
         print('Cleanup')
 
+def show_log():
+
+
 screenState = '0'
 waiting_input = True
 doorWelcome()
@@ -107,7 +110,10 @@ while waiting_input:
         choice = get_user_choice()
     elif choice == 'c':
         screen.screenJedi()
-        print('On Going ... :)')
+        choice = get_user_choice()
+    elif choice == 'l':
+        sho
+        screen.mainScreen()
         choice = get_user_choice()
     else:
         print('Your choice need to be -> [a,b,c,x]')
