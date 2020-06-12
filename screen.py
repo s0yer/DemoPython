@@ -65,10 +65,10 @@ def mainScreen():
 
     print("---------------------------------------------------------------------------------")
     print('Choose the option: ')
-    print('a: Concepts Fundamentals ')
+    print('a: Concepts Fundamentals 8)')
     print('b: Problems Solved lvl padawan :)')
     print('c: Problems Solved lvl Jedi :3')
-    print('l: Show Log :x')
+    print('l: Show Log :o')
     print('x: Exit. ')
     print("---------------------------------------------------------------------------------")
     # screenState = '0'

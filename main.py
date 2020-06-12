@@ -1,5 +1,5 @@
 #!/usr/bin/python
-
+# Python Version
 from oop_Properties import casa
 from oop_Properties import condominio
 
@@ -77,7 +77,7 @@ def exe_function(data):
         print('Cleanup')
 
 def show_log():
-
+    print('On going')
 
 screenState = '0'
 waiting_input = True
