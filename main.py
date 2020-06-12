@@ -75,9 +75,23 @@ def exe_function(data):
         print('unknown error')
     finally:
         print('Cleanup')
+        screen.fence1()
 
 def show_log():
     print('On going')
+    try:
+        #Open the archive log.txt
+        with open('log.txt', mode='r') as arq:
+            #print each line in one new line
+            for line in arq:
+                print(line)
+        act = 'Log Opened'
+    #Treatment if not found the file
+    except (IOError, IndexError):
+        act = 'File not found :('
+        print(act)
+
+    exe_function(act)
 
 screenState = '0'
 waiting_input = True
@@ -112,7 +126,7 @@ while waiting_input:
         screen.screenJedi()
         choice = get_user_choice()
     elif choice == 'l':
-        sho
+        show_log()
         screen.mainScreen()
         choice = get_user_choice()
     else:
@@ -225,5 +239,3 @@ while waiting_input:
 
 else:
     alphabetRangoli.print_rangoli()
-
-
