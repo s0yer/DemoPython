@@ -43,7 +43,34 @@ from JediDays import gradeAnalysis
 
 import screen
 from datetime import datetime, timezone, timedelta
+import hashlib
 
+def hash_string_256(string):
+    return hashlib.sha256(string).hexdigest()
+
+def hash_log():
+    list_hash = []
+    try:
+        #Open the archive log.txt
+        with open('log.txt', mode='r') as arq:
+        content_archive = arq.readlines()
+        hash = hash_string_256(content_archive)
+        act = 'Log Hashed'
+        print(act + str(hash))
+
+    #Treatment if not found the file
+    except (IOError, IndexError):
+        act = 'Error to Hash the log'
+        print(act)
+        hash = '0'
+
+    list_hash.append(act)
+    list_hash.append(hash)
+
+    return list_hash
+
+
+    content_archive.
 def endCmd():
     print("End of command Processing :)")
 
@@ -92,6 +119,8 @@ def show_log():
         print(act)
 
     exe_function(act)
+
+
 
 screenState = '0'
 waiting_input = True
