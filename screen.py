@@ -69,6 +69,7 @@ def mainScreen():
     print('b: Problems Solved lvl padawan :)')
     print('c: Problems Solved lvl Jedi :3')
     print('l: Show Log :o')
+    print('i: Integrity: show the hash of the log archive o.-')
     print('x: Exit. ')
     print("---------------------------------------------------------------------------------")
     # screenState = '0'

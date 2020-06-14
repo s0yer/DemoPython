@@ -1,5 +1,6 @@
 #!/usr/bin/python
-# Python Version
+# Python Version 3.7
+
 from oop_Properties import casa
 from oop_Properties import condominio
 
@@ -53,10 +54,10 @@ def hash_log():
     try:
         #Open the archive log.txt
         with open('log.txt', mode='r') as arq:
-        content_archive = arq.readlines()
-        hash = hash_string_256(content_archive)
-        act = 'Log Hashed'
-        print(act + str(hash))
+            content_archive = str(arq.readlines())
+            hash = hash_string_256(content_archive.encode('utf-8'))
+            act = 'Log Hashed'
+            print(act + ': ' + str(hash))
 
     #Treatment if not found the file
     except (IOError, IndexError):
@@ -70,7 +71,6 @@ def hash_log():
     return list_hash
 
 
-    content_archive.
 def endCmd():
     print("End of command Processing :)")
 
@@ -156,6 +156,10 @@ while waiting_input:
         choice = get_user_choice()
     elif choice == 'l':
         show_log()
+        screen.mainScreen()
+        choice = get_user_choice()
+    elif choice == 'i':
+        exe_function(hash_log())
         screen.mainScreen()
         choice = get_user_choice()
     else:
