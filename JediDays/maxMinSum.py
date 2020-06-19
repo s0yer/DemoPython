@@ -1,11 +1,10 @@
 #min-max sum
 
-n = 5
-arr = [n]
-res = [0, 0, 0, 0, 0]
-arr = [7, 69, 2, 221, 8974]
-
 def miniMaxSum(arr):
+
+    res = [0, 0, 0, 0, 0]
+    arr = [7, 69, 2, 221, 8974]
+
     res[0] = arr[0] + arr[1] + arr[2] + arr[3]
     res[1] = arr[0] + arr[1] + arr[2] + arr[4]
     res[2] = arr[0] + arr[1] + arr[4] + arr[3]
