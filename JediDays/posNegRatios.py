@@ -1,8 +1,10 @@
 # PlusMinus Funciton: ratios of positives, negatives and zeros.
-n = 10
-arr = [n]
 
-def plusMinus(arr):
+def plusMinus():
+
+    arr = [5,7,-5,-1,9,-7,-8,-7,0,0,6,-4,-8,-44,-88,4,2,0,34,55,89]
+    n = len(arr)
+
     neg = 0
     pos = 0
     zeros = 0
