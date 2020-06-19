@@ -41,6 +41,7 @@ from JediDays import doorMat
 from JediDays import FindAngleTriangle
 from JediDays import findScore
 from JediDays import gradeAnalysis
+from JediDays import posNegRatios
 
 import screen
 from datetime import datetime, timezone, timedelta
@@ -257,8 +258,8 @@ while waiting_input:
     elif choice == '212':
         gradeAnalysis.initGrading()
         gradeAnalysis.gradingStudents()
-
-
+    elif choice == '213':
+        exe_function(posNegRatios.plusMinusRatios())
 #   Call function to exit --------------------------------------------------------
     elif choice == 'x':
         waiting_input = False

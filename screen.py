@@ -15,6 +15,8 @@ def screenJedi():
     print('210: Find Score')
     print('211: Get Money Spent')
     print('212: Grade Analisis')
+    print('213: Positive and Negative Ratios')
+
     print('s: Sair. ')
     print("---------------------------------------------------------------------------------")
 

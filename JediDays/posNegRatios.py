@@ -1,9 +1,11 @@
 # PlusMinus Funciton: ratios of positives, negatives and zeros.
 
-def plusMinus():
-
-    arr = [5,7,-5,-1,9,-7,-8,-7,0,0,6,-4,-8,-44,-88,4,2,0,34,55,89]
+def plusMinusRatios():
+    log_list = ['plusMinusRatios()']
+    arr = [5,7,-5,-1,9,-7,-8,-7,0,0,6,-4,-8,-44,-88,4,2,0,34,55,89,-1,0,1,1,2,3,5,8,13,21,34,55,89]
     n = len(arr)
+    log_list.append(arr)
+    log_list.append(n)
 
     neg = 0
     pos = 0
@@ -24,8 +26,11 @@ def plusMinus():
     ratioPos = pos / n
     ratioZeros = zeros / n
 
-    print('{:f}'.format(ratioPos))
-    print('{:f}'.format(ratioNeg))
-    print('{:f}'.format(ratioZeros))
+    print('Positive ratio: ' + '{:f}'.format(ratioPos))
+    print('Negative ratio: ' + '{:f}'.format(ratioNeg))
+    print('Zeros ratio: ' + '{:f}'.format(ratioZeros))
 
-    return ratioPos, ratioNeg, ratioZeros
+    ans = [ratioPos, ratioNeg, ratioZeros]
+    log_list.append(ans)
+
+    return log_list
