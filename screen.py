@@ -16,7 +16,7 @@ def screenJedi():
     print('211: Get Money Spent')
     print('212: Grade Analisis')
     print('213: Positive and Negative Ratios')
-
+    print('214: Maximum and Mininum Sum')
     print('s: Sair. ')
     print("---------------------------------------------------------------------------------")
 

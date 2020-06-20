@@ -42,6 +42,7 @@ from JediDays import FindAngleTriangle
 from JediDays import findScore
 from JediDays import gradeAnalysis
 from JediDays import posNegRatios
+from JediDays import maxMinSum
 
 import screen
 from datetime import datetime, timezone, timedelta
@@ -260,6 +261,8 @@ while waiting_input:
         gradeAnalysis.gradingStudents()
     elif choice == '213':
         exe_function(posNegRatios.plusMinusRatios())
+    elif choice == '214':
+        exe_function(maxMinSum.miniMaxSum())
 #   Call function to exit --------------------------------------------------------
     elif choice == 'x':
         waiting_input = False
