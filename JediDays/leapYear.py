@@ -2,14 +2,13 @@
 
 def is_leap():
     list_log = ['is_leap()']
-    years_list = [1934,1955,1989]
+    years_list = [1934,1955,1989,2001,2013,2021,2134]
     year = 2000
     list_log.append(year)
 
     leap = False
     if 1900 <= year <= pow(10, 5):
-        if year % 4 == 0:    elif choice == '214':
-        exe_function(maxMinSum.miniMaxSum())
+        if year % 4 == 0:
             if year % 100 == 0:
                 if year % 400 == 0:
                     leap = True
