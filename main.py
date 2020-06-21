@@ -43,6 +43,7 @@ from JediDays import findScore
 from JediDays import gradeAnalysis
 from JediDays import posNegRatios
 from JediDays import maxMinSum
+from JediDays import leapYear
 
 import screen
 from datetime import datetime, timezone, timedelta
@@ -263,6 +264,8 @@ while waiting_input:
         exe_function(posNegRatios.plusMinusRatios())
     elif choice == '214':
         exe_function(maxMinSum.miniMaxSum())
+    elif choice == '215':
+        exe_function(leapYear.is_leap())
 #   Call function to exit --------------------------------------------------------
     elif choice == 'x':
         waiting_input = False

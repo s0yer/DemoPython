@@ -17,6 +17,7 @@ def screenJedi():
     print('212: Grade Analisis')
     print('213: Positive and Negative Ratios')
     print('214: Maximum and Mininum Sum')
+    print('215: Leap of Year')
     print('s: Sair. ')
     print("---------------------------------------------------------------------------------")
 
