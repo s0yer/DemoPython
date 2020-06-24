@@ -18,6 +18,7 @@ def screenJedi():
     print('213: Positive and Negative Ratios')
     print('214: Maximum and Mininum Sum')
     print('215: Leap of Year')
+    print('216: Prime number List')
     print('s: Sair. ')
     print("---------------------------------------------------------------------------------")
 

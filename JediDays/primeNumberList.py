@@ -1,10 +1,12 @@
 import random
 
 def criaListaPrimos():
+    log_list = ['criaListaPrimos()']
     random_list = []
     for i in range(300):
         random_list.append(random.randint(1,1000))
 
+    log_list.append(random_list)
     listaPrimos = []
     listaNaoPrimos = []
 
@@ -14,13 +16,16 @@ def criaListaPrimos():
         else:
             listaPrimos.append(elem)
 
+    log_list.append(listaNaoPrimos)
+    log_list.append(listaPrimos)
+
     print(random_list)
     print('---------------')
     print(listaNaoPrimos)
     print('---------------')
     print(listaPrimos)
 
-    return listaPrimos
+    return log_list
 
 
 
