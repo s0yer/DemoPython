@@ -1,17 +1,19 @@
 def criaListaPrimos(j):
+    random_list = [5,151,812,4,22,4512,554,22,4]
     listaPrimos = []
     listaNaoPrimos = []
-    n = 2
-    while j > n:
-        if n%2 == 0 or n%3 == 0 or n%5 == 0:
-            listaNaoPrimos.append(n)
+
+    for elem in random_list:
+
+        if elem % 2 == 0 or elem % 3 == 0 or elem % 5 == 0:
+            listaNaoPrimos.append(elem)
         else:
-            listaPrimos.append(n)
-        n = n + 1
+            listaPrimos.append(elem)
+
     return listaPrimos
 
-j = int(input('Digite quantos numeros testar: '))
-novaListaPrimos = criaListaPrimos(j)[:]
+# j = int(input('Digite quantos numeros testar: '))
+# novaListaPrimos = criaListaPrimos(j)[:]
 
 def difLista(novaListaPrimos):
     listaDif = []
