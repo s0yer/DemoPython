@@ -37,7 +37,8 @@ def criaListaPrimos():
     print('Size: ' + str(s))
     print('Prime number list: ' + str(listaPrimos))
 
-    # print in ascending order columm
+    # print in ascending order column
+    print('Ascending order column')
     listaPrimos.sort()
     for elem in listaPrimos:
         print(elem)
