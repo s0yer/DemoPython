@@ -32,7 +32,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Blockchain" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MultiThread" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -50,7 +50,7 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.main">
-    <configuration name="casa" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="SimpleArraySum" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DemoPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -58,32 +58,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oop_Properties" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/JediDays" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oop_Properties/casa.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="condominio" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DemoPython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oop_Properties" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oop_Properties/condominio.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/JediDays/SimpleArraySum.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -155,20 +134,41 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="reverseArgs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DemoPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/JediDays" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/JediDays/reverseArgs.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.casa" />
-      <item itemvalue="Python.condominio" />
       <item itemvalue="Python.dictionariesMaps" />
       <item itemvalue="Python.getMoneySpent" />
       <item itemvalue="Python.main" />
+      <item itemvalue="Python.reverseArgs" />
+      <item itemvalue="Python.SimpleArraySum" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.SimpleArraySum" />
+        <item itemvalue="Python.reverseArgs" />
         <item itemvalue="Python.dictionariesMaps" />
         <item itemvalue="Python.getMoneySpent" />
-        <item itemvalue="Python.condominio" />
-        <item itemvalue="Python.casa" />
       </list>
     </recent_temporary>
   </component>
@@ -245,26 +245,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1590415547244" />
-    <state x="521" y="136" key="FileChooserDialogImpl" timestamp="1593044552476">
+    <state x="521" y="136" key="FileChooserDialogImpl" timestamp="1593178418349">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="521" y="136" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1593044552476" />
-    <state width="1515" height="102" key="GridCell.Tab.0.bottom" timestamp="1593011017714">
+    <state x="521" y="136" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1593178418349" />
+    <state width="1515" height="197" key="GridCell.Tab.0.bottom" timestamp="1593183745981">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="102" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593011017714" />
-    <state width="1515" height="102" key="GridCell.Tab.0.center" timestamp="1593011017714">
+    <state width="1515" height="197" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593183745981" />
+    <state width="1515" height="197" key="GridCell.Tab.0.center" timestamp="1593183745981">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="102" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593011017714" />
-    <state width="1515" height="102" key="GridCell.Tab.0.left" timestamp="1593011017714">
+    <state width="1515" height="197" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593183745981" />
+    <state width="1515" height="197" key="GridCell.Tab.0.left" timestamp="1593183745981">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="102" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593011017714" />
-    <state width="1515" height="102" key="GridCell.Tab.0.right" timestamp="1593011017714">
+    <state width="1515" height="197" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593183745981" />
+    <state width="1515" height="197" key="GridCell.Tab.0.right" timestamp="1593183745981">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="102" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593011017714" />
+    <state width="1515" height="197" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593183745981" />
     <state width="1515" height="56" key="GridCell.Tab.1.bottom" timestamp="1591904523113">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -285,10 +285,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="207" y="8" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1586651360267" />
-    <state x="432" y="214" key="com.intellij.ide.util.TipDialog" timestamp="1593044357661">
+    <state x="432" y="214" key="com.intellij.ide.util.TipDialog" timestamp="1593178384683">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="432" y="214" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1593044357661" />
+    <state x="432" y="214" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1593178384683" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1592846351502">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

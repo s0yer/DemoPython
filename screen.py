@@ -19,6 +19,7 @@ def screenJedi():
     print('214: Maximum and Mininum Sum')
     print('215: Leap of Year')
     print('216: Prime number List')
+    print('217: Sum List')
     print('s: Sair. ')
     print("---------------------------------------------------------------------------------")
 

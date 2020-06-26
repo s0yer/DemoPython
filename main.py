@@ -45,6 +45,7 @@ from JediDays import posNegRatios
 from JediDays import maxMinSum
 from JediDays import leapYear
 from JediDays import primeNumberList
+from JediDays import SimpleArraySum
 
 import screen
 from datetime import datetime, timezone, timedelta
@@ -69,8 +70,11 @@ def hash_log():
         print(act)
         hash = '0'
 
+    hash_file = hash_string_256('log.txt'.encode('utf-8'))
+
     list_hash.append(act)
     list_hash.append(hash)
+    list_hash.append(hash_file)
 
     return list_hash
 
@@ -269,6 +273,8 @@ while waiting_input:
         exe_function(leapYear.is_leap())
     elif choice == '216':
         exe_function(primeNumberList.criaListaPrimos())
+    elif choice == '217':
+        exe_function(SimpleArraySum.simpleArraySum())
 #   Call function to exit --------------------------------------------------------
     elif choice == 'x':
         waiting_input = False
