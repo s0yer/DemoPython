@@ -1,8 +1,11 @@
 # staircase -> a '#' triangle of size n
 
-n = 6
+from random import randint
 
-def staircase(n):
+def staircase():
+
+    n = randint(1,10)
+    list_log = ['staircase()', n]
     ch = '#'
 
     while n > 0:
@@ -11,8 +14,11 @@ def staircase(n):
 
             print(' ' * (n - 1), ch)
             ch += '#'
+            list_log.append(ch)
+
         else:
             print(ch)
             n -= 1
 
-print(staircase(n))
+    return list_log
+

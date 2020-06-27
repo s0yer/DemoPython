@@ -46,6 +46,7 @@ from JediDays import maxMinSum
 from JediDays import leapYear
 from JediDays import primeNumberList
 from JediDays import SimpleArraySum
+from JediDays import stairCase
 
 import screen
 from datetime import datetime, timezone, timedelta
@@ -260,8 +261,9 @@ while waiting_input:
     elif choice == '209':
         exe_function(findScore.fScore())
     elif choice == '210':
-
-        getMoneySpent.getCashSpent()
+        exe_function(getMoneySpent.getCashSpent())
+    elif choice == '211':
+        exe_function(stairCase.staircase())
     elif choice == '212':
         gradeAnalysis.initGrading()
         gradeAnalysis.gradingStudents()
