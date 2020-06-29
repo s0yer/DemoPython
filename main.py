@@ -48,6 +48,7 @@ from JediDays import primeNumberList
 from JediDays import SimpleArraySum
 from JediDays import stairCase
 from JediDays import SplitAndJoin
+from JediDays import taxTipsMeal
 
 
 import screen
@@ -281,6 +282,8 @@ while waiting_input:
         exe_function(SimpleArraySum.simpleArraySum())
     elif choice == '218':
         exe_function(SplitAndJoin.split_and_join())
+    elif choice == '219':
+        exe_function(taxTipsMeal.solveTax())
 #   Call function to exit --------------------------------------------------------
     elif choice == 'x':
         waiting_input = False

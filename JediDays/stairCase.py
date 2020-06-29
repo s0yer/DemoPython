@@ -10,11 +10,10 @@ def staircase():
     source = ['!', '@', '#', '$', '%', '^', '&', '*', '-', '+']
     ch = source[randint(0,9)]
     model = ch
-    
+
     while n > 0:
         if n > 1:
             n -= 1
-
             print(' ' * (n - 1), ch)
             ch += model
             list_log.append(ch)
