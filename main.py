@@ -47,6 +47,8 @@ from JediDays import leapYear
 from JediDays import primeNumberList
 from JediDays import SimpleArraySum
 from JediDays import stairCase
+from JediDays import SplitAndJoin
+
 
 import screen
 from datetime import datetime, timezone, timedelta
@@ -277,6 +279,8 @@ while waiting_input:
         exe_function(primeNumberList.criaListaPrimos())
     elif choice == '217':
         exe_function(SimpleArraySum.simpleArraySum())
+    elif choice == '218':
+        exe_function(SplitAndJoin.split_and_join())
 #   Call function to exit --------------------------------------------------------
     elif choice == 'x':
         waiting_input = False

@@ -21,6 +21,7 @@ def screenJedi():
     print('215: Leap of Year')
     print('216: Prime number List')
     print('217: Sum List')
+    print('218: Split and Join')
     print('s: Sair. ')
     print("---------------------------------------------------------------------------------")
 

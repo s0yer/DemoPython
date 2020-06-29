@@ -1,18 +1,23 @@
 # Split and Join
+# 218
 
-line = "To become the best you need to improve"
+def split_and_join():
+    list_log = ['split_and_join()']
 
-def split_and_join(line):
-    s = line.split(" ")
+    phrase = "To become the best you need to improve"
+    list_log.append(phrase)
+
+    s = phrase.split(" ")
     v = "-".join(s)
+    list_log.append(v)
 
-    v = line.split("-")
+    v = phrase.split("-")
     k = "*".join(v)
+    list_log.append(k)
 
-    print(v)
-    print(k)
+    print('source: ' + phrase)
+    print('swap -: ' + str(v))
+    print('swap *: ' + str(k))
 
-    return v
+    return list_log
 
-result = split_and_join(line)
-print(result)
