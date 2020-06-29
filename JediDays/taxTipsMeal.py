@@ -24,4 +24,3 @@ def solveTax():
 
     return list_log
 
-solveTax()
