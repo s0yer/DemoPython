@@ -22,6 +22,7 @@ def screenJedi():
     print('216: Prime number List')
     print('217: Sum List')
     print('218: Split and Join')
+    print('219: Tips and Tax')
     print('s: Sair. ')
     print("---------------------------------------------------------------------------------")
 
