@@ -23,6 +23,7 @@ def screenJedi():
     print('217: Sum List')
     print('218: Split and Join')
     print('219: Tips and Tax')
+    print('220: Time Conversion')
     print('s: Sair. ')
     print("---------------------------------------------------------------------------------")
 

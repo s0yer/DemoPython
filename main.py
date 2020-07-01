@@ -49,7 +49,7 @@ from JediDays import SimpleArraySum
 from JediDays import stairCase
 from JediDays import SplitAndJoin
 from JediDays import taxTipsMeal
-
+from JediDays import TimeConversion
 
 import screen
 from datetime import datetime, timezone, timedelta
@@ -284,6 +284,8 @@ while waiting_input:
         exe_function(SplitAndJoin.split_and_join())
     elif choice == '219':
         exe_function(taxTipsMeal.solveTax())
+    elif choice == '220':
+        exe_function(TimeConversion.convertTime())
 #   Call function to exit --------------------------------------------------------
     elif choice == 'x':
         waiting_input = False
