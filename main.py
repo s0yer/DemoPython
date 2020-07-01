@@ -50,6 +50,7 @@ from JediDays import stairCase
 from JediDays import SplitAndJoin
 from JediDays import taxTipsMeal
 from JediDays import TimeConversion
+from JediDays import spendAllMoney
 
 import screen
 from datetime import datetime, timezone, timedelta
@@ -264,7 +265,7 @@ while waiting_input:
     elif choice == '209':
         exe_function(findScore.fScore())
     elif choice == '210':
-        exe_function(getMoneySpent.getCashSpent())
+        exe_function(spendAllMoney.getMoneySpent())
     elif choice == '211':
         exe_function(stairCase.staircase())
     elif choice == '212':

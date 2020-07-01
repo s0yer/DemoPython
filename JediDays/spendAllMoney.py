@@ -1,17 +1,18 @@
-
 # Spend all money
 
-size = 3
-c = []
-d = []
-b = 12
-keyboards = [10,2,3]
-drives = [3,1]
+def getMoneySpent():
+    list_log = ['getMoneySpent()']
+    size = 3
+    c = []
+    d = []
+    b = 72
+    keyboards = [10, 2, 3]
+    drives = [3, 1]
 
-def getMoneySpent(keyboards, drives, b):
     i = 0
     j = 0
     k = 0
+
     while i < size:
         while j < size:
             val = keyboards[i] + drives[i]
@@ -40,7 +41,10 @@ def getMoneySpent(keyboards, drives, b):
 
     print(maxi)
 
-getMoneySpent(keyboards, drives, b)
+    list_log.append(maxi)
 
-#--------------------------------------------------------------------------------------
+    return list_log
+
+
+
 

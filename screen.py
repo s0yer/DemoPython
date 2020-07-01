@@ -24,6 +24,7 @@ def screenJedi():
     print('218: Split and Join')
     print('219: Tips and Tax')
     print('220: Time Conversion')
+    print('221: Time Conversion')
     print('s: Sair. ')
     print("---------------------------------------------------------------------------------")
 
