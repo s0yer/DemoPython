@@ -1,4 +1,5 @@
 #Triple points comparation of 2 competitiors
+#221
 
 res = [0,0]
 a = [3]

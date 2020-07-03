@@ -51,6 +51,7 @@ from JediDays import SplitAndJoin
 from JediDays import taxTipsMeal
 from JediDays import TimeConversion
 from JediDays import spendAllMoney
+from JediDays import tripleComparation
 
 import screen
 from datetime import datetime, timezone, timedelta
@@ -286,6 +287,8 @@ while waiting_input:
     elif choice == '219':
         exe_function(taxTipsMeal.solveTax())
     elif choice == '220':
+        exe_function(TimeConversion.convertTime())
+    elif choice == '221':
         exe_function(TimeConversion.convertTime())
 #   Call function to exit --------------------------------------------------------
     elif choice == 'x':
