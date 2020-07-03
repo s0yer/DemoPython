@@ -48,7 +48,7 @@ def run_up_score():
     size = 8
     arr = []
     for el in range(size):
-        el = randint(1,100)
+        el = randint(1,5000)
         arr.append(el)
 
     n = size
@@ -60,4 +60,4 @@ def run_up_score():
     print(lista)
     print(max(lista))
 
-run_up_score()
+    return lista
