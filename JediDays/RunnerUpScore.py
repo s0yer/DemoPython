@@ -46,8 +46,6 @@ from random import randint
 
 # find the second biggest element into a list
 def run_up_score():
-
-
     list_log = ['run_up_score()']
     size = randint(3,21)
     arr = []

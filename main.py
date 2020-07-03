@@ -47,7 +47,7 @@ from JediDays import leapYear
 from JediDays import primeNumberList
 from JediDays import SimpleArraySum
 from JediDays import stairCase
-from JediDays import SplitAndJoin
+from JediDays import splitAndJoin
 from JediDays import taxTipsMeal
 from JediDays import TimeConversion
 from JediDays import spendAllMoney
@@ -284,7 +284,7 @@ while waiting_input:
     elif choice == '217':
         exe_function(SimpleArraySum.simpleArraySum())
     elif choice == '218':
-        exe_function(SplitAndJoin.split_and_join())
+        exe_function(splitAndJoin.split_and_join())
     elif choice == '219':
         exe_function(taxTipsMeal.solveTax())
     elif choice == '220':
