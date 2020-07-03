@@ -289,7 +289,7 @@ while waiting_input:
     elif choice == '220':
         exe_function(TimeConversion.convertTime())
     elif choice == '221':
-        exe_function(TimeConversion.convertTime())
+        exe_function(tripleComparation.compareTriplets())
 #   Call function to exit --------------------------------------------------------
     elif choice == 'x':
         waiting_input = False

@@ -1,11 +1,14 @@
 #Triple points comparation of 2 competitiors
 #221
 
-res = [0,0]
-a = [3]
-b = [3]
 
-def compareTriplets(a, b):
+
+def compareTriplets():
+    res = [0, 0]
+    a = [3,8,2,4]
+    b = [3,9,6,3]
+
+    list_log = ['compareTriplets()']
     for i in range(3):
         if a[i]>b[i]:
             res[0] += 1
@@ -13,6 +16,7 @@ def compareTriplets(a, b):
             res[1] += 1
         else:
             print('Nobody earns a point!')
-    return res
+        list_log.append(res)
 
-print(compareTriplets(a,b))
+    return list_log
+
