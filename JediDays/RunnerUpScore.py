@@ -1,5 +1,4 @@
 """
-
 n = 8
 arr = [3,1,6,6,5,7,7,7]
 
@@ -37,14 +36,28 @@ print(max(arr))
 
 """
 
-# Runner up score
+# Python 3.7
+# 222
 
-n = int(input())
-arr = map(int, input().split())
+from random import randint
 
-lista = list(arr)[:n]
-x = max(lista)
-while max(lista) == x:
-    lista.remove(max(lista))
+# n = int(input())
+# arr = map(int, input().split())
 
-print(max(lista))
+def run_up_score():
+    size = 8
+    arr = []
+    for el in range(size):
+        el = randint(1,100)
+        arr.append(el)
+
+    n = size
+    lista = list(arr)[:n]
+    x = max(lista)
+    while max(lista) == x:
+        lista.remove(max(lista))
+
+    print(lista)
+    print(max(lista))
+
+run_up_score()
