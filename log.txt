@@ -765,3 +765,18 @@ None
 -----------------------------------------------------------------------------
 03/07/2020 12:03:33
 ['split_and_join()', 'To become the best you need to improve', 'To-become-the-best-you-need-to-improve', 'To+become+the+best+you+need+to+improve', '', 'best you you To the to need To become']
+-----------------------------------------------------------------------------
+05/07/2020 11:40:08
+['split_and_join()', 'To become the best you need to improve', 'To-become-the-best-you-need-to-improve', 'To+become+the+best+you+need+to+improve', '', 'best best To the improve you to improve need']
+-----------------------------------------------------------------------------
+05/07/2020 12:05:35
+['split_and_join()', 'To become the best you need to improve', 'To-become-the-best-you-need-to-improve', 'To+become+the+best+you+need+to+improve', 'you become improve best need the To to', 'the the best you improve improve improve To best']
+-----------------------------------------------------------------------------
+05/07/2020 12:09:11
+['split_and_join()', 'To become the best you need to improve', 'To-become-the-best-you-need-to-improve', 'To+become+the+best+you+need+to+improve', 'to the you need To best become improve', 'to To the become you the best the you']
+-----------------------------------------------------------------------------
+05/07/2020 12:09:17
+['split_and_join()', 'To become the best you need to improve', 'To-become-the-best-you-need-to-improve', 'To+become+the+best+you+need+to+improve', 'improve best the To need to become you', 'need improve improve you you best need improve the']
+-----------------------------------------------------------------------------
+05/07/2020 12:09:37
+['split_and_join()', 'To become the best you need to improve', 'To-become-the-best-you-need-to-improve', 'To+become+the+best+you+need+to+improve', 'to the improve become you best need To', 'you you improve improve the the improve To need']

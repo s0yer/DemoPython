@@ -21,14 +21,13 @@ def split_and_join():
 
     # shuffle the source phrase - on going
     source_split = phrase.split(" ")
-    size_source = len(source_split)
     shuffle_list = []
-    while source_split is True:
-        elem = source_split.pop(randint(0,size_source-1))
+    while len(source_split) != 0:
+        elem = source_split.pop(randint(0,len(source_split)-1))
         shuffle_list.append(elem)
-        print(elem)
     new_shuffle_phrase = ' '.join(shuffle_list)
     list_log.append(new_shuffle_phrase)
+    # test if the loop is working and if the list is empty
     if len(new_shuffle_phrase) == 0:
         new_shuffle_phrase = 'on going'
     else:
