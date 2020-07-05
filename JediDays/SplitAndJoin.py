@@ -19,7 +19,22 @@ def split_and_join():
     k_plus = "+".join(t_split)
     list_log.append(k_plus)
 
-    # shuffle the source phrase
+    # shuffle the source phrase - on going
+    source_split = phrase.split(" ")
+    size_source = len(source_split)
+    shuffle_list = []
+    while source_split is True:
+        elem = source_split.pop(randint(0,size_source-1))
+        shuffle_list.append(elem)
+        print(elem)
+    new_shuffle_phrase = ' '.join(shuffle_list)
+    list_log.append(new_shuffle_phrase)
+    if len(new_shuffle_phrase) == 0:
+        new_shuffle_phrase = 'on going'
+    else:
+        print('...')
+
+    # create a new phrase source words based
     size_phrase = len(s_split)
     bonus_list = []
     size_new_phrase = 0
@@ -33,7 +48,9 @@ def split_and_join():
     print('source: ' + phrase)
     print('swap -: ' + str(v_trace))
     print('swap *: ' + str(k_plus))
-    print('bonus phrase: ' + new_phrase)
+    print('bonus phrase(shuffle): ' + new_shuffle_phrase)
+    print('bonus phrase(disorder): ' + new_phrase)
+
 
     return list_log
 

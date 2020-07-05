@@ -747,3 +747,21 @@ None
 -----------------------------------------------------------------------------
 03/07/2020 11:22:50
 ['split_and_join()', 'To become the best you need to improve', 'To-become-the-best-you-need-to-improve', 'To+become+the+best+you+need+to+improve', 'become the best need to you to best improve']
+-----------------------------------------------------------------------------
+03/07/2020 11:45:15
+['split_and_join()', 'To become the best you need to improve', 'To-become-the-best-you-need-to-improve', 'To+become+the+best+you+need+to+improve', '', 'best the become improve improve need become the you']
+-----------------------------------------------------------------------------
+03/07/2020 11:51:36
+['split_and_join()', 'To become the best you need to improve', 'To-become-the-best-you-need-to-improve', 'To+become+the+best+you+need+to+improve', '', 'To you become you the you best the become']
+-----------------------------------------------------------------------------
+03/07/2020 11:52:03
+['split_and_join()', 'To become the best you need to improve', 'To-become-the-best-you-need-to-improve', 'To+become+the+best+you+need+to+improve', '', 'best you to become need become to to To']
+-----------------------------------------------------------------------------
+03/07/2020 11:53:00
+['split_and_join()', 'To become the best you need to improve', 'To-become-the-best-you-need-to-improve', 'To+become+the+best+you+need+to+improve', '', 'need the improve improve To the need best become']
+-----------------------------------------------------------------------------
+03/07/2020 11:55:09
+['split_and_join()', 'To become the best you need to improve', 'To-become-the-best-you-need-to-improve', 'To+become+the+best+you+need+to+improve', '', 'to best best best the improve become best to']
+-----------------------------------------------------------------------------
+03/07/2020 12:03:33
+['split_and_join()', 'To become the best you need to improve', 'To-become-the-best-you-need-to-improve', 'To+become+the+best+you+need+to+improve', '', 'best you you To the to need To become']

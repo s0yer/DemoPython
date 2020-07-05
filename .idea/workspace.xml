@@ -156,11 +156,11 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.main" />
-      <item itemvalue="Python.taxTipsMeal" />
       <item itemvalue="Python.TimeConversion" />
-      <item itemvalue="Python.spendAllMoney" />
+      <item itemvalue="Python.main" />
       <item itemvalue="Python.runnerUpScore" />
+      <item itemvalue="Python.spendAllMoney" />
+      <item itemvalue="Python.taxTipsMeal" />
     </list>
     <recent_temporary>
       <list>
@@ -249,22 +249,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="521" y="136" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1593178418349" />
-    <state width="1515" height="109" key="GridCell.Tab.0.bottom" timestamp="1593786158573">
+    <state width="503" height="696" key="GridCell.Tab.0.bottom" timestamp="1593794949888">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="109" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593786158573" />
-    <state width="1515" height="109" key="GridCell.Tab.0.center" timestamp="1593786158572">
+    <state width="503" height="696" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1593794949888" />
+    <state width="503" height="696" key="GridCell.Tab.0.center" timestamp="1593794949888">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="109" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593786158572" />
-    <state width="1515" height="109" key="GridCell.Tab.0.left" timestamp="1593786158572">
+    <state width="503" height="696" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1593794949888" />
+    <state width="503" height="696" key="GridCell.Tab.0.left" timestamp="1593794949888">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="109" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593786158572" />
-    <state width="1515" height="109" key="GridCell.Tab.0.right" timestamp="1593786158572">
+    <state width="503" height="696" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1593794949888" />
+    <state width="503" height="696" key="GridCell.Tab.0.right" timestamp="1593794949888">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="109" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593786158572" />
+    <state width="503" height="696" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1593794949888" />
     <state width="1515" height="166" key="GridCell.Tab.1.bottom" timestamp="1593597359590">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -285,10 +285,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="207" y="8" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1586651360267" />
-    <state x="432" y="214" key="com.intellij.ide.util.TipDialog" timestamp="1593781264685">
+    <state x="432" y="214" key="com.intellij.ide.util.TipDialog" timestamp="1593908497449">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="432" y="214" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1593781264685" />
+    <state x="432" y="214" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1593908497449" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1592846351502">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
