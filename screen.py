@@ -25,6 +25,8 @@ def screenJedi():
     print('219: Tips and Tax')
     print('220: Time Conversion')
     print('221: Triple comparation')
+    print('222: Second biggest Number')
+    print('223: Very big Sum')
     print('s: Sair. ')
     print("---------------------------------------------------------------------------------")
 

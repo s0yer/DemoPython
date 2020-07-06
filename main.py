@@ -53,6 +53,7 @@ from JediDays import TimeConversion
 from JediDays import spendAllMoney
 from JediDays import tripleComparation
 from JediDays import runnerUpScore
+from JediDays import veryBigSum
 
 import screen
 from datetime import datetime, timezone, timedelta
@@ -293,6 +294,8 @@ while waiting_input:
         exe_function(tripleComparation.compareTriplets())
     elif choice == '222':
         exe_function(runnerUpScore.run_up_score())
+    elif choice == '223':
+        exe_function(veryBigSum.aVeryBigSum())
 #   Call function to exit --------------------------------------------------------
     elif choice == 'x':
         waiting_input = False
