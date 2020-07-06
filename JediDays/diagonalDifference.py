@@ -1,20 +1,22 @@
-# version python 3.x
+# version python 3.7
 # diagonal diference with absolute result
+# 205
 
 # Não existe array em Python, logo sao feitas listas dentro de outras listas
 # no lugar de
 # arr n n (list 3x3), tentar alocar em duas matrizes
 
-
+from random import randint
 
 def diagonalDifference():
-    n = 3
-    arr1 = [9, 9, 1]
-    arr2 = [1, 4, 2]
-    arr3 = [7, 4, 4]
-    arr = [arr1, arr2, arr3]
 
-    list_log = ['diagonalDifference()', arr]
+    arr1 = [9, randint(1, 9), 1]
+    arr2 = [randint(1, 9), 4, 2]
+    arr3 = [7, 4, randint(1,9)]
+    arr = [arr1, arr2, arr3]
+    n = len(arr)
+
+    list_log = ['diagonalDifference()', arr, n]
     primaryDiagonal = 0
     secondaryDiagonal = 0
 
