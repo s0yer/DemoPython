@@ -56,19 +56,31 @@ globals	Optional. A dictionary containing global parameters
 locals	Optional. A dictionary containing local parameters
 
 """
+# Python 3.7
 
-n = input()
-l = []
+from random import randint
 
-for _ in range(n):
-    s = raw_input().split()
+n = randint(2,3)
+
+random_list = []
+for elem in range(n):
+    elem = randint(1,21)
+    random_list.append(elem)
+
+size = len(random_list)
+
+print('Tip ' + str(n) + ' commands' )
+
+print(random_list)
+for _ in range(size):
+    s = input().split()
     command = s[0]
     args = s[1:]
     if command != "print":
         command += "("+ ",".join(args) +")"
-        eval("l."+command)
+        eval("random_list."+command)
     else:
         print("ERRO...")
-
+print(random_list)
 
 
