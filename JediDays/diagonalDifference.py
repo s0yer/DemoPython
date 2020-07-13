@@ -7,6 +7,7 @@
 # arr n n (list 3x3), tentar alocar em duas matrizes
 
 from random import randint
+import aidfunctions
 
 def diagonalDifference():
 
@@ -17,7 +18,6 @@ def diagonalDifference():
 
     n = len(arr)
 
-    list_log = ['diagonalDifference()', arr, n]
     primaryDiagonal = 0
     secondaryDiagonal = 0
 
@@ -38,8 +38,6 @@ def diagonalDifference():
         print(elem)
     print('matrix : [3x3]')
     print('Diagonal Difference = ' + str(ans))
-    list_log.append(ans)
 
-    return list_log
+    return aidfunctions.append_elements('diagonalDifference()', arr, n, ans)
 
-diagonalDifference()
