@@ -14,6 +14,7 @@ def diagonalDifference():
     arr2 = [randint(1, 9), 4, 2]
     arr3 = [7, 4, randint(1,9)]
     arr = [arr1, arr2, arr3]
+
     n = len(arr)
 
     list_log = ['diagonalDifference()', arr, n]
@@ -33,9 +34,12 @@ def diagonalDifference():
         i -= 1
 
     ans = abs(primaryDiagonal - secondaryDiagonal)
-    print(str(arr))
+    for elem in arr:
+        print(elem)
+    print('matrix : [3x3]')
     print('Diagonal Difference = ' + str(ans))
     list_log.append(ans)
 
     return list_log
 
+diagonalDifference()
