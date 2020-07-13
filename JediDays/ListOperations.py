@@ -69,7 +69,13 @@ for elem in range(n):
 
 size = len(random_list)
 
-print('Tip ' + str(n) + ' commands' )
+print('format: command <number>')
+print('Commands avaible:')
+print('append')
+print('remove')
+print('insert')
+print('pop')
+print('Tip ' + str(n) + ' commands: ')
 
 print(random_list)
 for _ in range(size):
@@ -81,6 +87,8 @@ for _ in range(size):
         eval("random_list."+command)
     else:
         print("ERRO...")
+
+print('List After modifications: ')
 print(random_list)
 
 
