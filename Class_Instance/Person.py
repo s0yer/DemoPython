@@ -1,3 +1,5 @@
+from random import randint
+
 class Person:
 
     def __init__(self,initialAge):
@@ -30,11 +32,14 @@ class Person:
         else:
             return None
 
-t = 4
-for i in range(0, t):
-    age = 10
-    p = Person(age)
-    p.amIOld()
+
+for i in range(0, randint(21, 34)):
+
+    t = randint(1,4)
+    age = t
+    p = Person(randint(0, 55))
+    ans = 'My age before: {} >>> {}'.format(age, p.amIOld())
+    print(ans)
     for j in range(0, 3):
-        p.yearPasses()
-    p.amIOld()
+        age = p.yearPasses()
+    ans = 'My age before: {} >>> {}'.format(age, p.amIOld())
