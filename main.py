@@ -54,6 +54,7 @@ from JediDays import spendAllMoney
 from JediDays import tripleComparation
 from JediDays import runnerUpScore
 from JediDays import veryBigSum
+from JediDays import tupleHash
 
 import screen
 from datetime import datetime, timezone, timedelta
@@ -296,6 +297,8 @@ while waiting_input:
         exe_function(runnerUpScore.run_up_score())
     elif choice == '223':
         exe_function(veryBigSum.aVeryBigSum())
+    elif choice == '224':
+        exe_function(tupleHash.compare_tuple_list())
 #   Call function to exit --------------------------------------------------------
     elif choice == 'x':
         waiting_input = False
