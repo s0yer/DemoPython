@@ -1,17 +1,14 @@
 from random import randint
 
+
 class Person:
 
-    def __init__(self,initialAge):
-        if 1 <= t <= 4:
-            if initialAge < 0:
-                self.age = 0
-                print("Age is not valid, setting age to 0.")
-            else:
-                self.age = initialAge
+    def __init__(self, initial_age):
+        if initial_age < 0 or 1 <= initial_age <= 4:
+            self.age = 0
+            print("Age is not valid, setting age to 0.")
         else:
-            print(" t value: [1,4]")
-        return None
+            self.age = initial_age
 
     def amIOld(self):
         if -5 <= self.age <= 30:
@@ -23,23 +20,25 @@ class Person:
                 print("You are old.")
             return self.age
         else:
-            return None
+            return ':)'
 
     def yearPasses(self):
         if self.age < 30:
             self.age = self.age + 1
             return self.age
         else:
-            return None
+            return self.age
 
 
 for i in range(0, randint(21, 34)):
 
-    t = randint(1,4)
-    age = t
-    p = Person(randint(0, 55))
-    ans = 'My age before: {} >>> {}'.format(age, p.amIOld())
+    p = Person(randint(-3, 55))
+    age_before = p.age
+    # ans = 'My age before: {} >>> {}'.format(p.age, p.amIOld())
+    # print(ans)
+    # print('----------------------------------')
+    for j in range(0, 5):
+        print(p.yearPasses())
+    ans = 'My age before: {} >>> {}'.format(age_before, p.amIOld())
     print(ans)
-    for j in range(0, 3):
-        age = p.yearPasses()
-    ans = 'My age before: {} >>> {}'.format(age, p.amIOld())
+    print('***********************************')
