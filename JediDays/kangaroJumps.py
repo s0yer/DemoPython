@@ -27,12 +27,21 @@ def kangaroo():
                 s2 = x2 + v2 * jumps
                 times = times + 1
                 if s1 == s2:
-                    return 'They will collide'
+                    return 'They will collide', times
                 else:
-                    ans = 'They never meet'
+                    ans = 'They never meet', times
             return ans
     else:
-        return 'out of the constraint'
+        return 'out of the constraint', times
+
+collide = 0
+never_meet = 0
+out_constraint = 0
 
 for i in range(0, randint(500,800)):
-    print(kangaroo())
+    a, b = kangaroo()
+    if a == 'They will collide':
+        collide =+ 1
+    elif a == 'They Never meet':
+
+    print()
