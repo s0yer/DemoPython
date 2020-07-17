@@ -1,5 +1,8 @@
 # Python 3.7
+#225
+
 from random import randint
+import aidfunctions
 
 # 2 kangaroos jumping will collide ?
 def kangaroo():
@@ -34,27 +37,30 @@ def kangaroo():
     else:
         return 'out of the constraint', -1
 
-global collide
-collide = 0
-global never_meet
-never_meet = 0
-global out_constraint
-out_constraint = 0
+def use_kangaroo():
+    global collide
+    collide = 0
+    global never_meet
+    never_meet = 0
+    global out_constraint
+    out_constraint = 0
 
-size = randint(500,800)
-for i in range(0, size):
-    a, b = kangaroo()
-    if b == 1:
-        collide = collide + 1
-    elif b == 0:
-        never_meet = never_meet + 1
-    else:
-        out_constraint = out_constraint + 1
-    print(a)
+    size = randint(500,800)
+    for i in range(0, size):
+        a, b = kangaroo()
+        if b == 1:
+            collide = collide + 1
+        elif b == 0:
+            never_meet = never_meet + 1
+        else:
+            out_constraint = out_constraint + 1
+        print(a)
 
-print('------------------------------------------------')
-print('Statistics of {} executions: '.format(size))
-print('Collide: ' + str(collide))
-print('Never meet: ' + str(never_meet))
-print('Out of the constraints: ' + str(out_constraint))
-print('------------------------------------------------')
+    print('------------------------------------------------')
+    print('Statistics of {} executions: '.format(size))
+    print('Collide: ' + str(collide))
+    print('Never meet: ' + str(never_meet))
+    print('Out of the constraints: ' + str(out_constraint))
+    print('------------------------------------------------')
+
+    return aidfunctions.append_elements('kangaroo()', collide, never_meet, out_constraint)

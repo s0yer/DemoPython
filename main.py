@@ -55,6 +55,7 @@ from JediDays import tripleComparation
 from JediDays import runnerUpScore
 from JediDays import veryBigSum
 from JediDays import tupleHash
+from JediDays import kangaroJumps
 
 import screen
 from datetime import datetime, timezone, timedelta
@@ -299,6 +300,8 @@ while waiting_input:
         exe_function(veryBigSum.aVeryBigSum())
     elif choice == '224':
         exe_function(tupleHash.compare_tuple_list())
+    elif choice == '225':
+        exe_function(kangaroJumps.use_kangaroo())
 #   Call function to exit --------------------------------------------------------
     elif choice == 'x':
         waiting_input = False
