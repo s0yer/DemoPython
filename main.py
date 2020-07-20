@@ -283,7 +283,7 @@ while waiting_input:
     elif choice == '215':
         exe_function(leapYear.is_leap())
     elif choice == '216':
-        exe_function(primeNumberList.criaListaPrimos())
+        exe_function(primeNumberList.exe_primus())
     elif choice == '217':
         exe_function(SimpleArraySum.simpleArraySum())
     elif choice == '218':

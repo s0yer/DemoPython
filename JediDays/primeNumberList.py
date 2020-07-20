@@ -1,4 +1,7 @@
+# Python 3.7
+# 217
 import random
+import aidfunctions
 
 def check_primus(source):
     residual_list = []
@@ -11,48 +14,56 @@ def check_primus(source):
         else:
             progeny_list.append(elem)
 
-    return progeny_list, residual_list
+    return source, progeny_list, residual_list
 
-
-def criaListaPrimos():
-    log_list = ['criaListaPrimos()']
-
+def create_random_list():
     # create a random list with a size of 300, magnitude [1,1000]
     random_list = []
     for i in range(300):
         random_list.append(random.randint(1, 1000))
 
+    return random_list
+
+def create_ascend_list():
     ascend_list = []
     for i in range(400):
         ascend_list.append(i)
+    return ascend_list
 
-    primus_list, residual_list = check_primus(random_list)
+def exe_primus():
+    list_log = []
+    master_list = [create_ascend_list(), create_random_list()]
 
-    # add lists in the log
-    log_list.append(random_list)
-    log_list.append(residual_list)
-    log_list.append(primus_list)
+    for elem_list in master_list:
+        source, primus_list, residual_list = check_primus(elem_list)
 
-    # size of the prime number list
-    ns = len(residual_list)
-    s = len(primus_list)
+        # size of the lists
+        ns = len(residual_list)
+        s = len(primus_list)
+        sl = len(source)
 
-    # print in the console
-    print('Source List: ' + str(random_list))
-    print('---------------')
-    print('Size: ' + str(ns))
-    print('List of Non-prime numbers: ' + str(residual_list))
-    print('---------------')
-    print('Size: ' + str(s))
-    print('Prime number list: ' + str(primus_list))
+        # print in the console
+        print('Size:' + str(sl))
+        print('Source List: ' + str(source))
+        print('-----------------------------------------------')
+        print('Size: ' + str(ns))
+        print('List of Non-prime numbers: ' + str(residual_list))
+        print('-----------------------------------------------')
+        print('Size: ' + str(s))
+        print('Prime number list: ' + str(primus_list))
+        print('***********************************************')
 
-    # print in ascending order column
-    print('Ascending order column')
-    primus_list.sort()
-    for elem in primus_list:
-        print(elem)
+        # print in ascending order column
+        print('Ascending order list:')
+        primus_list.sort()
+        print(primus_list)
+        print('>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>')
+        # primus_list.sort()
+        # for elem in primus_list:
+        #     print(elem)
+        list_log.append(['exe_primus()', source, residual_list, primus_list])
 
-    print(ascend_list)
-    return log_list
+        # add lists in the log
+    return aidfunctions.append_elements(list_log)
 
-criaListaPrimos()
+print(exe_primus())
