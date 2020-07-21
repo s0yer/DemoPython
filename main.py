@@ -56,6 +56,7 @@ from JediDays import runnerUpScore
 from JediDays import veryBigSum
 from JediDays import tupleHash
 from JediDays import kangaroJumps
+from JediDays import countValleys
 
 import screen
 from datetime import datetime, timezone, timedelta
@@ -162,7 +163,6 @@ while waiting_input:
     choice = get_user_choice()
 
 #   Call of the screen and change of screen states ---------------------------
-
     if choice == 'a':
         screen.screenConcepFund()
         choice = get_user_choice()
@@ -184,7 +184,6 @@ while waiting_input:
         print('Your choice need to be -> [a,b,c,x]')
 
 #   Call of functions of the package conceptsFundamentals ---------------------
-
     if choice == '1':
         exe_function(arquivos.writeArchive())
     elif choice == '2':
@@ -211,7 +210,6 @@ while waiting_input:
         exe_function(tuples.callArgInf())
 
 #   Call of functions of the package PadawaDays ---------------------------
-
     elif choice == '101':
         exe_function(dataTypeConversion.dtConversion())
     elif choice == '102':
@@ -302,11 +300,13 @@ while waiting_input:
         exe_function(tupleHash.compare_tuple_list())
     elif choice == '225':
         exe_function(kangaroJumps.use_kangaroo())
+    elif choice == '226':
+        exe_function(countValleys.counting_valleys())
+
 #   Call function to exit --------------------------------------------------------
     elif choice == 'x':
         waiting_input = False
-#   Last Tratament ---------------------------------------------------------------
-
+#   Last Treatment ---------------------------------------------------------------
     else:
         print("Invalid input, get a value from the options! ")
 

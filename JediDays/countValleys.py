@@ -1,3 +1,7 @@
+# Python 3.7
+# 226
+
+import aidfunctions
 
 def counting_valleys():
     n = 8
@@ -35,4 +39,4 @@ def counting_valleys():
     print(valleys)
     print(ar_hist)
 
-counting_valleys()
+    return aidfunctions.append_elements('counting_valleys()', hike, valleys, ar_hist)
