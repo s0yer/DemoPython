@@ -1,9 +1,16 @@
-#min-max sum
+# Python 3.7
+# 214
+import aidfunctions
+from random import randint
 
 def miniMaxSum():
-    list_log = ['miniMaxSum']
+
+    arr = []
     res = [0, 0, 0, 0, 0]
-    arr = [7, 69, 2, 221, 8974]
+    size = len(res)
+    for elem in range(0,size):
+        elem = randint(0,pow(2,64))
+        arr.append(elem)
 
     res[0] = arr[0] + arr[1] + arr[2] + arr[3]
     res[1] = arr[0] + arr[1] + arr[2] + arr[4]
@@ -17,9 +24,5 @@ def miniMaxSum():
     print('Minimum Sum: ' + str(mini))
     print('Maximum Sum: ' + str(maxi))
 
-    list_log.append(res)
-    list_log.append(mini)
-    list_log.append(maxi)
-
-    return list_log
+    return aidfunctions.append_elements('miniMaxSum', arr, res, maxi, mini)
 

@@ -49,8 +49,8 @@
       <recent name="C:\Users\jdsen\OneDrive\GitHub\DemoPython\Scripts" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
-    <configuration name="Person" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.appleOrangeDistanceTrees">
+    <configuration name="appleOrangeDistanceTrees" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DemoPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -58,11 +58,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Class_Instance" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/JediDays" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Class_Instance/Person.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/JediDays/appleOrangeDistanceTrees.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -92,27 +92,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="kangaroJumps" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DemoPython" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/JediDays" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/JediDays/kangaroJumps.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DemoPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -126,6 +105,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="maxMinSum" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DemoPython" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/JediDays" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/JediDays/maxMinSum.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -157,18 +157,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.main" />
-      <item itemvalue="Python.Person" />
-      <item itemvalue="Python.kangaroJumps" />
       <item itemvalue="Python.primeNumberList" />
       <item itemvalue="Python.countValleys" />
+      <item itemvalue="Python.maxMinSum" />
+      <item itemvalue="Python.appleOrangeDistanceTrees" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.appleOrangeDistanceTrees" />
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.maxMinSum" />
         <item itemvalue="Python.primeNumberList" />
         <item itemvalue="Python.countValleys" />
-        <item itemvalue="Python.kangaroJumps" />
-        <item itemvalue="Python.Person" />
       </list>
     </recent_temporary>
   </component>
@@ -245,22 +245,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="521" y="136" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1594650084332" />
-    <state width="516" height="696" key="GridCell.Tab.0.bottom" timestamp="1595459008131">
+    <state width="516" height="696" key="GridCell.Tab.0.bottom" timestamp="1595596625855">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="516" height="696" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595459008131" />
-    <state width="516" height="696" key="GridCell.Tab.0.center" timestamp="1595459008130">
+    <state width="516" height="696" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595596625855" />
+    <state width="516" height="696" key="GridCell.Tab.0.center" timestamp="1595596625855">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="516" height="696" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595459008130" />
-    <state width="516" height="696" key="GridCell.Tab.0.left" timestamp="1595459008130">
+    <state width="516" height="696" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595596625855" />
+    <state width="516" height="696" key="GridCell.Tab.0.left" timestamp="1595596625855">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="516" height="696" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595459008130" />
-    <state width="516" height="696" key="GridCell.Tab.0.right" timestamp="1595459008131">
+    <state width="516" height="696" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595596625855" />
+    <state width="516" height="696" key="GridCell.Tab.0.right" timestamp="1595596625855">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="516" height="696" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595459008131" />
+    <state width="516" height="696" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595596625855" />
     <state width="723" height="165" key="GridCell.Tab.1.bottom" timestamp="1595123236548">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -277,10 +277,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="723" height="165" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1595123236548" />
-    <state x="432" y="214" key="com.intellij.ide.util.TipDialog" timestamp="1595458669036">
+    <state x="432" y="214" key="com.intellij.ide.util.TipDialog" timestamp="1595764959387">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="432" y="214" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1595458669036" />
+    <state x="432" y="214" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1595764959387" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1592846351502">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
