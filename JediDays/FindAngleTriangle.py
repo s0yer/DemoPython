@@ -1,15 +1,18 @@
-import math
+# Python 3.7
+# 207
 
+import math
+import aidfunctions
+from random import randint
 
 def angleTriangle():
 
-    ab = 21
-    bc = 34
+    ab = randint(13, 34)
+    bc = randint(21, 55)
 
-    list_log = ['angleTriangle()', ab, bc]
-    res = str(int(round(math.degrees(math.atan2(ab,bc)))))
-    list_log.append(res)
-
+    res = str(int(round(math.degrees(math.atan2(ab, bc)))))
+    print('AB: ' + str(ab))
+    print('BC: ' + str(bc))
     print(res+'°')
 
-    return list_log
+    return aidfunctions.append_elements('angleTriangle()', ab, bc, res)
