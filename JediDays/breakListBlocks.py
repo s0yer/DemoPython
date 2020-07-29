@@ -1,20 +1,17 @@
+# Python 3.7
 # break a list in blocks
+import aidfunctions
+from random import randint
 
 def merge_the_tools():
 
-    list_log = ['merge_the_tools()']
     string_input = "AAB,CCA,ADD,DOM,JLN,SIN,TVS"
-    list_log.append(string_input)
-
     block = 3
-    list_log.append(block)
-
     n = len(string_input)
-    list_log.append(n)
 
     if 1 <= n <= 10000:
         amount_block = n / block
-        list_log.append(amount_block)
+        n_block = amount_block
 
         if 1 <= block <= n and n % block == 0:
             ans = string_input.split(",", int(amount_block))
@@ -27,6 +24,11 @@ def merge_the_tools():
         ans = "input a valid string, size -> [1,10000]"
         print(ans)
 
-    list_log.append(ans)
 
-    return list_log
+    size_ans = len(ans)
+    random_elem = randint(0, size_ans)
+    print('The element of the position {}: '.format(random_elem) + ans[random_elem])
+
+    return aidfunctions.append_elements('merge_the_tools()', string_input, block, n, n_block, ans)
+
+merge_the_tools()
