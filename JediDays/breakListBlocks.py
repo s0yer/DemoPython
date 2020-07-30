@@ -1,5 +1,7 @@
 # Python 3.7
-# break a list in blocks
+# break a string in blocks
+# 204
+
 import aidfunctions
 from random import randint
 
@@ -31,4 +33,3 @@ def merge_the_tools():
 
     return aidfunctions.append_elements('merge_the_tools()', string_input, block, n, n_block, ans)
 
-merge_the_tools()
