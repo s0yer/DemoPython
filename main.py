@@ -272,7 +272,6 @@ while waiting_input:
     elif choice == '211':
         exe_function(stairCase.staircase())
     elif choice == '212':
-        gradeAnalysis.initGrading()
         gradeAnalysis.gradingStudents()
     elif choice == '213':
         exe_function(posNegRatios.plusMinusRatios())
