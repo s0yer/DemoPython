@@ -1,8 +1,18 @@
+# Python 3.7
+# 215
 # Leap year
 
+import aidfunctions
+from random import randint
+
 def is_leap():
-    list_log = ['is_leap()']
-    years_list = [1934,1955,1989,2000,2001,2013,2021,2134]
+
+    size = randint(21,89)
+    years_list = []
+    for i in range(0,size):
+        years_list.append(randint(1855, 2089))
+
+    answer_list = []
 
     leap = False
     for year in years_list:
@@ -24,9 +34,8 @@ def is_leap():
         print(leap)
         print('-------------------------------------------------')
         ans = str(year) + ':' + str(leap)
-        list_log.append(ans)
+        answer_list.append(ans)
 
-    return list_log
-
+    return aidfunctions.append_elements('is_leap()', answer_list)
 
 
