@@ -40,21 +40,19 @@ print(max(arr))
 # 222
 
 from random import randint
+import aidfunctions
 
 # n = int(input())
 # arr = map(int, input().split())
 
 # find the second biggest element into a list
 def run_up_score():
-    list_log = ['run_up_score()']
+
     size = randint(3,21)
     arr = []
     for el in range(size):
         el = randint(1,5000)
         arr.append(el)
-
-    list_log.append(size)
-    list_log.append(arr)
 
     lista = list(arr)[:size]
     x = max(lista)
@@ -62,8 +60,7 @@ def run_up_score():
         lista.remove(max(lista))
 
     second_big = max(lista)
-    list_log.append(second_big)
     print(arr)
     print('The second biggest element of the list is: ' + str(second_big))
 
-    return list_log
+    return aidfunctions.append_elements('run_up_score()', size, arr, second_big)
