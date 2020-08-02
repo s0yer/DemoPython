@@ -1,17 +1,23 @@
 # PlusMinus Funciton: ratios of positives, negatives and zeros.
+# 213
+
+from random import randint
+import aidfunctions
 
 def plusMinusRatios():
-    log_list = ['plusMinusRatios()']
-    arr = [5,7,-5,-1,9,-7,-8,-7,0,0,6,-4,-8,-44,-88,4,2,0,34,55,89,-1,0,1,1,2,3,5,8,13,21,34,55,89]
-    n = len(arr)
-    log_list.append(arr)
-    log_list.append(n)
+
+    max_limit_size = randint(55, 89)
+    min_limit_size = randint(5, 13)
+    arr_source = []
+    for i in range(min_limit_size, max_limit_size):
+        arr_source.append(randint(-89, 89))
+    n = len(arr_source)
 
     neg = 0
     pos = 0
     zeros = 0
 
-    for el in arr:
+    for el in arr_source:
         if -100 <= el <= 100:
             if el < 0:
                 neg += 1
@@ -22,15 +28,16 @@ def plusMinusRatios():
         else:
             print('You need to introduce a number between -100 and 100!')
 
-    ratioNeg = neg / n
-    ratioPos = pos / n
-    ratioZeros = zeros / n
+    negative_ratio = neg / n
+    positive_ratio = pos / n
+    zeros_ratio = zeros / n
 
-    print('Positive ratio: ' + '{:f}'.format(ratioPos))
-    print('Negative ratio: ' + '{:f}'.format(ratioNeg))
-    print('Zeros ratio: ' + '{:f}'.format(ratioZeros))
+    print('Source list: ' + str(arr_source))
+    print('Positive ratio: ' + '{:f}'.format(positive_ratio))
+    print('Negative ratio: ' + '{:f}'.format(negative_ratio))
+    print('Zeros ratio: ' + '{:f}'.format(zeros_ratio))
 
-    ans = [ratioPos, ratioNeg, ratioZeros]
-    log_list.append(ans)
+    ans = [positive_ratio, negative_ratio, zeros_ratio]
 
-    return log_list
+    return aidfunctions.append_elements('plusMinusRatios()', min_limit_size, max_limit_size, n, arr_source, ans)
+
