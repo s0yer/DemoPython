@@ -1,5 +1,8 @@
 # Time conversion
-#220
+# 220
+
+import aidfunctions
+from random import randint
 
 def timeConversion(s):
 
@@ -18,13 +21,15 @@ def timeConversion(s):
 
 def convertTime():
 
-    list_log = ['timeConversion(s)','convertTime()']
-    source = '07:05:45PM'
+    hours = randint(0, 12)
+    minutes = randint(0, 60)
+    seconds = randint(0, 60)
+    # source = '07:05:45PM'
+    source = str(hours) + ':' + str(minutes) + ':' + str(seconds) + 'AM'
+    
     print(source)
-    list_log.append(source)
-
     converted = timeConversion(source)
     print(converted)
-    list_log.append(converted)
 
-    return list_log
+    return aidfunctions.append_elements('timeConversion(s)', 'convertTime()', source, converted)
+
