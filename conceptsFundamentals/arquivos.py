@@ -1,4 +1,7 @@
+# Python 3.7
+# 001
 
+import aidfunctions
 
 def writeArchive():
 
@@ -27,13 +30,13 @@ def writeArchive():
         #entrada_usuario = input('Digite algo: ')
         arq.close()
     except IOError:
-        a = 'arquivo nao encontrado'
+        a = 'arquivo nao encontrado / archive not found'
         print(a)
     except ValueError:
-        a = 'Erro de valor'
+        a = 'Erro de valor / value error'
         print(a)
     except:
-        a = 'Erro desconhecido / coringa'
+        a = 'Erro desconhecido / coringa / unknown errors'
         print(a)
     finally:
         b = 'Cleanup'
@@ -41,6 +44,4 @@ def writeArchive():
 
     print('Fim.')
 
-    list_answer = ['writeArchive()', a, b]
-
-    return list_answer
+    return aidfunctions.append_elements('writeArchive()', a, b)
