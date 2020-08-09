@@ -191,9 +191,9 @@ while waiting_input:
         exe_function(phrase)
         print(phrase)
     elif choice == '3':
-        exe_function(dictionariesMaps.dictMaps())
+        exe_function(dictionariesMaps.dict_maps())
     elif choice == '4':
-        exe_function(dynamicDescompression.dynamicDesc())
+        exe_function(dynamicDescompression.dynamic_descompression())
     elif choice == '5':
         exe_function(ListDictionary.listDictionary())
     elif choice == '6':
