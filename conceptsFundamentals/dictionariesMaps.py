@@ -6,20 +6,26 @@ from random import randint
 
 # on going
 def create_list():
-    return 0
 
-def dict_maps():
-    names = ['avocado', 'watermelon', 'ginger', 'pepper', 'cinnamon']
+    names = ['avocado', 'watermelon', 'ginger', 'pepper', 'cinnamon', 'banana', 'apple', 'pepper', 'beet', 'carrot',
+             'cherry', 'pineapple', 'nut']
     list_numbers = []
+    # size of the names list
     size = len(names)
+    # create a random list of numbers
     for i in range(0, size):
         list_numbers.append(randint(0, 1000))
-
+    # creates a list joined two lists
     source_list = []
     for i in range(0, size):
         elem = str(names[i]) + ' ' + str(list_numbers[i])
         source_list.append(elem)
 
+    return names, size, list_numbers, source_list
+
+def dict_maps():
+
+    names, size, list_numbers, source_list = create_list()
 
     print('Source: {} '.format(source_list))
 
@@ -31,16 +37,20 @@ def dict_maps():
         dict_phones[name] = num
 
     # query dict_phones while there is input, otherwise exit when EOF (except)
-    # while (True):
+    # random times of consult
     times_consult = randint(34, 55)
     i = 0
+    ans_list_query = []
+
     while i < times_consult:
         try:
             consult = names[randint(0, len(names) - 1)]
             query_name = consult.strip()
+
             if query_name in dict_phones:
                 print('{} = {}'.format(query_name, dict_phones[query_name]))
-                x = '{} = {}'.format(query_name, dict_phones[query_name])
+                ans_query = '{} = {}'.format(query_name, dict_phones[query_name])
+                ans_list_query.append(ans_query)
             else:
                 print('Not found')
 
@@ -51,6 +61,6 @@ def dict_maps():
     else:
         print("consulted {} times, end...".format(size))
 
-    print(names, )
-    return aidfunctions.append_elements('dict_maps()', source_list, x)
+    return aidfunctions.append_elements('dict_maps()', source_list, ans_list_query)
+
 
