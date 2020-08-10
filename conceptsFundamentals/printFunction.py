@@ -1,14 +1,18 @@
-# print function
+# Python 3.7
+# 007
 
-def printFunc():
+from aidfunctions import append_elements
+from random import randint
 
-    n = 8
-    print_list = ['printFunc()']
+def print_function():
+
+    n = randint(5, 21)
+    print_list = []
 
     i = 1
     while i <= n:
-        print(i, end='')
+        print(i, end='\n')
         print_list.append(i)
         i += 1
 
-    return print_list
+    return append_elements('print_function()', print_list)
