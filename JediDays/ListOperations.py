@@ -60,11 +60,11 @@ locals	Optional. A dictionary containing local parameters
 
 from random import randint
 
-n = randint(2,3)
+n = randint(2, 21)
 
 random_list = []
 for elem in range(n):
-    elem = randint(1,21)
+    elem = randint(1, 21)
     random_list.append(elem)
 
 size = len(random_list)
@@ -78,7 +78,9 @@ print('pop')
 print('Tip ' + str(n) + ' commands: ')
 
 print(random_list)
-for _ in range(size):
+# for automatic input -> make a list of commands
+
+for i in range(size):
     s = input().split()
     command = s[0]
     args = s[1:]
