@@ -3,6 +3,7 @@
 
 import aidfunctions
 from random import randint
+import random
 
 def timeConversion(s):
 
@@ -16,17 +17,21 @@ def timeConversion(s):
         return s[:-2]
 
     else:
-        ans = str(int(s[:2])+12) + str(s[2:8])
+        minutes = int(s[:2])
+        sum_min = minutes + 12
+        ans = str(sum_min) + str(s[2:8])
         return ans
 
 def convertTime():
 
+    day_night = ['AM', 'PM']
     hours = randint(0, 12)
     minutes = randint(0, 60)
     seconds = randint(0, 60)
+
     # source = '07:05:45PM'
-    source = str(hours) + ':' + str(minutes) + ':' + str(seconds) + 'AM'
-    
+    source = str(hours) + ':' + str(minutes) + ':' + str(seconds) + str(day_night[randint(0, 1)])
+
     print(source)
     converted = timeConversion(source)
     print(converted)
