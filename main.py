@@ -20,7 +20,7 @@ from conceptsFundamentals import tuples
 
 from PadawanDays import dataTypeConversion
 from PadawanDays import binaryNumbers
-from PadawanDays import dictionaryMaps
+from PadawanDays import plot
 from PadawanDays import evenOddStringPrint
 from PadawanDays import listComprehensions
 from PadawanDays import multiples
@@ -197,25 +197,25 @@ while waiting_input:
     elif choice == '5':
         exe_function(ListDictionary.listDictionary())
     elif choice == '6':
-        exe_function(nestedLists.nestedL())
+        exe_function(nestedLists.nested_list())
     elif choice == '7':
-        exe_function(printFunction.printFunc())
+        exe_function(printFunction.print_function())
     elif choice == '8':
         exe_function(stringValidators.stringValid())
     elif choice == '9':
         exe_function(swapCase.swap_case())
     elif choice == '10':
-        exe_function(tupleDictionary.callArgDic())
+        exe_function(tupleDictionary.call_args_dict())
     elif choice == '11':
-        exe_function(tuples.callArgInf())
+        exe_function(tuples.call_infinite_args())
 
 #   Call of functions of the package PadawaDays ---------------------------
     elif choice == '101':
-        exe_function(dataTypeConversion.dtConversion())
+        exe_function(dataTypeConversion.datatype_conversion())
     elif choice == '102':
-        exe_function(binaryNumbers.binaryConversion())
+        exe_function(binaryNumbers.binary_conversion())
     elif choice == '103':
-        exe_function(dictionaryMaps.dictMaps())
+        exe_function(plot.create_chart())
     elif choice == '104':
         exe_function(evenOddStringPrint.evenOddString())
     elif choice == '105':
