@@ -31,10 +31,16 @@ a single boolean.
 
 
 """
+
+# Python 3.7
+# 008
+
+from aidfunctions import append_elements
+
 def stringValid():
 
-    s = 'Future'
-    string_list = ['stringValid()', s]
+    s = 'Future is unpredictable'
+    string_list = []
 
     # evaluates the parameters -> str.isalnum, str.isalpha, str.isdigit, str.islower, str.isupper
     for method in [str.isalnum, str.isalpha, str.isdigit, str.islower, str.isupper]:
@@ -42,4 +48,4 @@ def stringValid():
         k = any(method(c) for c in s)
         string_list.append(k)
 
-    return string_list
+    return append_elements('stringValid()', s, string_list)
