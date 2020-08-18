@@ -1,29 +1,33 @@
+# Python 3.7
 # even and odd string print
+# 104
 
-def evenOddString():
-    list_evenOdd = ['evenOddString()']
+from aidfunctions import append_elements
+
+def even_odd_string():
+
     t = 1
     even = []
     odd = []
-    word = "wisdomisclear"
+    source_word = "wisdomisclearandprecise"
 
     if 1 <= t <= 10:
         while t > 0:
 
-            i =0
-            # size_s = len(word)
+            i = 0
+            # size_s = len(source_word)
             # while i < size_s:
             #     if i % 2 == 0:
-            #         even.append(word[i])
+            #         even.append(source_word[i])
             #     else:
-            #         odd.append(word[i])
+            #         odd.append(source_word[i])
             #     i += 1
-            for el in word:
+            for el in source_word:
                 if (i % 2) == 0:
                      even.append(el)
                 else:
                      odd.append(el)
-                i+=1
+                i += 1
             t -= 1
 
         for el in even:
@@ -33,10 +37,9 @@ def evenOddString():
             print(el, end='\n')
         print('-----------------------------')
 
-        list_evenOdd.append(even)
-        list_evenOdd.append(odd)
+        ans = 'OK'
     else:
-        print("t needs to be [1,10]")
-        list_evenOdd.append("t needs to be [1,10]")
+        ans = 't needs to be [1,10]'
+        print(ans)
 
-    return list_evenOdd
+    return append_elements('even_odd_string()', source_word, even, odd, ans)
