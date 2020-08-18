@@ -217,7 +217,7 @@ while waiting_input:
     elif choice == '103':
         exe_function(plot.create_chart())
     elif choice == '104':
-        exe_function(evenOddStringPrint.evenOddString())
+        exe_function(evenOddStringPrint.even_odd_string())
     elif choice == '105':
         exe_function(listComprehensions.listComp())
     elif choice == '106':
@@ -242,7 +242,7 @@ while waiting_input:
     elif choice == '112':
         exe_function(capitalizeString.captalize_solve())
     elif choice == '113':
-        exe_function(generatePdf.genPDF())
+        exe_function(generatePdf.gen_pdf())
     elif choice == '114':
         exe_function(listPositions.listP())
 
