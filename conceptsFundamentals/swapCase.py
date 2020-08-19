@@ -1,17 +1,18 @@
+# Python 3.7
+# 009
 
-
+from aidfunctions import append_elements
 
 def swap_case():
     s = "The future is Unpredictable"
-
     ns = ""
-    list_swap_case = ['swap_case()']
+
     for elem in s:
-        if elem.isupper() == True:
-            ns+=(elem.lower())
+        if elem.isupper():
+            ns += (elem.lower())
         else:
-            ns+=(elem.upper())
-    list_swap_case.append(ns)
+            ns += (elem.upper())
+
     print(ns)
 
-    return list_swap_case
+    return append_elements('swap_case()', s, ns)
