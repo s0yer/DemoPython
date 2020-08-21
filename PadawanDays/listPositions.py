@@ -1,16 +1,23 @@
-# func 114
-def listP():
+# Python 3.7
+# 114
 
-    list_t = [5, 8, 4, 2, 6, 5, 2, 4, 5, 2, 1, 5, 0, 2, 1, 5, 5, 8, 9]
-    list_log = ['listP()']
-    print(list_t)
-    print(list_t[::2], list_t[1::2])
-    print(list_t[::-1], list_t[1::-1])
+from aidfunctions import append_elements
+from random import randint
 
-    list_log.append(list_t)
-    list_log.append(list_t[::-1])
-    list_log.append(list_t[1::-1])
-    list_log.append(list_t[::2])
-    list_log.append(list_t[1::2])
+def list_positions():
+    source_list = []
+    for el in range(0, randint(5, 8)):
+        source_list.append(randint(0, 55))
 
-    return list_log
+    list_log = []
+    print('Souce List' + str(source_list))
+    print(source_list[::2], source_list[1::2])
+    print(source_list[::-1], source_list[1::-1])
+
+    list_log.append(source_list)
+    list_log.append(source_list[::-1])
+    list_log.append(source_list[1::-1])
+    list_log.append(source_list[::2])
+    list_log.append(source_list[1::2])
+
+    return append_elements('list_positions()', list_log)
