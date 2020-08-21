@@ -219,11 +219,11 @@ while waiting_input:
     elif choice == '104':
         exe_function(evenOddStringPrint.even_odd_string())
     elif choice == '105':
-        exe_function(listComprehensions.listComp())
+        exe_function(listComprehensions.list_comp())
     elif choice == '106':
         exe_function(multiples.multiples())
     elif choice == '107':
-        exe_function(oddEven.oddEven())
+        exe_function(oddEven.odd_even())
     elif choice == '108':
         exe_function(recursion.exe_factorial())
     elif choice == '109':
@@ -244,7 +244,7 @@ while waiting_input:
     elif choice == '113':
         exe_function(generatePdf.gen_pdf())
     elif choice == '114':
-        exe_function(listPositions.listP())
+        exe_function(listPositions.list_positions())
 
 #   Call of functions of the package JediDays ---------------------------
     elif choice == '201':
