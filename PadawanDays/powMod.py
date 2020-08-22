@@ -1,34 +1,55 @@
+# Python 3.7
+# 110
 
-"""
-Other way to solve:
 
-a,b,m = [int(input()) for el in '123']
-print(pow(a,b),pow(a,b,m),sep='\n')
+from aidfunctions import append_elements
+from random import randint
 
------------------------------------------------
 
-inp = (int(input()),int(input()),int(input()))
-print("{0}\n{1}".format(pow(inp[0], inp[1]), pow(*inp)))
+def pow_function(e, f, g):
 
-"""
+    a, b, m = e, f, g
 
-def powFunc():
+    if 0 <= a <= 10:
+        if a <= b <= 10:
 
-	# a,b,m = [int(input()) for el in '285']
-	a,b,m = 2,8,5
-	list_log = ['powFunc()', [a,b,m]]
+            if 2 <= m <= 1000:
+                pow_ans1 = pow(a, b)
+                pow_ans2 = pow(a, b, m)
 
-	if 0 <= a <= 10:
-		if a <= b <= 10:
-			if 2 <= m <= 1000:
-				print(pow(a,b))
-				print(pow(a,b,m))
-				list_log.append([pow(a,b),pow(a,b,m)])
-			else:
-				print('m -> [2,1000]')
-		else:
-			print('b -> [0,10]')
-	else:
-		print('a -> [0,10]')
+                print('a, b, c: ', a, b, m, sep='\n')
+                answer = '1: ' + str(pow_ans1) + ' | ' + '2: ' + str(pow_ans2)
+                print(answer)
+            else:
+                m = False
+                print('m value: ' + str(m))
+                answer = 'm -> [2,1000]'
+                print(answer)
+        else:
+            b = False
+            print('b value: ' + str(b))
+            answer = 'b -> [0,10]'
+            print(answer)
+    else:
+        a = False
+        print('a value: ' + str(a))
+        answer = 'a -> [0,10]'
+        print(answer)
 
-	return list_log
+    return a, b, m, answer
+
+
+def exe_pow():
+
+    test_a = False
+    test_b = False
+    test_m = False
+    answer = 'earth'
+
+    while test_a and test_b and test_m is not True:
+        print('blue')
+
+        test_a, test_b, test_m, answer = pow_function(randint(1, 5), randint(5, 8), randint(-3, 5))
+
+    return append_elements('pow_function()', [test_a, test_b, test_m], answer)
+
