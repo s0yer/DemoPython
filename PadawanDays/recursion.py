@@ -1,3 +1,9 @@
+# Python 3.7
+# 108
+
+from aidfunctions import append_elements
+from random import randint
+
 # Recursion
 def factorial(n):
     # stop condition
@@ -7,20 +13,28 @@ def factorial(n):
         return n * factorial(n-1)
 
 
-
 def exe_factorial():
+    list_elements = []
 
-    # lists
-    list_elements = [-3,2,4,10,12,21]
-    list_factorial = ['factorial()', list_elements]
+    # random list
+    for elem in range(21, randint(34, 55)):
+        list_elements.append(randint(-21, 21))
+    print('---------------------------------')
+    print('Numbers of elements source list: ' + str(len(list_elements)))
+    print('Source list: ' + str(list_elements))
+    print('---------------------------------')
+
+    ans_list = []
 
     for el in list_elements:
         if 2 <= el <= 12:
-            ans = factorial(el)
+            ans = str(el) + '! = ' + str(factorial(el))
+            ans_list.append(ans)
             print(ans)
         else:
-            ans = "element needs to be between [2,12]"
-            print(ans)
-        list_factorial.append(str(ans))
 
-    return list_factorial
+            ans = str(el) + ": element needs to be between [2,12]"
+            ans_list.append(ans)
+            print(ans)
+
+    return append_elements('factorial()', list_elements, ans_list)
