@@ -1,45 +1,39 @@
+# Python 3.7
 # Reverse Print
+# 109
 
-def reverseP():
+from aidfunctions import append_elements
+from random import randint
 
-    arr = [4,5,2,1,5,5,5,5,5,5,5,5,8,8,8,8,8,8]
-    arrb= []
 
-    list_reverse_print = ['reverseP()']
-    n = len(arr)
+def reverse_print():
+
+    source_arr = []
+    for elem in range(randint(21, 34)):
+        source_arr.append(randint(-500, 1200))
+
+    arr_reversed = []
+    tested_list = []
+    n = len(source_arr)
+
     if 1 <= n <= 1000:
-        for el in arr:
+        for el in source_arr:
             if 1 <= el <= 10000:
-
                 ans = str(el) + ': Ok'
                 print(ans)
-                list_reverse_print.append(ans)
+                tested_list.append(el)
             else:
-                ans = " The maximum value of element in arr is 10000 and the mininum 1."
+                ans = str(el) + ": The maximum value of element in source_arr is 10000 and the minimum 1."
                 print(ans)
-                return ans
 
-        arrb = arr.copy()
-        arrb.reverse()
-        print(arr)
-        print('reverse: ' + str(arrb))
-
-        list_reverse_print.append(arr)
-        list_reverse_print.append(arrb)
-
-        return list_reverse_print
+        arr_reversed = tested_list.copy()
+        arr_reversed.reverse()
+        print('-----------------------------')
+        print('source: ' + str(source_arr))
+        print('reverse: ' + str(arr_reversed))
 
     else:
         ans = "n needs to be between [1,1000]"
-        list_reverse_print.append(ans)
         print(ans)
 
-        return list_reverse_print
-
-
-    # for el in arrb:
-    #     print(el, end=' ')
-    #
-    # t = tuple(str(arrb))
-    # p = " ".join(t)
-    # print(p)
+    return append_elements('reverse_print()', source_arr, tested_list, arr_reversed)
