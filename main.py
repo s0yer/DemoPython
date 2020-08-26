@@ -31,6 +31,7 @@ from PadawanDays import powMod
 from PadawanDays import capitalizeString
 from PadawanDays import generatePdf
 from PadawanDays import listPositions
+from PadawanDays import textWrap
 
 from JediDays import alphabetRangoli
 from JediDays import appleOrangeDistanceTrees
@@ -227,9 +228,9 @@ while waiting_input:
     elif choice == '108':
         exe_function(recursion.exe_factorial())
     elif choice == '109':
-        exe_function(reversePrint.reverseP())
+        exe_function(reversePrint.reverse_print())
     elif choice == '110':
-        exe_function(powMod.powFunc())
+        exe_function(powMod.exe_pow())
     elif choice == '111':
         screen.fence1()
         casa.exe_casa()
@@ -245,6 +246,8 @@ while waiting_input:
         exe_function(generatePdf.gen_pdf())
     elif choice == '114':
         exe_function(listPositions.list_positions())
+    elif choice == '115':
+        exe_function(textWrap.exe_wrap())
 
 #   Call of functions of the package JediDays ---------------------------
     elif choice == '201':
