@@ -1,27 +1,27 @@
 # !/bin/python3
 # 112
-import math
-import os
-import random
-import re
-import sys
 
 from aidfunctions import append_elements
 
+
 def captalize_solve():
 
-    cap_list = ['solve()']
-    s = "jadson marliere de oliveira capitalize"
-    print(s)
+    source_text = "jadson marliere de oliveira capitalize"
+    s = source_text
+    print('----------------------------------------')
 
+    print('Source: ' + s)
+    print('----------------------------------------')
+
+    print('Process: ')
     for el in s[:].split():
-        v = s.replace(el, el.capitalize())
-        print(v)
+        s = s.replace(el, el.capitalize())
+        print(s)
 
     print('----------------------------------------------')
+    print('Answer: ')
     print(s)
-    s_capitalize = s.capitalize()
-    print(s_capitalize)
+    print('----------------------------------------------')
 
-    return append_elements('captalize_solve()', s, v, s_capitalize)
+    return append_elements('captalize_solve()', source_text, s)
 
