@@ -1,21 +1,22 @@
+# Python  3.7
+#
 
-"""
-Other way to solve:
+from random import randint
+from aidfunctions import append_elements
 
-def wrap(string, max_width):
-    return "\n".join([string[i:i+max_width] for i in range(0, len(string), max_width)])
-	
-"""
+def text_wrap(source_text, max_width):
 
-----------------------------------------------
-import textwrap
+    list_wrap = []
+    for i in range(0, len(source_text), max_width): list_wrap.append(source_text[i:i + max_width])
 
-def wrap(string, max_width):
-    l = list()
-    for i in range(0,len(string), max_width): l.append(string[i:i+max_width])
-    return "\n".join(l)
+    return "\n".join(list_wrap)
 
 
-string, max_width = input(), int(input())
-result = wrap(string, max_width)
-print(result)
+def exe_wrap():
+
+    string, max_width = 'wisdom is clear and precise', randint(3, 5)
+    outcome = text_wrap(string, max_width)
+    print(outcome)
+
+    return append_elements('text_wrap()', outcome)
+
