@@ -1,24 +1,32 @@
+# Python 3.7
+# 106
 # n multiples
 
-def multiples():
-    list_multiples = ['multiples()']
-    n = 5
+from aidfunctions import append_elements
+from random import randint
 
-    if 2 <= n <= 20:
+
+def multiples():
+
+    list_multiples = []
+    source_number = randint(5, 21)
+
+    if 2 <= source_number <= 20:
         i = 1
 
         while i <= 10:
-            k = str(i * n)
-            print(str(n) + " x " + str(i) + " = " + k)
+            k = str(i * source_number)
+            print(str(source_number) + " x " + str(i) + " = " + k)
+            list_multiples.append(k)
             i += 1
-        list_multiples.append(n)
-        list_multiples.append(k)
+        print('Result: ')
+        print(source_number)
+        print(list_multiples)
 
-        return list_multiples
+        return append_elements('multiples()', source_number, list_multiples)
 
     else:
         error_str = 'input a value between [2,20]'
-        list_multiples.append(error_str)
         print(error_str)
 
-        return list_multiples
+        return append_elements('multiples()', error_str)
