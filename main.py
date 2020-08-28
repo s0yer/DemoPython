@@ -32,6 +32,7 @@ from PadawanDays import capitalizeString
 from PadawanDays import generatePdf
 from PadawanDays import listPositions
 from PadawanDays import textWrap
+from PadawanDays import filterlist
 
 from JediDays import alphabetRangoli
 from JediDays import appleOrangeDistanceTrees
@@ -91,7 +92,7 @@ def hash_log():
     return list_hash
 
 
-def endCmd():
+def end_command():
     print("End of command Processing :)")
 
 def get_user_choice():
@@ -248,6 +249,8 @@ while waiting_input:
         exe_function(listPositions.list_positions())
     elif choice == '115':
         exe_function(textWrap.exe_wrap())
+    elif choice == '116':
+        exe_function(filterlist.filter_list(filterlist.create_source_list()))
 
 #   Call of functions of the package JediDays ---------------------------
     elif choice == '201':
@@ -312,7 +315,7 @@ while waiting_input:
     else:
         print("Invalid input, get a value from the options! ")
 
-    if not endCmd():
+    if not end_command():
         screen.fence1()
 
 else:
