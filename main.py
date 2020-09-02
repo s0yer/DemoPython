@@ -197,7 +197,7 @@ while waiting_input:
     elif choice == '4':
         exe_function(dynamicDescompression.dynamic_descompression())
     elif choice == '5':
-        exe_function(ListDictionary.listDictionary())
+        exe_function(ListDictionary.list_dictionary_tuple())
     elif choice == '6':
         exe_function(nestedLists.nested_list())
     elif choice == '7':
