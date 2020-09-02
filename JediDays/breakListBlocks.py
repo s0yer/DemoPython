@@ -1,5 +1,5 @@
 # Python 3.7
-# break a string in blocks
+# break a source_text in blocks
 # 204
 
 import aidfunctions
@@ -23,7 +23,7 @@ def merge_the_tools():
             ans = " Constraints -> block:[1,n] AND { n needs be a multiple of block } "
             print(ans)
     else:
-        ans = "input a valid string, size -> [1,10000]"
+        ans = "input a valid source_text, size -> [1,10000]"
         print(ans)
 
 
