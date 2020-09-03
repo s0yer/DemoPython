@@ -1,64 +1,64 @@
 #!/usr/bin/python
 # Python Version 3.7
 
-from oop_Properties import casa
-from oop_Properties import condominio
+from oop_properties import casa
+from oop_properties import condominio
 
-from oop_Vehicle import bus
-from oop_Vehicle import car
+from oop_vehicle import bus
+from oop_vehicle import car
 
-from conceptsFundamentals import arquivos
-from conceptsFundamentals import dictionariesmaps
-from conceptsFundamentals import dynamicdescompression
-from conceptsFundamentals import listdictionary
-from conceptsFundamentals import nestedlists
-from conceptsFundamentals import printfunction
-from conceptsFundamentals import stringvalidators
-from conceptsFundamentals import swapcase
-from conceptsFundamentals import tupledictionary
-from conceptsFundamentals import tuples
+from conceptsfundamentals import arquivos
+from conceptsfundamentals import dictionariesmaps
+from conceptsfundamentals import dynamicdescompression
+from conceptsfundamentals import listdictionary
+from conceptsfundamentals import nestedlists
+from conceptsfundamentals import printfunction
+from conceptsfundamentals import stringvalidators
+from conceptsfundamentals import swapcase
+from conceptsfundamentals import tupledictionary
+from conceptsfundamentals import tuples
 
-from PadawanDays import datatypeconversion
-from PadawanDays import binarynumbers
-from PadawanDays import plot
-from PadawanDays import evenoddstringprint
-from PadawanDays import listcomprehensions
-from PadawanDays import multiples
-from PadawanDays import oddeven
-from PadawanDays import recursion
-from PadawanDays import reverseprint
-from PadawanDays import powmod
-from PadawanDays import capitalizestring
-from PadawanDays import generatepdf
-from PadawanDays import listpositions
-from PadawanDays import textwrap
-from PadawanDays import filterlist
+from padawandays import datatypeconversion
+from padawandays import binarynumbers
+from padawandays import plot
+from padawandays import evenoddstringprint
+from padawandays import listcomprehensions
+from padawandays import multiples
+from padawandays import oddeven
+from padawandays import recursion
+from padawandays import reverseprint
+from padawandays import powmod
+from padawandays import capitalizestring
+from padawandays import generatepdf
+from padawandays import listpositions
+from padawandays import textwrap
+from padawandays import filterlist
 
-from JediDays import alphabetrangoli
-from JediDays import trees
-from JediDays import cakecandles
-from JediDays import breaklistblocks
-from JediDays import diagonaldifference
-from JediDays import doormat
-from JediDays import findangletriangle
-from JediDays import findscore
-from JediDays import gradeanalysis
-from JediDays import posnegratios
-from JediDays import maxminsum
-from JediDays import leapyear
-from JediDays import primenumberlist
-from JediDays import simplearraysum
-from JediDays import staircase
-from JediDays import splitandjoin
-from JediDays import taxtipsmeal
-from JediDays import timeconversion
-from JediDays import spendallmoney
-from JediDays import triplecomparation
-from JediDays import runnerupscore
-from JediDays import verybigsum
-from JediDays import tuplehash
-from JediDays import kangarojumps
-from JediDays import countvalleys
+from jedidays import alphabetrangoli
+from jedidays import trees
+from jedidays import cakecandles
+from jedidays import breaklistblocks
+from jedidays import diagonaldifference
+from jedidays import doormat
+from jedidays import findangletriangle
+from jedidays import findscore
+from jedidays import gradeanalysis
+from jedidays import posnegratios
+from jedidays import maxminsum
+from jedidays import leapyear
+from jedidays import primenumberlist
+from jedidays import simplearraysum
+from jedidays import staircase
+from jedidays import splitandjoin
+from jedidays import taxtipsmeal
+from jedidays import timeconversion
+from jedidays import spendallmoney
+from jedidays import triplecomparation
+from jedidays import runnerupscore
+from jedidays import verybigsum
+from jedidays import tuplehash
+from jedidays import kangarojumps
+from jedidays import countvalleys
 
 import screen
 from datetime import datetime, timezone, timedelta
@@ -185,7 +185,7 @@ while waiting_input:
     else:
         print('Your choice need to be -> [a,b,c,x]')
 
-#   Call of functions of the package conceptsFundamentals ---------------------
+#   Call of functions of the package conceptsfundamentals ---------------------
     if choice == '1':
         exe_function(arquivos.writeArchive())
     elif choice == '2':
@@ -252,7 +252,7 @@ while waiting_input:
     elif choice == '116':
         exe_function(filterlist.filter_list(filterlist.create_source_list()))
 
-#   Call of functions of the package JediDays ---------------------------
+#   Call of functions of the package jedidays ---------------------------
     elif choice == '201':
         exe_function(alphabetrangoli.print_rangoli())
     elif choice == '202':

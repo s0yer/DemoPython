@@ -1,6 +1,6 @@
 #exemplo de classe
 
-from oop_Properties.lar import Lar
+from oop_properties.lar import Lar
 
 class Condominio(Lar):
 

@@ -1,4 +1,4 @@
-from oop_Vehicle.vehicle import Vehicle
+from oop_vehicle.vehicle import Vehicle
 
 class Bus(Vehicle):
 
