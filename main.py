@@ -8,14 +8,14 @@ from oop_Vehicle import bus
 from oop_Vehicle import car
 
 from conceptsFundamentals import arquivos
-from conceptsFundamentals import dictionariesMaps
-from conceptsFundamentals import dynamicDescompression
-from conceptsFundamentals import ListDictionary
-from conceptsFundamentals import nestedLists
-from conceptsFundamentals import printFunction
-from conceptsFundamentals import stringValidators
-from conceptsFundamentals import swapCase
-from conceptsFundamentals import tupleDictionary
+from conceptsFundamentals import dictionariesmaps
+from conceptsFundamentals import dynamicdescompression
+from conceptsFundamentals import listdictionary
+from conceptsFundamentals import nestedlists
+from conceptsFundamentals import printfunction
+from conceptsFundamentals import stringvalidators
+from conceptsFundamentals import swapcase
+from conceptsFundamentals import tupledictionary
 from conceptsFundamentals import tuples
 
 from PadawanDays import dataTypeConversion
@@ -193,21 +193,21 @@ while waiting_input:
         exe_function(phrase)
         print(phrase)
     elif choice == '3':
-        exe_function(dictionariesMaps.dict_maps())
+        exe_function(dictionariesmaps.dict_maps())
     elif choice == '4':
-        exe_function(dynamicDescompression.dynamic_descompression())
+        exe_function(dynamicdescompression.dynamic_descompression())
     elif choice == '5':
-        exe_function(ListDictionary.list_dictionary_tuple())
+        exe_function(listdictionary.list_dictionary_tuple())
     elif choice == '6':
-        exe_function(nestedLists.nested_list())
+        exe_function(nestedlists.nested_list())
     elif choice == '7':
-        exe_function(printFunction.print_function())
+        exe_function(printfunction.print_function())
     elif choice == '8':
-        exe_function(stringValidators.stringValid())
+        exe_function(stringvalidators.stringValid())
     elif choice == '9':
-        exe_function(swapCase.swap_case())
+        exe_function(swapcase.swap_case())
     elif choice == '10':
-        exe_function(tupleDictionary.call_args_dict())
+        exe_function(tupledictionary.call_args_dict())
     elif choice == '11':
         exe_function(tuples.call_infinite_args())
 
