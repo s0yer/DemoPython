@@ -34,31 +34,31 @@ from PadawanDays import listpositions
 from PadawanDays import textwrap
 from PadawanDays import filterlist
 
-from JediDays import alphabetRangoli
-from JediDays import appleOrangeDistanceTrees
-from JediDays import bCakeCandles
-from JediDays import breakListBlocks
-from JediDays import diagonalDifference
-from JediDays import doorMat
-from JediDays import FindAngleTriangle
-from JediDays import findScore
-from JediDays import gradeAnalysis
-from JediDays import posNegRatios
-from JediDays import maxMinSum
-from JediDays import leapYear
-from JediDays import primeNumberList
-from JediDays import SimpleArraySum
-from JediDays import stairCase
-from JediDays import splitAndJoin
-from JediDays import taxTipsMeal
-from JediDays import TimeConversion
-from JediDays import spendAllMoney
-from JediDays import tripleComparation
-from JediDays import runnerUpScore
-from JediDays import veryBigSum
-from JediDays import tupleHash
-from JediDays import kangaroJumps
-from JediDays import countValleys
+from JediDays import alphabetrangoli
+from JediDays import trees
+from JediDays import cakecandles
+from JediDays import breaklistblocks
+from JediDays import diagonaldifference
+from JediDays import doormat
+from JediDays import findangletriangle
+from JediDays import findscore
+from JediDays import gradeanalysis
+from JediDays import posnegratios
+from JediDays import maxminsum
+from JediDays import leapyear
+from JediDays import primenumberlist
+from JediDays import simplearraysum
+from JediDays import staircase
+from JediDays import splitandjoin
+from JediDays import taxtipsmeal
+from JediDays import timeconversion
+from JediDays import spendallmoney
+from JediDays import triplecomparation
+from JediDays import runnerupscore
+from JediDays import verybigsum
+from JediDays import tuplehash
+from JediDays import kangarojumps
+from JediDays import countvalleys
 
 import screen
 from datetime import datetime, timezone, timedelta
@@ -100,7 +100,7 @@ def get_user_choice():
     return choice
 
 def doorWelcome():
-    alphabetRangoli.print_rangoli()
+    alphabetrangoli.print_rangoli()
 
 def exe_function(data):
 
@@ -254,59 +254,59 @@ while waiting_input:
 
 #   Call of functions of the package JediDays ---------------------------
     elif choice == '201':
-        exe_function(alphabetRangoli.print_rangoli())
+        exe_function(alphabetrangoli.print_rangoli())
     elif choice == '202':
-        appleOrangeDistanceTrees.countApplesAndOranges()
+        trees.countApplesAndOranges()
     elif choice == '203':
-        exe_function(bCakeCandles.birthdayCakeCandles())
+        exe_function(cakecandles.birthdayCakeCandles())
     elif choice == '204':
-        exe_function(breakListBlocks.merge_the_tools())
+        exe_function(breaklistblocks.merge_the_tools())
     elif choice == '205':
-        exe_function(diagonalDifference.diagonalDifference())
+        exe_function(diagonaldifference.diagonalDifference())
     elif choice == '206':
-        exe_function(doorMat.drawDoor())
+        exe_function(doormat.drawDoor())
     elif choice == '207':
-        exe_function(FindAngleTriangle.angleTriangle())
+        exe_function(findangletriangle.angleTriangle())
     elif choice == '208':
         phrase = ["Often, it is not only wrong to do it, but also to stop doing something."]
         exe_function(phrase)
         print(phrase)
     elif choice == '209':
-        exe_function(findScore.fScore())
+        exe_function(findscore.fScore())
     elif choice == '210':
-        exe_function(spendAllMoney.getMoneySpent())
+        exe_function(spendallmoney.getMoneySpent())
     elif choice == '211':
-        exe_function(stairCase.staircase())
+        exe_function(staircase.staircase())
     elif choice == '212':
-        gradeAnalysis.gradingStudents()
+        gradeanalysis.gradingStudents()
     elif choice == '213':
-        exe_function(posNegRatios.plusMinusRatios())
+        exe_function(posnegratios.plusMinusRatios())
     elif choice == '214':
-        exe_function(maxMinSum.miniMaxSum())
+        exe_function(maxminsum.miniMaxSum())
     elif choice == '215':
-        exe_function(leapYear.is_leap())
+        exe_function(leapyear.is_leap())
     elif choice == '216':
-        exe_function(primeNumberList.exe_primus())
+        exe_function(primenumberlist.exe_primus())
     elif choice == '217':
-        exe_function(SimpleArraySum.simpleArraySum())
+        exe_function(simplearraysum.simpleArraySum())
     elif choice == '218':
-        exe_function(splitAndJoin.split_and_join())
+        exe_function(splitandjoin.split_and_join())
     elif choice == '219':
-        exe_function(taxTipsMeal.solveTax())
+        exe_function(taxtipsmeal.solveTax())
     elif choice == '220':
-        exe_function(TimeConversion.convertTime())
+        exe_function(timeconversion.convertTime())
     elif choice == '221':
-        exe_function(tripleComparation.compareTriplets())
+        exe_function(triplecomparation.compareTriplets())
     elif choice == '222':
-        exe_function(runnerUpScore.run_up_score())
+        exe_function(runnerupscore.run_up_score())
     elif choice == '223':
-        exe_function(veryBigSum.aVeryBigSum())
+        exe_function(verybigsum.aVeryBigSum())
     elif choice == '224':
-        exe_function(tupleHash.compare_tuple_list())
+        exe_function(tuplehash.compare_tuple_list())
     elif choice == '225':
-        exe_function(kangaroJumps.use_kangaroo())
+        exe_function(kangarojumps.use_kangaroo())
     elif choice == '226':
-        exe_function(countValleys.counting_valleys())
+        exe_function(countvalleys.counting_valleys())
 
 #   Call function to exit --------------------------------------------------------
     elif choice == 'x':
@@ -319,4 +319,4 @@ while waiting_input:
         screen.fence1()
 
 else:
-    alphabetRangoli.print_rangoli()
+    alphabetrangoli.print_rangoli()
