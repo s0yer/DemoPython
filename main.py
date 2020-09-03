@@ -18,20 +18,20 @@ from conceptsFundamentals import swapcase
 from conceptsFundamentals import tupledictionary
 from conceptsFundamentals import tuples
 
-from PadawanDays import dataTypeConversion
-from PadawanDays import binaryNumbers
+from PadawanDays import datatypeconversion
+from PadawanDays import binarynumbers
 from PadawanDays import plot
-from PadawanDays import evenOddStringPrint
-from PadawanDays import listComprehensions
+from PadawanDays import evenoddstringprint
+from PadawanDays import listcomprehensions
 from PadawanDays import multiples
-from PadawanDays import oddEven
+from PadawanDays import oddeven
 from PadawanDays import recursion
-from PadawanDays import reversePrint
-from PadawanDays import powMod
-from PadawanDays import capitalizeString
-from PadawanDays import generatePdf
-from PadawanDays import listPositions
-from PadawanDays import textWrap
+from PadawanDays import reverseprint
+from PadawanDays import powmod
+from PadawanDays import capitalizestring
+from PadawanDays import generatepdf
+from PadawanDays import listpositions
+from PadawanDays import textwrap
 from PadawanDays import filterlist
 
 from JediDays import alphabetRangoli
@@ -213,25 +213,25 @@ while waiting_input:
 
 #   Call of functions of the package PadawaDays ---------------------------
     elif choice == '101':
-        exe_function(dataTypeConversion.datatype_conversion())
+        exe_function(datatypeconversion.datatype_conversion())
     elif choice == '102':
-        exe_function(binaryNumbers.binary_conversion())
+        exe_function(binarynumbers.binary_conversion())
     elif choice == '103':
         exe_function(plot.create_chart())
     elif choice == '104':
-        exe_function(evenOddStringPrint.even_odd_string())
+        exe_function(evenoddstringprint.even_odd_string())
     elif choice == '105':
-        exe_function(listComprehensions.list_comp())
+        exe_function(listcomprehensions.list_comp())
     elif choice == '106':
         exe_function(multiples.multiples())
     elif choice == '107':
-        exe_function(oddEven.odd_even())
+        exe_function(oddeven.odd_even())
     elif choice == '108':
         exe_function(recursion.exe_factorial())
     elif choice == '109':
-        exe_function(reversePrint.reverse_print())
+        exe_function(reverseprint.reverse_print())
     elif choice == '110':
-        exe_function(powMod.exe_pow())
+        exe_function(powmod.exe_pow())
     elif choice == '111':
         screen.fence1()
         casa.exe_casa()
@@ -242,13 +242,13 @@ while waiting_input:
         car.exe_car()
         screen.fence1()
     elif choice == '112':
-        exe_function(capitalizeString.captalize_solve())
+        exe_function(capitalizestring.captalize_solve())
     elif choice == '113':
-        exe_function(generatePdf.gen_pdf())
+        exe_function(generatepdf.gen_pdf())
     elif choice == '114':
-        exe_function(listPositions.list_positions())
+        exe_function(listpositions.list_positions())
     elif choice == '115':
-        exe_function(textWrap.exe_wrap())
+        exe_function(textwrap.exe_wrap())
     elif choice == '116':
         exe_function(filterlist.filter_list(filterlist.create_source_list()))
 
