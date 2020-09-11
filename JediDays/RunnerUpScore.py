@@ -25,7 +25,7 @@ runnerUp(n,arr)
 ------------------------------------
 
 n = int(input())
-arr = list(map(int, input().split()))
+arr = arr(map(int, input().split()))
 zes = max(arr)
 i=0
 while(i<n):
@@ -45,7 +45,7 @@ import aidfunctions
 # n = int(input())
 # arr = map(int, input().split())
 
-# find the second biggest element into a list
+# find the second biggest element into a arr
 def run_up_score():
 
     size = randint(3,21)
@@ -61,6 +61,6 @@ def run_up_score():
 
     second_big = max(lista)
     print(arr)
-    print('The second biggest element of the list is: ' + str(second_big))
+    print('The second biggest element of the arr is: ' + str(second_big))
 
     return aidfunctions.append_elements('run_up_score()', size, arr, second_big)

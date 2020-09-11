@@ -1,13 +1,13 @@
 # Python 3.7
 # 116
 
-# input a list and filter neg and positive numbers
+# input a arr and filter neg and positive numbers
 from random import randint
 from aidfunctions import append_elements
 
 
 def create_source_list():
-    name_list = 'Random list (range [21, 34])'
+    name_list = 'Random arr (range [21, 34])'
     source_list = []
     size = randint(21, 34)
 

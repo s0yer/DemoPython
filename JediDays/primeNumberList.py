@@ -7,7 +7,7 @@ def check_primus(source):
     residual_list = []
     progeny_list = []
 
-    # Check if a number is a prime number and add in a specific list
+    # Check if a number is a prime number and add in a specific arr
     for elem in source:
         if elem % 2 == 0 or elem % 3 == 0 or elem % 5 == 0:
             residual_list.append(elem)
@@ -17,7 +17,7 @@ def check_primus(source):
     return source, progeny_list, residual_list
 
 def create_random_list():
-    # create a random list with a size of 300, magnitude [1,1000]
+    # create a random arr with a size of 300, magnitude [1,1000]
     random_list = []
     for i in range(300):
         random_list.append(random.randint(1, 1000))
@@ -50,11 +50,11 @@ def exe_primus():
         print('List of Non-prime numbers: ' + str(residual_list))
         print('-----------------------------------------------')
         print('Size: ' + str(s))
-        print('Prime number list: ' + str(primus_list))
+        print('Prime number arr: ' + str(primus_list))
         print('***********************************************')
 
         # print in ascending order column
-        print('Ascending order list:')
+        print('Ascending order arr:')
         primus_list.sort()
         print(primus_list)
         print('>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>')

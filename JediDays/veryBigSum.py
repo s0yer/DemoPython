@@ -22,7 +22,7 @@ def aVeryBigSum():
     list_log.append(amount)
     list_log.append(arr)
 
-    print('source list: ' + str(arr))
-    print('Sum of the list: ' + str(amount))
+    print('source arr: ' + str(arr))
+    print('Sum of the arr: ' + str(amount))
 
     return list_log

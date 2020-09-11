@@ -2,7 +2,7 @@
 # 113
 
 from reportlab.pdfgen import canvas
-from PadawanDays import dataTypeConversion
+from padawandays import datatypeconversion
 from aidfunctions import append_elements
 
 
@@ -26,7 +26,7 @@ def gen_pdf():
         pdf.drawString(233, 630, 'Day : Fibo_Number')
 
         pdf.drawString(233, 397, 'Holiday^2')
-        pdf.drawString(233, 377, str(dataTypeConversion.datatype_conversion()))
+        pdf.drawString(233, 377, str(datatypeconversion.datatype_conversion()))
 
         pdf.save()
         ans = '{}.pdf created !!!'.format(file_name)

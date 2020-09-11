@@ -25,7 +25,7 @@ def split_and_join():
         shuffle_list.append(elem)
     new_shuffle_phrase = ' '.join(shuffle_list)
 
-    # test if the loop is working and if the list is empty
+    # test if the loop is working and if the arr is empty
     if len(new_shuffle_phrase) == 0:
         new_shuffle_phrase = 'on going'
     else:

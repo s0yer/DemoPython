@@ -1,4 +1,4 @@
-#Script para backup, python versão 3.x
+# Script para backup, python versão 3.x
 
 import shutil
 import os
@@ -19,7 +19,7 @@ os.chdir(fonte)
 
 for arquivo in arquivos:
 	with open(arquivo) as arq:
-		print(arquivo,arq.read())
+		print(arquivo, arq.read())
 
 for arquivo in arquivos:
 	if os.path.isfile(arquivo):

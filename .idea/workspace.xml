@@ -49,8 +49,8 @@
       <recent name="C:\Users\jdsen\OneDrive\GitHub\DemoPython\Scripts" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.leapYear">
-    <configuration name="appleOrangeDistanceTrees" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.breakingrecords">
+    <configuration name="between2sets" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DemoPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -58,11 +58,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/JediDays" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ongoing" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/JediDays/appleOrangeDistanceTrees.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ongoing/between2sets.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -71,7 +71,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="breakListBlocks" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="breakingrecords" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DemoPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -79,11 +79,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/JediDays" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ongoing" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/JediDays/breakListBlocks.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ongoing/breakingrecords.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -92,7 +92,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="gradeAnalysis" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="listdictionary (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DemoPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -100,11 +100,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/JediDays" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/conceptsfundamentals" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/JediDays/gradeAnalysis.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/conceptsfundamentals/listdictionary.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -113,7 +113,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="leapYear" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="listdictionary" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DemoPython" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -121,11 +121,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/JediDays" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/conceptsFundamentals" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/JediDays/leapYear.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\jdsen\OneDrive\GitHub\DemoPython\conceptsFundamentals\listdictionary.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -156,19 +156,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.between2sets" />
+      <item itemvalue="Python.listdictionary (1)" />
+      <item itemvalue="Python.listdictionary" />
       <item itemvalue="Python.main" />
-      <item itemvalue="Python.appleOrangeDistanceTrees" />
-      <item itemvalue="Python.breakListBlocks" />
-      <item itemvalue="Python.gradeAnalysis" />
-      <item itemvalue="Python.leapYear" />
+      <item itemvalue="Python.breakingrecords" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.leapYear" />
-        <item itemvalue="Python.gradeAnalysis" />
-        <item itemvalue="Python.breakListBlocks" />
+        <item itemvalue="Python.breakingrecords" />
+        <item itemvalue="Python.listdictionary (1)" />
+        <item itemvalue="Python.between2sets" />
+        <item itemvalue="Python.listdictionary" />
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.appleOrangeDistanceTrees" />
       </list>
     </recent_temporary>
   </component>
@@ -225,62 +225,50 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="74" key="#Code_Folding" timestamp="1589314098832">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="0" y="74" key="#Code_Folding/0.0.1536.824@0.0.1536.824" timestamp="1589314098832" />
-    <state x="0" y="74" key="#Inspections" timestamp="1589314022381">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="0" y="74" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1589314022381" />
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593781953877">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1593781953877" />
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1590415547244">
+    <state x="521" y="136" key="FileChooserDialogImpl" timestamp="1599185013187">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1590415547244" />
-    <state x="521" y="136" key="FileChooserDialogImpl" timestamp="1594650084332">
+    <state x="521" y="136" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1599185013187" />
+    <state width="455" height="696" key="GridCell.Tab.0.bottom" timestamp="1599218454349">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="521" y="136" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1594650084332" />
-    <state width="375" height="696" key="GridCell.Tab.0.bottom" timestamp="1596097682632">
+    <state width="455" height="696" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599218454349" />
+    <state width="455" height="696" key="GridCell.Tab.0.center" timestamp="1599218454348">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="375" height="696" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596097682632" />
-    <state width="375" height="696" key="GridCell.Tab.0.center" timestamp="1596097682631">
+    <state width="455" height="696" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1599218454348" />
+    <state width="455" height="696" key="GridCell.Tab.0.left" timestamp="1599218454348">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="375" height="696" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596097682631" />
-    <state width="375" height="696" key="GridCell.Tab.0.left" timestamp="1596097682631">
+    <state width="455" height="696" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1599218454348" />
+    <state width="455" height="696" key="GridCell.Tab.0.right" timestamp="1599218454349">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="375" height="696" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596097682631" />
-    <state width="375" height="696" key="GridCell.Tab.0.right" timestamp="1596097682632">
+    <state width="455" height="696" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1599218454349" />
+    <state width="1493" height="165" key="GridCell.Tab.1.bottom" timestamp="1596792066452">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="375" height="696" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596097682632" />
-    <state width="723" height="165" key="GridCell.Tab.1.bottom" timestamp="1595123236548">
+    <state width="1493" height="165" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596792066452" />
+    <state width="1493" height="165" key="GridCell.Tab.1.center" timestamp="1596792066452">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="165" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595123236548" />
-    <state width="723" height="165" key="GridCell.Tab.1.center" timestamp="1595123236548">
+    <state width="1493" height="165" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1596792066452" />
+    <state width="1493" height="165" key="GridCell.Tab.1.left" timestamp="1596792066452">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="165" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1595123236548" />
-    <state width="723" height="165" key="GridCell.Tab.1.left" timestamp="1595123236548">
+    <state width="1493" height="165" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1596792066452" />
+    <state width="1493" height="165" key="GridCell.Tab.1.right" timestamp="1596792066452">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="165" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1595123236548" />
-    <state width="723" height="165" key="GridCell.Tab.1.right" timestamp="1595123236548">
+    <state width="1493" height="165" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1596792066452" />
+    <state x="432" y="214" key="com.intellij.ide.util.TipDialog" timestamp="1599722958052">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="165" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1595123236548" />
-    <state x="432" y="214" key="com.intellij.ide.util.TipDialog" timestamp="1596188012961">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="432" y="214" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1596188012961" />
+    <state x="432" y="214" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1599722958052" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1592846351502">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -290,14 +278,19 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>3</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/screen.py</url>
           <line>27</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/padawandays/generatepdf.py</url>
+          <line>3</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/conceptsfundamentals/listdictionary.py</url>
+          <line>56</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

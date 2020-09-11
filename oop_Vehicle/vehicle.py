@@ -13,12 +13,12 @@ class Vehicle():
         # private atribute
         self.__secret_observations = []
 
-    # return de output / return -> need to be a string
+    # return de output / return -> need to be a source_text
     def __repr__(self):
         print('Special Methods!!!')
         return 'Speed: {}, Observations:{}, Secret Observations: {}'.format(self.top_speed_init, len(self.observations),len(self.__secret_observations))
 
-    # private method to add obs in the list -> __secret_observations
+    # private method to add obs in the arr -> __secret_observations
     def add_secret_observation(self, observation_text):
         if len(observation_text) > 0:
             self.__secret_observations.append(observation_text)

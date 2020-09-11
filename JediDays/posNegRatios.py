@@ -32,7 +32,7 @@ def plusMinusRatios():
     positive_ratio = pos / n
     zeros_ratio = zeros / n
 
-    print('Source list: ' + str(arr_source))
+    print('Source arr: ' + str(arr_source))
     print('Positive ratio: ' + '{:f}'.format(positive_ratio))
     print('Negative ratio: ' + '{:f}'.format(negative_ratio))
     print('Zeros ratio: ' + '{:f}'.format(zeros_ratio))

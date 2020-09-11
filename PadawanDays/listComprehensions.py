@@ -1,7 +1,7 @@
 # Python 3.7
 # 105
-# list comprehensions
-# basic sintax : [expr for item in list if cond]
+# arr comprehensions
+# basic sintax : [expr for item in arr if cond]
 
 
 from aidfunctions import append_elements

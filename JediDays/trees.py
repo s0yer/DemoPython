@@ -9,7 +9,7 @@ import re
 import sys
 
 """
-Other way to solve, list compreension:
+Other way to solve, arr compreension:
 
 print(sum([1 for x in apple if (x + a) >= s and (x + a) <= t]))
 print(sum([1 for x in orange if (x + b) >= s and (x + b) <= t]))
@@ -73,8 +73,8 @@ countApplesAndOranges()
 #
 #     n = int(mn[1])
 #
-#     apples = list(map(int, input().rstrip().split()))
+#     apples = arr(map(int, input().rstrip().split()))
 #
-#     oranges = list(map(int, input().rstrip().split()))
+#     oranges = arr(map(int, input().rstrip().split()))
 #
 #     countApplesAndOranges(s, t, a, b, apples, oranges)

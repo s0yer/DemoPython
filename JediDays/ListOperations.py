@@ -3,7 +3,7 @@
 
 # Lists
 command = "Enter"
-list = []
+arr = []
 
 # number of operations
 n = 12
@@ -13,19 +13,19 @@ elem = input()
 while i<n:
 
     if command == 'insert':
-        list.insert(elem)
+        arr.insert(elem)
     elif command == 'print':
-        print(list)
+        print(arr)
     elif command == 'remove':
-        list.remove()
+        arr.remove()
     elif command == 'append':
-        list.append(elem)
+        arr.append(elem)
     elif command == 'sort':
-        list.sort()
+        arr.sort()
     elif command == 'pop':
-        list.pop()
+        arr.pop()
     elif command == 'reverse':
-        list.reverse()
+        arr.reverse()
     else:
         print('input a valid Command.')
 
@@ -78,7 +78,7 @@ print('pop')
 print('Tip ' + str(n) + ' commands: ')
 
 print(random_list)
-# for automatic input -> make a list of commands
+# for automatic input -> make a arr of commands
 
 for i in range(size):
     s = input().split()
