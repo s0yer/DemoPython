@@ -1,6 +1,7 @@
 # Python 3.7
 
 from random import randint
+import statistics
 
 def most_commum_bird(max_size):
     birds_types_list = []
@@ -16,8 +17,11 @@ def most_commum_bird(max_size):
         print()
         return False
 
+    mode_bird = statistics.mode(birds_types_list)
+    print('The mode of the list: {}'.format(mode_bird))
+    print('******************************')
 
-for i in range(30):
+for i in range(10):
     print('processing... {}'.format(i))
     max_size = pow(10, randint(4, 8))
     most_commum_bird(max_size)
