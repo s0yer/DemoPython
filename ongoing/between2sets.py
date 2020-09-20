@@ -28,9 +28,15 @@ def brain_between2sets():
         print('Pass for the next process...')
     else:
         return False
+
     count_div = 0
     for elem_a in list_a:
         for elem_b in list_b:
-            if elem_b % elem_a = 0:
+            if elem_b % elem_a == 0:
                 count_div += 1
+            else:
+                print('{} / {} is not 0'.format(elem_b, elem_a))
+
+    print('numbers that are divisors: {}'.format(count_div))
+
 brain_between2sets()
