@@ -2,9 +2,18 @@
 
 from random import randint
 
+
 def seek_page():
-    size_book = randint(-9, 90)
-    wanted_page = randint(-5, size_book)
+    source_book = []
+    i = 1
+    for _ in range(randint(-9, 90)):
+        source_book.append(i)
+        i += 1
+    print(source_book)
+    print('------------')
+
+    size_book = len(source_book)
+    wanted_page = randint(5, size_book - 1)
     print('size book: {}'.format(size_book))
     print('wanted page: {}'.format(wanted_page))
 
@@ -22,27 +31,30 @@ def seek_page():
         print('-------------')
         return False
 
-    source_book = []
-    i = 1
-    for _ in range(size_book):
-        source_book.append(i)
-        i += 1
-    print(source_book)
-    print('------------')
-
     half_book = size_book / 2
-    book_double = []
-    for elem is source_book:
-
-    pass_pages = []
-    pivot = 0
-    if half_book < wanted_page:
-        i = len(source_book - 1)
-        while wanted_page != pivot:
-            pivot = source_book[i]
-
-
     print('half book {}'.format(half_book))
+
+    if wanted_page < half_book:
+        i = 1
+        count_pass = 0
+        while wanted_page is not source_book[i] or source_book[i - 1]:
+            i += 2
+            count_pass += 1
+    else:
+        i = size_book - 1
+        count_pass = 0
+        while wanted_page is not source_book[i] or source_book[i - 1]:
+            i -= 2
+            count_pass += 1
+
+    return print(count_pass)
+
+    # pivot = 0
+    # if half_book < wanted_page:
+    #     i = len(source_book - 1)
+    #     while wanted_page != pivot:
+    #         pivot = source_book[i]
+
     print('**************END***************')
 
     return True
