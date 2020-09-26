@@ -1,7 +1,7 @@
 # Python 3.7
 
 from random import randint
-
+from aidfunctions import append_elements
 
 def jump_cloud():
     # create a souce list of clouds
@@ -45,7 +45,7 @@ def jump_cloud():
     print('Quantity of clouds {}'.format(size_sky))
     print('Quantity of jumps {}'.format(jumps))
 
-    return True
+    return append_elements(clouds, size_sky, jumps)
 
 
 jump_cloud()
