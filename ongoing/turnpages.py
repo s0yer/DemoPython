@@ -1,7 +1,7 @@
 # Python 3.7
 
 from random import randint
-
+from aidfunctions import append_elements
 
 def seek_page():
     source_book = []
@@ -13,7 +13,7 @@ def seek_page():
     print('------------')
 
     size_book = len(source_book)
-    wanted_page = randint(5, size_book - 1)
+    wanted_page = randint(5, size_book)
     print('size book: {}'.format(size_book))
     print('wanted page: {}'.format(wanted_page))
 
@@ -47,7 +47,7 @@ def seek_page():
             i -= 2
             count_pass += 1
 
-    return print(count_pass)
+    print(count_pass)
 
     # pivot = 0
     # if half_book < wanted_page:
@@ -57,8 +57,7 @@ def seek_page():
 
     print('**************END***************')
 
-    return True
-
+    return append_elements(source_book, size_book, half_book, count_pass)
 
 for _ in range(30):
     while not seek_page():
