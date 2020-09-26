@@ -2,6 +2,7 @@
 
 from random import randint
 import statistics
+from aidfunctions import append_elements
 
 def most_commum_bird(max_size):
     birds_types_list = []
@@ -20,6 +21,8 @@ def most_commum_bird(max_size):
     mode_bird = statistics.mode(birds_types_list)
     print('The mode of the list: {}'.format(mode_bird))
     print('******************************')
+
+    return append_elements(birds_types_list, mode_bird)
 
 for i in range(10):
     print('processing... {}'.format(i))
