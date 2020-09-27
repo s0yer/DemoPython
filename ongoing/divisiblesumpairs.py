@@ -1,7 +1,7 @@
 # Python 3.7
 
 from random import randint
-
+from aidfunctions import append_elements
 
 def div_sum_pairs():
     # size array [2, 100]
@@ -49,7 +49,7 @@ def div_sum_pairs():
     print('Quantity of dividers: {}'.format(count_dividers))
     print('------------------------------------')
 
-    return True
+    return append_elements(source_array, sum_pair_array, count_dividers, not_divider)
 
 
 div_sum_pairs()
