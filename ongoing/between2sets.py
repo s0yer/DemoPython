@@ -1,5 +1,15 @@
 # Python 3.7
 
+from aidfunctions import append_elements
+from random import randint
+
+def random_data():
+    list_x = [randint(5, 21), randint(5, 21)]
+    list_y = [randint(21, 34), randint(21, 34), randint(21, 34)]
+
+    return list_x, list_y
+
+
 def source_data():
 
     list_a = [2, 4]
@@ -9,7 +19,11 @@ def source_data():
 
 def brain_between2sets():
 
-    list_a, list_b = source_data()
+    lucky = randint(0, 1)
+    if lucky == 0:
+        list_a, list_b = source_data()
+    else:
+        list_a, list_b = random_data()
 
     # Constraints test
     if 1 <= len(list_a) and len(list_b) <= 10:
@@ -39,4 +53,8 @@ def brain_between2sets():
 
     print('numbers that are divisors: {}'.format(count_div))
 
-brain_between2sets()
+    return append_elements(list_a, list_b, count_div)
+
+
+for i in range(randint(21, 34)):
+    brain_between2sets()
