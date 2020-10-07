@@ -1,6 +1,8 @@
 # Python 3.7
 # UNICAMP - P_IA012A_2020S2 - Segurança em Comunicação de Dados
-""" Este e um projeto Academico ex.9
+"""
+Autor: Jadson Marliere de Oliveira
+Este e um projeto Academico ex.9
 > cifra de transposicao:
 - o texto a cifrar e escrito por colunas, ate n max de linhas
 - a mensagem e emitida via linhas """
