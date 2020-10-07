@@ -1,6 +1,7 @@
 # Python 3.7
 
 from random import randint
+from aidfunctions import append_elements
 
 def create_sublist(size):
     sub_list = []
@@ -65,4 +66,6 @@ while test is not True:
     print('------------------------------')
 
 print('***********************************')
-print('We tried {} times'.format(counter))
+ans = 'We tried {} times'.format(counter)
+print(ans)
+append_elements(ans)
