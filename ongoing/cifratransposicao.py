@@ -5,7 +5,6 @@
 - o texto a cifrar e escrito por colunas, ate n max de linhas
 - a mensagem e emitida via linhas """
 
-from random import randint
 import numpy
 
 # Testes dos valores fonte, texto em claro e chaves
