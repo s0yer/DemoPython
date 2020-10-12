@@ -8,20 +8,24 @@ print(alfabeto)
 
 fator = randint(5, len(alfabeto))
 texto_claro = 'jadsonamrlieredeoliveira'
-
+texto_claro_lista = list(texto_claro)
 print('--------------------------------------------')
 print(fator)
 print(texto_claro)
 print('--------------------------------------------')
 
-def cifra_texto(fator, alfabeto, texto_claro):
+def cifra_texto(fator, alfabeto, texto_claro_lista):
 
     texto_obscuro = []
+    i = 0
+    for elem in alfabeto:
+        while elem is not texto_claro_lista[i]:
+            i += 1
+        texto_obscuro.append(alfabeto[i + fator])
 
-    
     print(texto_obscuro)
     print('--------------------------------------------')
 
     return texto_obscuro
 
-cifra_texto(fator, alfabeto, texto_claro)
+cifra_texto(fator, alfabeto, texto_claro_lista)
