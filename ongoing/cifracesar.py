@@ -19,9 +19,15 @@ def cifra_texto(fator, alfabeto, texto_claro_lista):
     texto_obscuro = []
     i = 0
     for elem in alfabeto:
-        while elem is not texto_claro_lista[i]:
+        if elem == texto_claro_lista[i]:
+            texto_obscuro.append(alfabeto[i + fator])
             i += 1
-        texto_obscuro.append(alfabeto[i + fator])
+        else:
+            print('nop {}'.format(alfabeto[i]))
+
+        # while elem is not texto_claro_lista[i]:
+        #     i += 1
+        # texto_obscuro.append()
 
     print(texto_obscuro)
     print('--------------------------------------------')
