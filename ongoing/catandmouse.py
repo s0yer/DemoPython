@@ -3,6 +3,7 @@
 from random import randint
 # return de absolute value
 from math import fabs
+from aidfunctions import append_elements
 
 def start_cat_mouse():
 
@@ -37,18 +38,23 @@ def cat_and_mouse():
         print('Tie between Cats, same distance: {}'.format(blue_mouse_distance))
         print('*******************************************')
 
-        return 'Tie'
+        return [dumb_mouse, blue_cat, purple_cat, 'Tie']
 
     elif blue_mouse_distance < purple_cat_distance:
         print('Blue mouse Wins! distance: {}'.format(blue_mouse_distance))
         print('*******************************************')
-        return 'Blue'
+        return [dumb_mouse, blue_cat, purple_cat, 'Blue']
 
     else:
         print('Purple mouse Wins! distance: {}'.format(purple_cat_distance))
         print('*******************************************')
-        return 'Purple'
+        return [dumb_mouse, blue_cat, purple_cat, 'Purple']
 
+def exe_cat_mouse():
+    ans_list = []
+    for n in range(randint(21, 34)):
+        ans_list.append(cat_and_mouse())
 
-for n in range(randint(21, 34)):
-    cat_and_mouse()
+    return append_elements()
+
+exe_cat_mouse()
