@@ -24,17 +24,23 @@ def jump_hurdle():
     print('List of hurdles {}'.format(hurdle_list))
     print('Jump size of the Code Dog = {}'.format(k))
 
+    no_potions = 0
     if k >= biggest_hurdle:
         print('dont need potion, power jump = {} | Biggest hurdle = {}'.format(k, biggest_hurdle))
+        no_potions += 1
         return 0
     else:
         potion = biggest_hurdle - k
         print('The Code Dog need to take {} to complete the jump.'.format(potion))
         return potion
 
+save_list = ['jumphurdles.py']
 for i in range(40):
-
-    jump_hurdle()
+    save_list.append(jump_hurdle())
     print('-----------------------------')
 
-print('End process!!')
+def main_app():
+
+    print()
+    print(save_list)
+    print('End process!!')
