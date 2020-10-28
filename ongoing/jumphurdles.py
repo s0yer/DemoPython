@@ -34,13 +34,19 @@ def jump_hurdle():
         print('The Code Dog need to take {} to complete the jump.'.format(potion))
         return potion
 
-save_list = ['jumphurdles.py']
-for i in range(40):
-    save_list.append(jump_hurdle())
-    print('-----------------------------')
+
 
 def main_app():
 
-    print()
+    print('############# Start ##############')
+
+    save_list=['jumphurdles.py']
+    for i in range(40):
+        save_list.append(jump_hurdle())
+        print('-----------------------------')
+
     print(save_list)
+    print('********************************')
     print('End process!!')
+
+main_app()
