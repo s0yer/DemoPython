@@ -1,6 +1,7 @@
 # Python 3.7
 
 from random import randint
+from aidfunctions import append_elements
 
 def source_hurdle():
 
@@ -35,7 +36,6 @@ def jump_hurdle():
         return potion
 
 
-
 def main_app():
 
     print('############# Start ##############')
@@ -48,5 +48,7 @@ def main_app():
     print(save_list)
     print('********************************')
     print('End process!!')
+
+    return append_elements(save_list)
 
 main_app()
