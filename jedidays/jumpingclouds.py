@@ -45,7 +45,6 @@ def jump_cloud():
     print('Quantity of clouds {}'.format(size_sky))
     print('Quantity of jumps {}'.format(jumps))
 
-    return append_elements(clouds, size_sky, jumps)
+    return append_elements('jumpingclouds.py', clouds, size_sky, jumps)
 
 
-jump_cloud()
