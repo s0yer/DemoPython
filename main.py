@@ -59,6 +59,7 @@ from jedidays import verybigsum
 from jedidays import tuplehash
 from jedidays import kangarojumps
 from jedidays import countvalleys
+from jedidays import jumpingclouds
 
 import screen
 from datetime import datetime, timezone, timedelta
@@ -307,6 +308,8 @@ while waiting_input:
         exe_function(kangarojumps.use_kangaroo())
     elif choice == '226':
         exe_function(countvalleys.counting_valleys())
+    elif choice == '227':
+        exe_function(jumpingclouds.jump_cloud())
 
 #   Call function to exit --------------------------------------------------------
     elif choice == 'x':
