@@ -19,10 +19,17 @@ def source_data():
 def create_triangles():
 
     base_list, side_a_list, side_b_list = source_data()
-
+    print('------------ Source -------------')
     print(base_list)
     print(side_a_list)
     print(side_b_list)
+    print('----------------------------------')
+    size_list = len(base_list)
+
+    for i in range(size_list):
+        print('Triangle {}'.format(i))
+
+    print('----------------------------------')
 
 create_triangles()
 
