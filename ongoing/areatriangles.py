@@ -19,10 +19,10 @@ def source_data():
     side_a_list = []
     side_b_list = []
 
-    for i in range(randint(34, 55)):
-        base_list.append(randint(5, 89))
-        side_a_list.append(randint(5, 89))
-        side_b_list.append(randint(5, 89))
+    for i in range(randint(500, 1000)):
+        base_list.append(randint(5, 21))
+        side_a_list.append(randint(5, 21))
+        side_b_list.append(randint(5, 21))
 
 
     return base_list, side_a_list, side_b_list
@@ -42,6 +42,8 @@ def create_triangles():
         print('Triangle {}: '.format(i))
         if compare_numbers(edges):
             print('Isosceles triangle')
+        elif base_list[i] == side_a_list[i] and side_a_list[i] == side_b_list[i]:
+            print('Equilateral triangle')
         else:
             print('Another triangle')
 
