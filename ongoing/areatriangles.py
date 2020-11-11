@@ -36,18 +36,29 @@ def create_triangles():
     print(side_b_list)
     print('----------------------------------')
     size_list = len(base_list)
-
+    isos_triangle = 0
+    equi_triangle = 0
+    other_triangle = 0
     for i in range(size_list):
         edges = [base_list[i], side_a_list[i], side_b_list[i]]
         print('Triangle {}: '.format(i))
         if compare_numbers(edges):
+            isos_triangle += 1
             print('Isosceles triangle')
         elif base_list[i] == side_a_list[i] and side_a_list[i] == side_b_list[i]:
+            equi_triangle += 1
             print('Equilateral triangle')
         else:
+            other_triangle += 1
             print('Another triangle')
 
     print('----------------------------------')
+    print('Isosceles triangles {}'.format(isos_triangle))
+    print('Equilateral triangle {}'.format(equi_triangle))
+    print('Another triangle {}'.format(other_triangle))
+    print('----------------------------------')
+
+
 
 create_triangles()
 
