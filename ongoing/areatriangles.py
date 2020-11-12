@@ -52,10 +52,21 @@ def create_triangles():
             other_triangle += 1
             print('Another triangle')
 
+    isos_triangle_percent = (isos_triangle / size_list) * 100
+    equi_triangle_percent = (equi_triangle / size_list) * 100
+    other_triangle_percent = (other_triangle / size_list) * 100
+
+
     print('----------------------------------')
     print('Isosceles triangles {}'.format(isos_triangle))
+    print('Percent: {}'.format(isos_triangle_percent))
+    print('......')
     print('Equilateral triangle {}'.format(equi_triangle))
+    print('Percent: {}'.format(equi_triangle_percent))
+    print('......')
     print('Another triangle {}'.format(other_triangle))
+    print('Percent: {}'.format(other_triangle_percent))
+    print('......')
     print('----------------------------------')
 
 
