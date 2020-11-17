@@ -19,10 +19,10 @@ def source_data():
     side_a_list = []
     side_b_list = []
 
-    for i in range(randint(500, 1000)):
-        base_list.append(randint(5, 21))
-        side_a_list.append(randint(5, 21))
-        side_b_list.append(randint(5, 21))
+    for i in range(randint(50, 100)):
+        base_list.append(randint(5, 8))
+        side_a_list.append(randint(5, 8))
+        side_b_list.append(randint(5, 8))
 
 
     return base_list, side_a_list, side_b_list
@@ -69,7 +69,13 @@ def create_triangles():
     print('......')
     print('----------------------------------')
 
+    return isos_triangle, equi_triangle, other_triangle
 
-
-create_triangles()
-
+exe_times = 0
+equi = 0
+while equi == 0:
+    isos, equi, other = create_triangles()
+    exe_times += 1
+print('----------------------------')
+print(exe_times)
+print('----------------------------')
