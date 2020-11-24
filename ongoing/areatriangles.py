@@ -2,6 +2,7 @@
 
 from random import randint
 
+# logica utilizada na identificacao do triangulo isoceles
 def compare_numbers(edges):
 
     if edges[0] == edges[1]:
@@ -13,6 +14,7 @@ def compare_numbers(edges):
     else:
         return False
 
+# cria 3 listas aleatorias que serao utilizadas para formacao das arestas dos triangulos
 def source_data():
 
     base_list = []
@@ -27,6 +29,8 @@ def source_data():
 
     return base_list, side_a_list, side_b_list
 
+
+# funcao principal que retorna a porcentagem de cada tipo de triangulo encontrado
 def create_triangles():
 
     base_list, side_a_list, side_b_list = source_data()
@@ -42,6 +46,7 @@ def create_triangles():
     for i in range(size_list):
         edges = [base_list[i], side_a_list[i], side_b_list[i]]
         print('Triangle {}: '.format(i))
+        # logica que identifica o tipo de triangulo
         if compare_numbers(edges):
             isos_triangle += 1
             print('Isosceles triangle')
@@ -73,9 +78,11 @@ def create_triangles():
 
 exe_times = 0
 equi = 0
-while equi == 0:
+# loop que executa a funcao para tentar achar pelo menos 1 triangulo isoceles
+while equi == 0 and exe_times < 2000:
     isos, equi, other = create_triangles()
     exe_times += 1
+
 print('----------------------------')
 print(exe_times)
 print('----------------------------')
