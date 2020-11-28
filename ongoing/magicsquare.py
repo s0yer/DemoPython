@@ -3,6 +3,7 @@
 from random import randint
 from aidfunctions import append_elements
 
+# cria uma sublista
 def create_sublist(size):
     sub_list = []
     for i in range(size):
@@ -10,6 +11,7 @@ def create_sublist(size):
 
     return sub_list
 
+# cria uma lista 2d
 def new_square():
     source_square = []
     size = 3
@@ -60,6 +62,7 @@ magic_square_evidence(new_square())
 
 test = False
 counter = 0
+# executa a funcao do quadrado magico ate que este realmente tenha atribuicao de magico
 while test is not True:
     counter += 1
     test = magic_square_evidence(new_square())
